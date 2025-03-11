@@ -1,0 +1,54 @@
+# Instruções de Execução do Scraper de E-commerce
+# ==========================================
+
+# LINUX/MAC
+# ---------
+# No terminal, navegue até a pasta do projeto e execute:
+./run.sh
+
+# Isso vai:
+# 1. Criar um ambiente virtual Python (se não existir)
+# 2. Instalar todas as dependências necessárias
+# 3. Criar a pasta 'resultados' (se não existir)
+# 4. Executar o scraper
+
+# Se precisar de permissão para executar o script:
+chmod +x run.sh
+./run.sh
+
+# WINDOWS
+# -------
+# No PowerShell, use:
+.\run.bat
+
+# OU se quiser executar o script PowerShell:
+.\run.ps1
+
+# PARÂMETROS OPCIONAIS
+# -------------------
+# Você pode passar parâmetros adicionais para o script:
+# --output: Define o arquivo de saída
+#   Exemplo: ./run.sh --output minha_pasta/resultados.json
+#
+# --limit: Define um limite de lojas para processar
+#   Exemplo: ./run.sh --limit 10
+
+# LOGS
+# ----
+# Os logs da execução serão salvos em:
+# - scraper.log: Log geral da aplicação
+# - resultados/: Pasta com os arquivos JSON gerados
+
+# PROBLEMAS COMUNS
+# --------------
+# 1. Erro de permissão no Linux/Mac:
+#    Solução: chmod +x run.sh
+#
+# 2. Ambiente virtual não criado:
+#    Solução: Instale o Python 3.x e o módulo venv
+#
+# 3. Dependências não instaladas:
+#    Solução: pip install -r requirements.txt
+#
+# 4. Erro de conexão:
+#    Solução: Verifique sua conexão com a internet
