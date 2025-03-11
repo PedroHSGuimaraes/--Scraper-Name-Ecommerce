@@ -1,0 +1,1509 @@
+2025-03-12 08:51:49,721 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:51:50,857 - INFO - === Iniciando sistema integrado de scraping de contatos ===
+2025-03-12 08:51:50,871 - INFO - Extraídos 7194 nomes de lojas do arquivo JSON
+2025-03-12 08:51:50,872 - INFO - Encontrados 7194 nomes de lojas para processar
+2025-03-12 08:51:50,872 - INFO - Processando loja 1/7194: 013 Garage
+2025-03-12 08:51:50,872 - INFO - Pesquisando: 013 Garage contato telefone email whatsapp site oficial
+2025-03-12 08:51:50,875 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:51:52,024 - INFO - Processando resultado 1: https://www.instagram.com/grandeestiloimoveis/reel/DFOEha5SWHT/
+2025-03-12 08:51:52,717 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:51:52,755 - INFO - Emails válidos encontrados: []
+2025-03-12 08:51:52,806 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:51:52,806 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:51:52,806 - INFO - Telefones válidos encontrados (sem duplicatas): ['551741780314', '551663366072', '551741866714', '551742385114', '551659080345', '551773316314', '551776340314', '551131449600', '551134560000']
+2025-03-12 08:51:52,927 - INFO - Encontrados 9 telefones válidos
+2025-03-12 08:51:52,927 - INFO - Encontrados 0 emails válidos
+2025-03-12 08:51:52,927 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:51:52,927 - INFO - Processando resultado 2: https://wnyt.com/capital-region-news/queens-man-accused-of-stealing-atv-from-westerlo-garage/
+2025-03-12 08:51:54,238 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:51:54,242 - INFO - Possíveis referências a WhatsApp encontradas: ['phone=', 'whatsapp', 'whatsapp', 'WhatsApp']
+2025-03-12 08:51:54,243 - INFO - URLs potenciais de WhatsApp: ['https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fwnyt.com%2Fcapital-region-news%2Fqueens-man-accused-of-stealing-atv-from-westerlo-garage%2F&amp;linkname=Queens%20man%20accused%20of%20stealing%20ATV%20from%20Westerlo%20garage']
+2025-03-12 08:51:54,248 - INFO - Emails válidos encontrados: ['bmoroukian@wnyt.com']
+2025-03-12 08:51:54,264 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:51:54,264 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:51:54,265 - INFO - Telefones válidos encontrados (sem duplicatas): ['551588692176', '551551730209', '551725667224', '551725667226', '551170512833']
+2025-03-12 08:51:54,304 - INFO - Encontrados 5 telefones válidos
+2025-03-12 08:51:54,305 - INFO - Encontrados 1 emails válidos
+2025-03-12 08:51:54,305 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:51:54,306 - INFO - Aguardando 6.30 segundos até a próxima loja...
+2025-03-12 08:52:00,607 - INFO - Processando loja 2/7194: 01Smart Brasil
+2025-03-12 08:52:00,607 - INFO - Pesquisando: 01Smart Brasil contato telefone email whatsapp site oficial
+2025-03-12 08:52:00,609 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:52:01,412 - INFO - Processando resultado 1: https://www.instagram.com/arm_motorss/p/DC4DSYWxe9Z/
+2025-03-12 08:52:01,804 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:01,838 - INFO - Emails válidos encontrados: []
+2025-03-12 08:52:01,886 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:52:01,887 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:52:01,887 - INFO - Telefones válidos encontrados (sem duplicatas): ['551741780323', '551663366072', '551741866723', '551742385123', '551659080345', '551773316323', '551776340323', '551131449600', '551134560000']
+2025-03-12 08:52:01,997 - INFO - Encontrados 9 telefones válidos
+2025-03-12 08:52:01,998 - INFO - Encontrados 0 emails válidos
+2025-03-12 08:52:01,998 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:52:01,998 - INFO - Processando resultado 2: https://insentials.com/en/collections/01-smart-vitamins
+2025-03-12 08:52:04,523 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:04,547 - INFO - Possíveis referências a WhatsApp encontradas: ['whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'Whatsapp']
+2025-03-12 08:52:04,548 - INFO - URLs potenciais de WhatsApp: []
+2025-03-12 08:52:04,783 - INFO - Emails válidos encontrados: ['atyourservice@insentials.com']
+2025-03-12 08:52:04,865 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:52:04,866 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:52:04,866 - INFO - Telefones válidos encontrados (sem duplicatas): ['551695211634', '551740128773', '551741780324', '552454534897', '551740056671', '551740069564', '551740071748', '551740055016', '551740069796', '551740060495', '551740070065', '551740060406', '551740060395', '551736773684', '551720603438', '551720603505', '551720603623', '551720097325', '551720603674', '551720603696', '551720603721', '551720603747', '551720603772', '551720603787', '551721129425', '551721130675', '551721129416', '551721130701', '551721129395', '551721130716', '551721129359', '551721130732', '551721218373', '551721222688', '551721222772', '551721223414', '551720445429', '551722436518', '551720443448', '551722436541', '551720439613', '551722436573', '551724248453', '551724420208', '551724248304', '551724420839', '551724248280', '551724248080', '551724421036', '551724248061', '551724248037', '551724421066', '551724248022', '551724247988', '551724421093', '551724247972', '551724247946', '551724421120', '551724247929', '551724247908', '551724421139', '551724247888', '551724162030', '551724682776', '551724162119', '551724682797', '551724151026', '551724682820', '551727863943', '551728897844', '551727863942', '551728897861', '551728896926', '551728897880', '551728897897', '551732191362', '551732191918', '551732102630', '551732191943', '551732198994', '551732200503', '551732199403', '551732200830', '551732191508', '551732294537', '551732703867', '551732727151', '551733485075', '551733487299', '551733478124', '551733487831', '551734008318', '551735654780', '551736169597', '551736174447', '551736169466', '551736174479', '551736505790', '551736513407', '551731946765', '551736518416', '551732268235', '551736518451', '551731937253', '551736520248', '551736520356', '551731939673', '551732274582', '551736764173', '551731941098', '551736766638', '551731941073', '551736766678', '551736770119', '551731942730', '551736771917', '551736521175', '551731935435', '551736776603', '551736776661', '551736776714', '551736776758', '551736776791', '551736776816', '551731943358', '551736778597', '551731945682', '551736780043', '551731945310', '551736780796', '551732277587', '551736781800', '551731944005', '551736782991', '551736933087', '551736935294', '551736932041', '551736935427', '551731946114', '551736945298', '551732275938', '551736945977', '551732277235', '551736954851', '551732283611', '551736956983', '551736957247', '551732286619', '551736961509', '551732286216', '551736961549', '551736962155', '551732281154', '551736962786', '551732283829', '551737039684', '551732280447', '551737041977', '551732278677', '551737043962', '551737106172', '551732279988', '551737108296', '551732534905', '551737110377', '551732284703', '551737120243', '551721052384', '551737120487', '551731944662', '551737122840', '551732541766', '551737124424', '551732537001', '551737125535', '551732535569', '551732536055', '551732538272', '551737126570', '551732539633', '551737127040', '551732540247', '551737127522', '551739968838', '551740041178', '551740043229', '551740043525', '551740044250', '551740044604', '551740045181', '551739968505', '551740045253', '551737645278', '551740047467', '551740572106', '551740651436', '551740571793', '551740651467', '551740571274', '551740651501', '551740571008', '551740651517', '551740651493', '551129349403', '557521861633', '551740062166', '551721133359', '551120220906', '551165148012', '551199512249', '551194043614', '551154635640', '551143229924', '551140418766', '551176710171', '551194011675']
+2025-03-12 08:52:05,055 - INFO - Encontrados 216 telefones válidos
+2025-03-12 08:52:05,056 - INFO - Encontrados 1 emails válidos
+2025-03-12 08:52:05,056 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:52:05,057 - INFO - Aguardando 6.98 segundos até a próxima loja...
+2025-03-12 08:52:12,033 - INFO - Processando loja 3/7194: 048 Streetwear
+2025-03-12 08:52:12,033 - INFO - Pesquisando: 048 Streetwear contato telefone email whatsapp site oficial
+2025-03-12 08:52:12,035 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:52:13,161 - INFO - Processando resultado 1: https://www.herno.com/
+2025-03-12 08:52:14,696 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:14,733 - INFO - Emails válidos encontrados: []
+2025-03-12 08:52:14,790 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:52:14,790 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:52:14,791 - INFO - Telefones válidos encontrados (sem duplicatas): ['551371321499', '5511950901400', '551186131766', '551180117106', '551129902631', '551164331341', '551175743179', '551185084601']
+2025-03-12 08:52:14,918 - INFO - Encontrados 8 telefones válidos
+2025-03-12 08:52:14,918 - INFO - Encontrados 0 emails válidos
+2025-03-12 08:52:14,919 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:52:14,919 - INFO - Processando resultado 2: https://www.048store.com.br/produtos/camiseta-streetwear-oversized-com-gola-canelada-premium-cam0481428
+2025-03-12 08:52:16,622 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:16,652 - INFO - Possíveis referências a WhatsApp encontradas: ['whatsapp', 'whatsapp', 'whatsapp', 'wa.me', 'whatsapp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'wa.me', 'whatsapp', 'WhatsApp', 'whatsapp', 'whatsapp', 'wa.me', 'Whatsapp']
+2025-03-12 08:52:16,654 - INFO - URLs potenciais de WhatsApp: ['https://wa.me/5548996471833', 'https://wa.me/5548996471833', 'https://wa.me/5548996471833']
+2025-03-12 08:52:16,694 - INFO - Emails válidos encontrados: []
+2025-03-12 08:52:16,801 - INFO - Links de WhatsApp encontrados: ['https://wa.me/5548996471833']
+2025-03-12 08:52:16,802 - INFO - Números de WhatsApp encontrados: ['5548996471833']
+2025-03-12 08:52:16,802 - INFO - Telefones válidos encontrados (sem duplicatas): ['5548933005713', '554893300571', '551434258703', '551720746342', '552372857143', '554030909091', '551741780338', '551720746343', '559592899483', '551126277024', '553333333333', '558971666667', '554923333333', '555485454545', '551126277031', '551126277036', '551126264455', '551126264464', '551126264469', '551126259113', '551126259116', '551126259120', '551126267346', '551126267350', '551126267357', '551126274807', '551126274811', '551126274815', '551126271104', '551126271112', '551126271118', '551126270380', '551126270386', '551126270392', '551126310187', '551126310192', '551126310194', '551741557730', '5511933005713', '551122493484', '551123200375', '551135314361', '551169984551', '551124745084', '551165662875', '551161172887', '551161195796', '5548996471833']
+2025-03-12 08:52:17,044 - INFO - Encontrados 48 telefones válidos
+2025-03-12 08:52:17,045 - INFO - Encontrados 0 emails válidos
+2025-03-12 08:52:17,045 - INFO - Encontrados 1 links de WhatsApp
+2025-03-12 08:52:17,046 - INFO - Aguardando 7.48 segundos até a próxima loja...
+2025-03-12 08:52:24,523 - INFO - Processando loja 4/7194: 100 CEM POR CENTO BATERA
+2025-03-12 08:52:24,525 - INFO - Pesquisando: 100 CEM POR CENTO BATERA contato telefone email whatsapp site oficial
+2025-03-12 08:52:24,530 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:52:25,862 - INFO - Processando resultado 1: https://bateriascanoas.com.br/
+2025-03-12 08:52:26,200 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:26,206 - INFO - Possíveis referências a WhatsApp encontradas: ['Whatsapp', 'whatsapp', 'phone=', 'whatsapp', 'phone=', 'whatsapp', 'phone=', 'Whatsapp']
+2025-03-12 08:52:26,206 - INFO - URLs potenciais de WhatsApp: ['https://api.whatsapp.com/send?phone=555134754364&#038;text=Gostaria%20de%20pedir%20a%20bateria%20moura%20de%2040ah%20promo%C3%A7%C3%A3o%20do%20site', 'https://api.whatsapp.com/send?phone=555134754364&#038;text=Gostaria%20de%20pedir%20a%20bateria%20heliar%20de%2045ah%20promo%C3%A7%C3%A3o%20do%20site', 'https://api.whatsapp.com/send?phone=555134754364&#038;text=Gostaria%20de%20pedir%20a%20bateria%20maxsul%20de%2060ah%20promo%C3%A7%C3%A3o%20do%20site']
+2025-03-12 08:52:26,213 - INFO - Emails válidos encontrados: []
+2025-03-12 08:52:26,233 - INFO - Links de WhatsApp encontrados: ['https://api.whatsapp.com/send?phone=555134754364&#038;text=Gostaria%20de%20pedir%20a%20bateria%20maxsul%20de%2060ah%20promo%C3%A7%C3%A3o%20do%20site', 'https://api.whatsapp.com/send?phone=555134754364&#038;text=Gostaria%20de%20pedir%20a%20bateria%20heliar%20de%2045ah%20promo%C3%A7%C3%A3o%20do%20site', 'https://api.whatsapp.com/send?phone=555134754364&#038;text=Gostaria%20de%20pedir%20a%20bateria%20moura%20de%2040ah%20promo%C3%A7%C3%A3o%20do%20site']
+2025-03-12 08:52:26,235 - INFO - Números de WhatsApp encontrados: ['555134754364']
+2025-03-12 08:52:26,239 - INFO - Telefones válidos encontrados (sem duplicatas): ['555134754364', '551736967005', '552062459800', '551741752185', '551187475134', '551174594117', '551134754364', '551120210601']
+2025-03-12 08:52:26,291 - INFO - Encontrados 8 telefones válidos
+2025-03-12 08:52:26,291 - INFO - Encontrados 0 emails válidos
+2025-03-12 08:52:26,292 - INFO - Encontrados 3 links de WhatsApp
+2025-03-12 08:52:26,292 - INFO - Processando resultado 2: https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=pt
+2025-03-12 08:52:26,618 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:26,657 - INFO - Possíveis referências a WhatsApp encontradas: ['whatsapp']
+2025-03-12 08:52:26,660 - INFO - URLs potenciais de WhatsApp: []
+2025-03-12 08:52:26,753 - INFO - Emails válidos encontrados: ['info@harmonybit.com', 'contact@isharingsoft.com', 'googleplay@life360.com', 'feedback@life360.com', 'support@geozilla.com', 'support@family360locator.com', 'support@findmykids.org']
+2025-03-12 08:52:26,937 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:52:26,937 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:52:26,938 - INFO - Telefones válidos encontrados (sem duplicatas): ['553139981446', '551741780348', '553333333333', '551666666667', '559396926208', '556666666667', '555833333333', '557133333333', '557777777778', '551740778035', '551740735892', '551740437010', '551739447253', '551740338268', '551740126632', '551735857985', '551657473075', '551740338069', '551737116073', '551736189112', '551738607291', '551738712079', '551734740836', '551730733644', '551729996647', '551731461657', '551727836902', '551663850060', '551693346469', '551270671587', '551741629683', '5511944031171', '5511912000000', '5511920000000', '551145646511', '551145585585', '551145656778', '551145532426', '551145585581', '551145585579', '551145585528', '551145585564', '551145585552', '551145619583', '551145585519', '551145585526', '551145682410', '551145532425', '551145585531', '551145585523', '551145645452', '551145585511', '551145680057', '551145671179', '551145585532', '551145585525', '551145532447', '551145674262', '551145585604', '551145532420', '551145452104', '551145585518', '551145585543', '551145585569', '551145658997', '551145532422', '551145585548', '551145585607', '551145450722', '551145630925', '551145585576', '551145648689', '551145585544', '551145585570', '551145625922', '551145648604', '551145653637', '551145628713', '551145585596', '551145679318', '551145630926', '551145585562', '551145681445', '551145585557', '551145585599', '551145585567', '551145585593', '551145677090', '551145585546', '551145585545', '551145585539', '551145585595', '551145585527', '551145532421', '551145532445', '551145681266', '551145626643', '551145585561', '551145585522', '551145585594', '551145585524', '551145616008', '551145653450', '551145585588', '551145459555', '551145585575', '551145585553', '551145532436', '551145585536', '551145585515', '551145585535', '551145585592', '551145585605', '551145585580', '551145617043', '551145619584', '551145638729', '551145572245', '551145585533', '551145532429', '551145532428', '551145585549', '551145615497', '551145585555', '551145532449', '551145658781', '551145620249', '551145585540', '551145646424', '551145450723', '551145634063', '551145681134', '551145585602', '551145617377', '551145585586', '551145681698', '551145615496', '551145622438', '551145669546', '551145585559', '551145585537', '551145670958', '551145634790', '551145585566', '551145663671', '551145532443', '551145572247', '551145634053', '551145532424', '551145585587', '551145585600', '551145637887', '551145613903', '551145585582', '551145638728', '551145622048', '551145532437', '551145682216', '551145585551', '551145585603', '551145585512', '551145585565', '551145622636', '551145647162', '551145585560', '551145585534', '551145622643', '551145616217', '551145532435', '551145532438', '551145676947', '551145585514', '551145585578', '551145585590', '551145532448', '551145585598', '551145532444', '551145532439', '551145585574', '551145585568', '551145633874', '551145585510', '551145680683', '551145572246', '551145585577', '551145585572', '551145532440', '551145532433', '551145673254', '551145626265', '551145572248', '551145679552', '551145585541', '551145631268', '551145639339', '551145585550', '551145585606', '551145585597', '551145669179', '551145585573', '551145585556', '551145532442', '551145670261', '551145532427', '551145585601', '551145638257', '551145671189', '551145532431', '551145668994', '551145617482', '551145585571', '551145632661', '551145585547', '551145585589', '551143364940', '551120250310', '551193841511', '551197496388', '551159168981', '551184915516', '551192838566', '551130000000', '551161000000', '551143294237', '551128284095', '551132434738']
+2025-03-12 08:52:27,330 - INFO - Encontrados 226 telefones válidos
+2025-03-12 08:52:27,331 - INFO - Encontrados 7 emails válidos
+2025-03-12 08:52:27,331 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:52:27,333 - INFO - Aguardando 7.44 segundos até a próxima loja...
+2025-03-12 08:52:34,771 - INFO - Processando loja 5/7194: 1001 Eletro
+2025-03-12 08:52:34,771 - INFO - Pesquisando: 1001 Eletro contato telefone email whatsapp site oficial
+2025-03-12 08:52:34,774 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:52:35,846 - INFO - Processando resultado 1: https://www.milium.com.br/
+2025-03-12 08:52:36,052 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:36,096 - INFO - Possíveis referências a WhatsApp encontradas: ['Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'Whatsapp', 'whatsapp', 'Whatsapp']
+2025-03-12 08:52:36,097 - INFO - URLs potenciais de WhatsApp: []
+2025-03-12 08:52:36,172 - INFO - Emails válidos encontrados: ['sac@milium.com.br', 'exemplo@mail.com', 'atendimento@milium.com.br']
+2025-03-12 08:52:36,326 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:52:36,327 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:52:36,327 - INFO - Telefones válidos encontrados (sem duplicatas): ['554731451001', '5530970008748', '5527913956915', '5579938856509', '5543902735920', '551146547248', '557142199110', '553571441693', '552977398980', '558655755968', '555453587893', '551552837046', '558937640179', '554588193595', '556225391671', '557922320100', '551572203137', '559672870654', '551629908352', '556054357292', '559479204050', '552373379903', '559264863052', '555735563106', '553722824087', '555267928325', '557236682601', '551849445712', '559860071188', '556175354154', '558069905210', '559099031021', '555764223836', '555094396638', '557278272080', '553379365246', '553987823909', '557063565200', '558896884075', '5511956311074', '5511989122658', '5511947688129', '5511925041018', '5511974424131', '5511961988808', '5511903248076', '5511969340254', '5511906103481', '551125000686', '551126274612', '551120731392', '551124583321', '551181764905', '551155488741', '551191745325', '551179351650', '551136452374', '551153316662', '551125592803', '551154778573', '551131180535', '551149773185', '551187759310', '551156156445', '551140992202', '551145678662', '551160604003', '551184418435', '551191215068', '551173954366', '551171285957', '551147919587', '551181065210', '551132913335', '551140041935', '551125489925', '551179524398', '551168587759', '551129118347', '551175714340', '551129978083', '551123233607', '551140774446', '551157119358', '551163592953', '551133910002', '551129683651', '551197790042', '551138384532', '551163660913', '551161369924', '551177163382', '551187004182', '551182440117', '551191780411', '551131680919', '551176129159', '551120742057', '551183758422', '551160145317', '551194589838', '551187367160', '551188808164', '551136056208', '551146711302', '551154012080', '551143561624', '551192504204', '551172567268', '551198467714', '551156975694', '551168236154', '551175771046', '551185578916', '551135642827', '551179167200', '551133894173', '551193592030', '551177683296', '551150263568', '551137213419', '551191935427', '551189844005', '551188903669', '551188668378', '551169799921', '551131529915', '551148505836', '551152495139', '551177920243', '551170088663', '551159100933', '551157709180', '551159972275', '551163832447', '551137167963', '551197100096', '551168087040', '551186843341', '551176857680', '551146558415', '551163126283', '551196464407', '551167308389', '551132434091', '551182122594', '551127780965', '551136378809', '551158904490', '551168394927', '551178296567', '551198772061', '551142222593', '551144459303', '551160859575', '551121053726', '551190832440', '551138855651', '551192677315', '551174577820', '551148839226', '551150688544', '551124444530', '551198419437', '551160513117', '551148052709', '551197244792', '551122306188', '551126094920', '551146519983', '551147619320', '551167026603', '551131451001', '551152610275', '551135544166', '551153419856', '551195424106']
+2025-03-12 08:52:36,666 - INFO - Encontrados 177 telefones válidos
+2025-03-12 08:52:36,666 - INFO - Encontrados 3 emails válidos
+2025-03-12 08:52:36,667 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:52:36,667 - INFO - Processando resultado 2: https://www.lojacasadosreles.com.br/multimetro-digital-hikari-hm-1001/prod-2634393/
+2025-03-12 08:52:38,031 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:38,037 - INFO - Possíveis referências a WhatsApp encontradas: ['whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'phone=', 'whatsapp', 'whatsapp', 'WhatsApp', 'whatsapp', 'whatsapp', 'phone=', 'whatsapp', 'whatsapp', 'WhatsApp', 'WHATSAPP', 'WhatsApp', 'whatsapp', 'phone=', 'Whatsapp', 'whatsapp', 'WhatsApp', 'whatsapp', 'phone=', 'whatsapp', 'WHATSAPP']
+2025-03-12 08:52:38,039 - INFO - URLs potenciais de WhatsApp: ['https://web.whatsapp.com/send?text=CASA', 'https://web.whatsapp.com/send?phone=5511945884537', 'https://do2fxpixss5y6.cloudfront.net/img/ljvt_v2/rodape/icone_whatsapp_rodape_template.png', 'https://do2fxpixss5y6.cloudfront.net/img/ljvt_v2/rodape/icone_whatsapp_rodape_template.png', 'https://web.whatsapp.com/send?phone=5511945884537&text=Olá,', 'https://do2fxpixss5y6.cloudfront.net/img/ljvt_v2/whatsapp_logo.webp', 'https://do2fxpixss5y6.cloudfront.net/img/ljvt_v2/whatsapp_logo.webp']
+2025-03-12 08:52:38,047 - INFO - Emails válidos encontrados: ['lojaweb@casadosreles.com.br']
+2025-03-12 08:52:38,072 - INFO - Links de WhatsApp encontrados: ['https://web.whatsapp.com/send?phone=5511945884537&text=Olá', 'https://web.whatsapp.com/send?phone=5511945884537']
+2025-03-12 08:52:38,072 - INFO - Números de WhatsApp encontrados: ['5511945884537']
+2025-03-12 08:52:38,073 - INFO - Telefones válidos encontrados (sem duplicatas): ['551133541898', '5511945884537', '551135195175', '551135195239', '551133936727']
+2025-03-12 08:52:38,134 - INFO - Encontrados 5 telefones válidos
+2025-03-12 08:52:38,134 - INFO - Encontrados 1 emails válidos
+2025-03-12 08:52:38,135 - INFO - Encontrados 2 links de WhatsApp
+2025-03-12 08:52:38,135 - INFO - Aguardando 6.21 segundos até a próxima loja...
+2025-03-12 08:52:44,347 - INFO - Processando loja 6/7194: 1060plus
+2025-03-12 08:52:44,348 - INFO - Pesquisando: 1060plus contato telefone email whatsapp site oficial
+2025-03-12 08:52:44,350 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:52:45,408 - INFO - Processando resultado 1: https://m.facebook.com/101.multimedia/photos/huion-new-1060-plus-graphic-drawing-tabletfind-more-details-on-our-website-in-th/2089978324412261/
+2025-03-12 08:52:46,195 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:46,215 - INFO - Possíveis referências a WhatsApp encontradas: ['Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp']
+2025-03-12 08:52:46,216 - INFO - URLs potenciais de WhatsApp: []
+2025-03-12 08:52:46,325 - INFO - Emails válidos encontrados: []
+2025-03-12 08:52:46,399 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:52:46,400 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:52:46,400 - INFO - Telefones válidos encontrados (sem duplicatas): ['551741780367', '551663366072', '556737827131', '551741780368', '551552064401', '551551974500', '551659080345', '551776340367', '551152531101', '551153397854', '551131536000', '551134560000', '551129818881', '551129818882', '551130605326', '551130605340', '551130605354', '551130605360', '551130605361', '551130605363', '551130605374', '551130605380', '551130605384', '551130605391', '551130607516', '551130608422', '551130609204', '551130611078', '551130612548', '551130615205', '551130615365', '551130615438', '551130616158', '551164231865', '551185215299', '551186400000', '551189002947', '551184628273', '551132266007']
+2025-03-12 08:52:46,578 - INFO - Encontrados 39 telefones válidos
+2025-03-12 08:52:46,578 - INFO - Encontrados 0 emails válidos
+2025-03-12 08:52:46,579 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:52:46,579 - INFO - Processando resultado 2: https://www.facebook.com/101.multimedia/photos/huion-1060-plus-graphic-drawing-tabletfind-more-details-on-our-website-in-the-li/2146061465470613/
+2025-03-12 08:52:47,416 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:47,438 - INFO - Possíveis referências a WhatsApp encontradas: ['Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp']
+2025-03-12 08:52:47,439 - INFO - URLs potenciais de WhatsApp: []
+2025-03-12 08:52:47,975 - INFO - Emails válidos encontrados: []
+2025-03-12 08:52:48,055 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:52:48,055 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:52:48,057 - INFO - Telefones válidos encontrados (sem duplicatas): ['551741780368', '551663366072', '553489293753', '551741780369', '551556028000', '551555423356', '551596782389', '551659080345', '551776340368', '551152531101', '551157044268', '551131536000', '551134560000', '551129818881', '551129818882', '551130605326', '551130605340', '551130605354', '551130605360', '551130605361', '551130605363', '551130605374', '551130605380', '551130605384', '551130605391', '551130607516', '551130608422', '551130609204', '551130611078', '551130612548', '551130615205', '551130615365', '551130615438', '551130616158', '551164231865', '551145577287', '551185215299', '551186400000', '551184628273', '551132266007']
+2025-03-12 08:52:48,247 - INFO - Encontrados 40 telefones válidos
+2025-03-12 08:52:48,248 - INFO - Encontrados 0 emails válidos
+2025-03-12 08:52:48,248 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:52:48,249 - INFO - Aguardando 5.94 segundos até a próxima loja...
+2025-03-12 08:52:54,188 - INFO - Processando loja 7/7194: 123 CAIXAS
+2025-03-12 08:52:54,188 - INFO - Pesquisando: 123 CAIXAS contato telefone email whatsapp site oficial
+2025-03-12 08:52:54,190 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:52:55,310 - INFO - Processando resultado 1: https://www.123caixas.com.br/
+2025-03-12 08:52:56,084 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:52:56,091 - INFO - Possíveis referências a WhatsApp encontradas: ['whatsapp', 'whatsapp', 'WhatsApp', 'whatsapp', 'WhatsApp', 'whatsapp', 'whatsapp', 'Whatsapp', 'whatsapp', 'phone=', 'whatsapp', 'whatsapp', 'phone=', 'whatsapp', 'Whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'wa.me', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'Whatsapp', 'Whatsapp', 'whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp']
+2025-03-12 08:52:56,092 - INFO - URLs potenciais de WhatsApp: ['https://cdn.awsli.com.br/2699/2699185/favicon/whatsapp-nsuwisvp1l.jpg', 'https://cdn.awsli.com.br/2699/2699185/favicon/whatsapp-nsuwisvp1l.jpg', 'https://api.whatsapp.com/send?phone=5512991232769&amp;text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20as%20caixas%20sob%20medida.', 'https://api.whatsapp.com/send?phone=5512991232769', 'https://wa.me/5512991232769?text=Olá!']
+2025-03-12 08:52:56,099 - INFO - Emails válidos encontrados: ['vendas@123caixas.com.br']
+2025-03-12 08:52:56,124 - INFO - Links de WhatsApp encontrados: ['https://api.whatsapp.com/send?phone=5512991232769', 'https://api.whatsapp.com/send?phone=5512991232769&amp;text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20as%20caixas%20sob%20medida', 'https://wa.me/5512991232769?text=Olá']
+2025-03-12 08:52:56,125 - INFO - Números de WhatsApp encontrados: ['5512991232769']
+2025-03-12 08:52:56,125 - INFO - Telefones válidos encontrados (sem duplicatas): ['5512991232769', '551233228169', '551738176345', '558849899285', '552578344242', '552585893124', '552585893860', '552585892888', '555340023197', '5511991232769', '551120250127', '551133228169', '551122944743', '551122600297', '551122697758', '551122697866', '551122746673', '551122912002', '551123263141', '551123263177', '551122781720', '551122781738', '551122781730', '551122781724', '551122781732', '551122912263', '551122620072', '551122698341', '551122698343', '551122927683', '551122927681', '551122698340', '551122908423', '551122600583', '551122698891', '551122698951', '551122927222', '551122845281', '551122943127', '551122845332', '551122698841', '551122619976', '551122698839', '551122802539', '551122698514', '551122698422', '551122698512', '551122943053', '551122943018', '551122658641', '551133325296', '551187332046']
+2025-03-12 08:52:56,183 - INFO - Encontrados 52 telefones válidos
+2025-03-12 08:52:56,184 - INFO - Encontrados 1 emails válidos
+2025-03-12 08:52:56,184 - INFO - Encontrados 3 links de WhatsApp
+2025-03-12 08:52:56,184 - INFO - Processando resultado 2: https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 08:52:57,012 - WARNING - Tentativa 1/3 falhou: 500 Server Error: Internal Server Error for url: https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 08:52:57,012 - INFO - Aguardando 1.38 segundos antes de tentar novamente...
+2025-03-12 08:52:58,442 - WARNING - Tentativa 2/3 falhou: 500 Server Error: Internal Server Error for url: https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 08:52:58,442 - INFO - Aguardando 2.69 segundos antes de tentar novamente...
+2025-03-12 08:53:01,205 - WARNING - Tentativa 3/3 falhou: 500 Server Error: Internal Server Error for url: https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 08:53:01,205 - ERROR - Falha após 3 tentativas: 500 Server Error: Internal Server Error for url: https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 08:53:01,206 - WARNING - Não foi possível obter conteúdo HTML de https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 08:53:01,206 - INFO - Aguardando 6.26 segundos até a próxima loja...
+2025-03-12 08:53:07,469 - INFO - Processando loja 8/7194: 123 Comprou
+2025-03-12 08:53:07,470 - INFO - Pesquisando: 123 Comprou contato telefone email whatsapp site oficial
+2025-03-12 08:53:07,471 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:53:08,595 - INFO - Processando resultado 1: https://blog.123comprou.com.br/fale-conosco/
+2025-03-12 08:53:09,622 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:53:09,624 - INFO - Possíveis referências a WhatsApp encontradas: ['WHATSAPP']
+2025-03-12 08:53:09,624 - INFO - URLs potenciais de WhatsApp: []
+2025-03-12 08:53:09,626 - INFO - Emails válidos encontrados: ['name@domain.com', 'contato@123comprou.com.br']
+2025-03-12 08:53:09,629 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:53:09,629 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:53:09,630 - INFO - Telefones válidos encontrados (sem duplicatas): ['5511947311437', '551130901236', '551629758722']
+2025-03-12 08:53:09,638 - INFO - Encontrados 3 telefones válidos
+2025-03-12 08:53:09,639 - INFO - Encontrados 2 emails válidos
+2025-03-12 08:53:09,639 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:53:09,640 - INFO - Processando resultado 2: https://www.123comprou.com.br/
+2025-03-12 08:53:10,498 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:53:10,540 - INFO - Possíveis referências a WhatsApp encontradas: ['wa.me', 'whatsapp', 'wa.me', 'whatsapp', 'WHATSAPP', 'whatsapp', 'wa.me', 'whatsapp', 'wa.me', 'whatsapp', 'whatsapp']
+2025-03-12 08:53:10,542 - INFO - URLs potenciais de WhatsApp: ['https://wa.me/5511947311437', 'https://wa.me/5511947311437', 'https://http2.mlstatic.com/frontend-assets/mshops-web-widgets/v2.6.0/whatsapp-widget.js']
+2025-03-12 08:53:10,637 - INFO - Emails válidos encontrados: ['nombre@ejemplo.com', 'nome@exemplo.com', 'contato@123comprou.com.br']
+2025-03-12 08:53:10,791 - INFO - Links de WhatsApp encontrados: ['https://wa.me/5511947311437']
+2025-03-12 08:53:10,792 - INFO - Números de WhatsApp encontrados: ['5511947311437']
+2025-03-12 08:53:10,793 - INFO - Telefones válidos encontrados (sem duplicatas): ['551130901236', '5576966361393', '5579983140091', '5511947311437', '556240584422', '554093544762', '552836516155', '551530932997', '552727158172', '553585031139', '553993853455', '553993853799', '553783550411', '553871851085', '553879293439', '553872725239', '555163802544', '553872668983', '554272984698', '551342554082', '553872608007', '553858088117', '555077393450', '554966093786', '555274007084', '553626008379', '553149312288', '554378955674', '554379269580', '555120019106', '553149227687', '553568487263', '554727966034', '553840031817', '552632225130', '552631884127', '553423280375', '552632102968', '552632870533', '552631673903', '552632794260', '551644878472', '558425704289', '5511921786367', '5511918589830', '551193992598', '551120102023', '551185263796', '551133453694', '551131498601', '551133579122', '551137891480', '551122355449', '551137807938', '551122726576', '551125053303', '551142079904', '551126499284', '551123150221', '551137107846', '551128619470', '551121918434', '551122341068', '551124165447', '551124541769', '551138632877', '551137875607', '551123414010', '551126804379', '551150001470', '551122598240', '551120862595', '551126324459', '551142012341', '551150002000', '551124125129', '551122511798', '551125363132', '551134583324', '551125890745', '551140340787', '551127050964', '551155825315']
+2025-03-12 08:53:11,123 - INFO - Encontrados 83 telefones válidos
+2025-03-12 08:53:11,123 - INFO - Encontrados 3 emails válidos
+2025-03-12 08:53:11,124 - INFO - Encontrados 1 links de WhatsApp
+2025-03-12 08:53:11,124 - INFO - Aguardando 5.34 segundos até a próxima loja...
+2025-03-12 08:53:16,460 - INFO - Processando loja 9/7194: 123 realiza
+2025-03-12 08:53:16,460 - INFO - Pesquisando: 123 realiza contato telefone email whatsapp site oficial
+2025-03-12 08:53:16,462 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:53:17,623 - INFO - Processando resultado 1: https://veracruz.ba.gov.br/
+2025-03-12 08:53:18,458 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:53:18,468 - INFO - Possíveis referências a WhatsApp encontradas: ['WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'whatsapp', 'WhatsApp', 'WhatsApp', 'WhatsApp', 'WhatsApp']
+2025-03-12 08:53:18,469 - INFO - URLs potenciais de WhatsApp: ['https://veracruz.ba.gov.br/confira-a-programacao-completa-do-bye-bye-verao/whatsapp-image-2025-02-13-at-07-56-34-2', 'https://veracruz.ba.gov.br/prefeitura-de-vera-cruz-divulga-atracoes-do-bye-bye-verao-2025/whatsapp-image-2025-02-13-at-08-02-04', 'https://veracruz.ba.gov.br/prefeitura-entrega-sede-social-de-jirubatuba/whatsapp-image-2025-02-14-at-07-24-40', 'https://veracruz.ba.gov.br/confira-a-programacao-completa-do-bye-bye-verao/whatsapp-image-2025-02-13-at-07-56-34-2', 'https://veracruz.ba.gov.br/prefeitura-de-vera-cruz-divulga-atracoes-do-bye-bye-verao-2025/whatsapp-image-2025-02-13-at-08-02-04', 'https://veracruz.ba.gov.br/prefeitura-entrega-sede-social-de-jirubatuba/whatsapp-image-2025-02-14-at-07-24-40']
+2025-03-12 08:53:18,481 - INFO - Emails válidos encontrados: ['relacionamento@veracruz.ba.gov.br']
+2025-03-12 08:53:18,515 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:53:18,515 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:53:18,516 - INFO - Telefones válidos encontrados (sem duplicatas): ['557136331401', '559335442211', '551659017870', '551549182938', '5511999999999', '551149967796', '551136331401', '551135442211', '551120121024', '551120121105', '551120170209', '551120210723']
+2025-03-12 08:53:18,594 - INFO - Encontrados 12 telefones válidos
+2025-03-12 08:53:18,595 - INFO - Encontrados 1 emails válidos
+2025-03-12 08:53:18,595 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:53:18,596 - INFO - Processando resultado 2: https://prefeitura.poa.br/carta-de-servicos/atencao-primaria-saude-unidades-de-saude
+2025-03-12 08:53:18,834 - WARNING - Tentativa 1/3 falhou: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 08:53:18,834 - INFO - Aguardando 1.86 segundos antes de tentar novamente...
+2025-03-12 08:53:20,797 - WARNING - Tentativa 2/3 falhou: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 08:53:20,797 - INFO - Aguardando 2.17 segundos antes de tentar novamente...
+2025-03-12 08:53:23,087 - WARNING - Tentativa 3/3 falhou: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 08:53:23,087 - ERROR - Falha após 3 tentativas: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 08:53:23,087 - WARNING - Não foi possível obter conteúdo HTML de https://prefeitura.poa.br/carta-de-servicos/atencao-primaria-saude-unidades-de-saude
+2025-03-12 08:53:23,088 - INFO - Aguardando 6.13 segundos até a próxima loja...
+2025-03-12 08:53:29,218 - INFO - Processando loja 10/7194: 123 Sport
+2025-03-12 08:53:29,218 - INFO - Pesquisando: 123 Sport contato telefone email whatsapp site oficial
+2025-03-12 08:53:29,220 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:53:30,420 - INFO - Processando resultado 1: https://www.novavenecia.es.gov.br/secretarias/
+2025-03-12 08:53:31,440 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:53:31,445 - INFO - Possíveis referências a WhatsApp encontradas: ['WhatsApp', 'WhatsApp']
+2025-03-12 08:53:31,446 - INFO - URLs potenciais de WhatsApp: []
+2025-03-12 08:53:31,451 - INFO - Emails válidos encontrados: ['empreendedornv@hotmail.com', 'o@novavenecia.es.gov.br', 'planejamento@novavenecia.es.gov.br', 'tributacaonv@hotmail.com', 'financas@novavenecia.es.gov.br', 'procuradorianovavenecia@gmail.com']
+2025-03-12 08:53:31,468 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:53:31,469 - INFO - Números de WhatsApp encontrados: []
+2025-03-12 08:53:31,469 - INFO - Telefones válidos encontrados (sem duplicatas): ['5527981840107', '5527981840116', '5527981840112', '5527981840080', '5527981840129', '5527981840089', '5527981520234', '5527981840135', '5527981840109', '5587919685808', '5527981130370', '5527981840018', '5527996134679', '5527981840104', '552737529000', '552737727014', '552737726961', '552737529006', '552737529038', '552737726869', '552737529016', '552737529020', '552737529021', '552737725134', '5511981840107', '5511981840116', '5511981840112', '5511981840080', '5511981840129', '5511981840089', '5511981520234', '5511981840135', '5511981840109', '5511928592818', '5511981130370', '5511981840018', '5511996134679', '5511981840104', '551190677504', '551131512012', '551137529000', '551137727014', '551137726961', '551137529006', '551137529038', '551137726869', '551137529016', '551137529020', '551137529021', '551137725134']
+2025-03-12 08:53:31,509 - INFO - Encontrados 50 telefones válidos
+2025-03-12 08:53:31,510 - INFO - Encontrados 6 emails válidos
+2025-03-12 08:53:31,510 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:53:31,511 - INFO - Processando resultado 2: https://www.sjc.sp.gov.br/servicos/governanca/secretarias/
+2025-03-12 08:53:31,663 - INFO - Tipo de dados recebidos: <class 'str'>
+2025-03-12 08:53:31,665 - INFO - Possíveis referências a WhatsApp encontradas: ['whatsapp', 'phone=', 'whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp', 'whatsapp', 'phone=', 'whatsapp', 'Whatsapp', 'Whatsapp', 'Whatsapp']
+2025-03-12 08:53:31,665 - INFO - URLs potenciais de WhatsApp: ['https://api.whatsapp.com/send/?phone=551236002555', 'https://api.whatsapp.com/send/?phone=551236002555']
+2025-03-12 08:53:31,667 - INFO - Emails válidos encontrados: ['esportes@sjc.sp.gov.br', 'fundosocial@sjc.sp.gov.br', 'sde@sjc.sp.gov.br', 'smc@sjc.sp.gov.br', 'presidencia@fundhas.org.br', 'semob@sjc.sp.gov.br', 'saj@sjc.sp.gov.br', 'sadm@sjc.sp.gov.br', 'obras@sjc.sp.gov.br', 'governo@sjc.sp.gov.br', 'sasc@sjc.sp.gov.br', 'sepac@sjc.sp.gov.br', 'saude@sjc.sp.gov.br', 'seurbs@sjc.sp.gov.br', 'faleconosco@urbam.com.br', 'gabinetesme@sjc.sp.gov.br', 'fccr@fccr.sp.gov.br']
+2025-03-12 08:53:31,671 - INFO - Links de WhatsApp encontrados: []
+2025-03-12 08:53:31,671 - INFO - Números de WhatsApp encontrados: ['551236002555']
+2025-03-12 08:53:31,672 - INFO - Telefones válidos encontrados (sem duplicatas): ['551239328600', '551239092655', '551239478143', '551239012000', '551239247300', '551239320533', '551239118060', '551239478164', '551239478073', '551239478107', '551238789534', '551239459510', '551239252000', '551239012400', '551232121200', '551239086000', '551239478166', '551239478000', '551139092655', '551139478143', '551139012000', '551139328600', '551139247300', '551139320533', '551139118060', '551139478164', '551139478073', '551139478107', '551138789534', '551139459510', '551139252000', '551139012400', '551132121200', '551139086000', '551139478166', '551139478000', '551236002555']
+2025-03-12 08:53:31,682 - INFO - Encontrados 37 telefones válidos
+2025-03-12 08:53:31,682 - INFO - Encontrados 17 emails válidos
+2025-03-12 08:53:31,682 - INFO - Encontrados 0 links de WhatsApp
+2025-03-12 08:53:31,683 - INFO - Salvando 10 resultados coletados...
+2025-03-12 08:53:31,720 - INFO - Resultados salvos em 'resultados/contatos_parcial_10.json'
+2025-03-12 08:53:31,738 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_10.csv'
+2025-03-12 08:53:31,749 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_10.html'
+2025-03-12 08:53:31,750 - INFO - Aguardando 6.73 segundos até a próxima loja...
+2025-03-12 08:53:38,482 - INFO - Processando loja 11/7194: 1883
+2025-03-12 08:53:38,483 - INFO - Pesquisando: 1883 contato telefone email whatsapp site oficial
+2025-03-12 08:53:38,485 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 08:53:39,015 - INFO - 
+
+Interrupção detectada (Ctrl+C). Finalizando de forma limpa...
+2025-03-12 08:53:39,016 - INFO - Salvando 10 resultados coletados...
+2025-03-12 08:53:39,028 - INFO - Resultados salvos em 'resultados/contatos_parcial.json'
+2025-03-12 08:53:39,036 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial.csv'
+2025-03-12 08:53:39,041 - INFO - Tabela HTML salva em 'resultados/contatos_parcial.html'
+2025-03-12 08:53:39,041 - INFO - Script finalizado pelo usuário.
+2025-03-12 08:53:39,042 - INFO - 
+
+Finalizando programa (função de saída de emergência)...
+2025-03-12 08:53:39,043 - INFO - Salvando 10 resultados coletados...
+2025-03-12 08:53:39,050 - INFO - Resultados salvos em 'resultados/contatos_emergencia.json'
+2025-03-12 08:53:39,053 - INFO - Resultados CSV salvos em 'resultados/contatos_emergencia.csv'
+2025-03-12 08:53:39,057 - INFO - Tabela HTML salva em 'resultados/contatos_emergencia.html'
+2025-03-12 09:12:08,291 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:12:09,336 - INFO - === Iniciando sistema integrado de scraping de contatos ===
+2025-03-12 09:12:09,355 - INFO - Extraídos 7194 nomes de lojas do arquivo JSON
+2025-03-12 09:12:09,357 - INFO - Encontrados 7194 nomes de lojas para processar
+2025-03-12 09:12:09,360 - INFO - Processando loja 1/7194: 013 Garage
+2025-03-12 09:12:09,360 - INFO - Pesquisando: 013 Garage contato telefone email whatsapp site oficial
+2025-03-12 09:12:09,363 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:12:10,250 - INFO - Processando resultado 1: https://www.instagram.com/grandeestiloimoveis/reel/DFOEha5SWHT/
+2025-03-12 09:12:10,669 - INFO - Processando resultado 2: https://wnyt.com/capital-region-news/queens-man-accused-of-stealing-atv-from-westerlo-garage/
+2025-03-12 09:12:10,897 - INFO - Aguardando 7.35 segundos até a próxima loja...
+2025-03-12 09:12:18,245 - INFO - Processando loja 2/7194: 01Smart Brasil
+2025-03-12 09:12:18,249 - INFO - Pesquisando: 01Smart Brasil contato telefone email whatsapp site oficial
+2025-03-12 09:12:18,251 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:12:19,109 - INFO - Processando resultado 1: https://www.instagram.com/arm_motorss/p/DC4DSYWxe9Z/
+2025-03-12 09:12:19,470 - INFO - Processando resultado 2: https://insentials.com/en/collections/01-smart-vitamins
+2025-03-12 09:12:20,561 - INFO - Aguardando 6.26 segundos até a próxima loja...
+2025-03-12 09:12:26,821 - INFO - Processando loja 3/7194: 048 Streetwear
+2025-03-12 09:12:26,822 - INFO - Pesquisando: 048 Streetwear contato telefone email whatsapp site oficial
+2025-03-12 09:12:26,824 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:12:27,942 - INFO - Processando resultado 1: https://www.herno.com/
+2025-03-12 09:12:29,759 - INFO - Processando resultado 2: https://www.048store.com.br/produtos/camiseta-streetwear-oversized-com-gola-canelada-premium-cam0481428
+2025-03-12 09:12:31,059 - INFO - Aguardando 7.21 segundos até a próxima loja...
+2025-03-12 09:12:38,270 - INFO - Processando loja 4/7194: 100 CEM POR CENTO BATERA
+2025-03-12 09:12:38,271 - INFO - Pesquisando: 100 CEM POR CENTO BATERA contato telefone email whatsapp site oficial
+2025-03-12 09:12:38,273 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:12:39,153 - INFO - Processando resultado 1: https://bateriascanoas.com.br/
+2025-03-12 09:12:39,339 - INFO - Processando resultado 2: https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=pt
+2025-03-12 09:12:39,695 - INFO - Aguardando 6.90 segundos até a próxima loja...
+2025-03-12 09:12:46,594 - INFO - Processando loja 5/7194: 1001 Eletro
+2025-03-12 09:12:46,595 - INFO - Pesquisando: 1001 Eletro contato telefone email whatsapp site oficial
+2025-03-12 09:12:46,598 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:12:47,398 - INFO - Processando resultado 1: https://www.milium.com.br/
+2025-03-12 09:12:48,076 - INFO - Processando resultado 2: https://www.lojacasadosreles.com.br/multimetro-digital-hikari-hm-1001/prod-2634393/
+2025-03-12 09:12:49,063 - INFO - Aguardando 5.58 segundos até a próxima loja...
+2025-03-12 09:12:54,646 - INFO - Processando loja 6/7194: 1060plus
+2025-03-12 09:12:54,647 - INFO - Pesquisando: 1060plus contato telefone email whatsapp site oficial
+2025-03-12 09:12:54,876 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:12:55,901 - INFO - Processando resultado 1: https://m.facebook.com/101.multimedia/photos/huion-new-1060-plus-graphic-drawing-tabletfind-more-details-on-our-website-in-th/2089978324412261/
+2025-03-12 09:12:56,554 - INFO - Processando resultado 2: https://www.facebook.com/101.multimedia/photos/huion-1060-plus-graphic-drawing-tabletfind-more-details-on-our-website-in-the-li/2146061465470613/
+2025-03-12 09:12:57,208 - INFO - Aguardando 6.62 segundos até a próxima loja...
+2025-03-12 09:13:03,825 - INFO - Processando loja 7/7194: 123 CAIXAS
+2025-03-12 09:13:03,825 - INFO - Pesquisando: 123 CAIXAS contato telefone email whatsapp site oficial
+2025-03-12 09:13:03,827 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:13:04,762 - INFO - Processando resultado 1: https://www.123caixas.com.br/
+2025-03-12 09:13:05,563 - INFO - Processando resultado 2: https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 09:13:07,809 - INFO - Aguardando 5.46 segundos até a próxima loja...
+2025-03-12 09:13:13,272 - INFO - Processando loja 8/7194: 123 Comprou
+2025-03-12 09:13:13,272 - INFO - Pesquisando: 123 Comprou contato telefone email whatsapp site oficial
+2025-03-12 09:13:13,274 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:13:14,054 - INFO - Processando resultado 1: https://blog.123comprou.com.br/fale-conosco/
+2025-03-12 09:13:14,859 - INFO - Processando resultado 2: https://www.123comprou.com.br/
+2025-03-12 09:13:15,843 - INFO - Aguardando 5.69 segundos até a próxima loja...
+2025-03-12 09:13:21,533 - INFO - Processando loja 9/7194: 123 realiza
+2025-03-12 09:13:21,534 - INFO - Pesquisando: 123 realiza contato telefone email whatsapp site oficial
+2025-03-12 09:13:21,537 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:13:22,665 - INFO - Processando resultado 1: https://veracruz.ba.gov.br/
+2025-03-12 09:13:23,453 - INFO - Processando resultado 2: https://prefeitura.poa.br/carta-de-servicos/atencao-primaria-saude-unidades-de-saude
+2025-03-12 09:13:23,561 - WARNING - Tentativa 1/3 falhou: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:13:23,561 - INFO - Aguardando 1.69 segundos antes de tentar novamente...
+2025-03-12 09:13:25,358 - WARNING - Tentativa 2/3 falhou: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:13:25,358 - INFO - Aguardando 2.81 segundos antes de tentar novamente...
+2025-03-12 09:13:28,272 - WARNING - Tentativa 3/3 falhou: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:13:28,273 - ERROR - Falha após 3 tentativas: HTTPSConnectionPool(host='prefeitura.poa.br', port=443): Max retries exceeded with url: /carta-de-servicos/atencao-primaria-saude-unidades-de-saude (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:13:28,273 - WARNING - Não foi possível obter conteúdo HTML de https://prefeitura.poa.br/carta-de-servicos/atencao-primaria-saude-unidades-de-saude
+2025-03-12 09:13:28,273 - INFO - Aguardando 5.52 segundos até a próxima loja...
+2025-03-12 09:13:33,795 - INFO - Processando loja 10/7194: 123 Sport
+2025-03-12 09:13:33,795 - INFO - Pesquisando: 123 Sport contato telefone email whatsapp site oficial
+2025-03-12 09:13:33,797 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:13:34,608 - INFO - Processando resultado 1: https://www.novavenecia.es.gov.br/secretarias/
+2025-03-12 09:13:35,496 - INFO - Processando resultado 2: https://www.sjc.sp.gov.br/servicos/governanca/secretarias/
+2025-03-12 09:13:35,623 - INFO - Salvando 10 resultados coletados...
+2025-03-12 09:13:35,625 - INFO - Resultados salvos em 'resultados/contatos_parcial_10.json'
+2025-03-12 09:13:35,641 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_10.csv'
+2025-03-12 09:13:35,656 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_10.html'
+2025-03-12 09:13:35,656 - INFO - Aguardando 5.58 segundos até a próxima loja...
+2025-03-12 09:13:41,238 - INFO - Processando loja 11/7194: 1883
+2025-03-12 09:13:41,239 - INFO - Pesquisando: 1883 contato telefone email whatsapp site oficial
+2025-03-12 09:13:41,241 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:13:42,103 - INFO - Processando resultado 1: https://scholarsjunction.msstate.edu/usg-volumes/30/
+2025-03-12 09:13:43,313 - INFO - Processando resultado 2: https://www.1883.com/en/contact-us/
+2025-03-12 09:13:45,530 - INFO - Aguardando 5.72 segundos até a próxima loja...
+2025-03-12 09:13:51,250 - INFO - Processando loja 12/7194: 19BR
+2025-03-12 09:13:51,251 - INFO - Pesquisando: 19BR contato telefone email whatsapp site oficial
+2025-03-12 09:13:51,253 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:13:52,340 - INFO - Processando resultado 1: https://www.yishama.com/product/c-aegean-19/
+2025-03-12 09:13:53,664 - INFO - Processando resultado 2: https://www.essenciabrasileira.com.br/produto/19br-campainha-sem-fio-residencial-wireless-de-longo-alcance-wifi-loja/
+2025-03-12 09:13:53,982 - INFO - Aguardando 6.02 segundos até a próxima loja...
+2025-03-12 09:14:00,009 - INFO - Processando loja 13/7194: 1Fit
+2025-03-12 09:14:00,012 - INFO - Pesquisando: 1Fit contato telefone email whatsapp site oficial
+2025-03-12 09:14:00,014 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:14:01,150 - INFO - Processando resultado 1: https://1fit.app/
+2025-03-12 09:14:02,879 - INFO - Processando resultado 2: https://play.google.com/store/apps/details?id=com.codebusters.onefit&hl=en_NZ
+2025-03-12 09:14:03,209 - INFO - Aguardando 6.42 segundos até a próxima loja...
+2025-03-12 09:14:09,630 - INFO - Processando loja 14/7194: 20V
+2025-03-12 09:14:09,630 - INFO - Pesquisando: 20V contato telefone email whatsapp site oficial
+2025-03-12 09:14:09,632 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:14:10,621 - INFO - Processando resultado 1: https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/?lang=pt_br
+2025-03-12 09:14:10,859 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/?lang=pt_br
+2025-03-12 09:14:10,859 - INFO - Aguardando 1.79 segundos antes de tentar novamente...
+2025-03-12 09:14:12,828 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/?lang=pt_br
+2025-03-12 09:14:12,828 - INFO - Aguardando 2.27 segundos antes de tentar novamente...
+2025-03-12 09:14:15,296 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/?lang=pt_br
+2025-03-12 09:14:15,296 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/?lang=pt_br
+2025-03-12 09:14:15,297 - WARNING - Não foi possível obter conteúdo HTML de https://faq.whatsapp.com/iphone/how-to-link-to-whatsapp-from-a-different-app/?lang=pt_br
+2025-03-12 09:14:15,297 - INFO - Processando resultado 2: https://www.dengo.com.br/
+2025-03-12 09:14:16,396 - INFO - Aguardando 5.05 segundos até a próxima loja...
+2025-03-12 09:14:21,443 - INFO - Processando loja 15/7194: 24 Horas Filtros
+2025-03-12 09:14:21,444 - INFO - Pesquisando: 24 Horas Filtros contato telefone email whatsapp site oficial
+2025-03-12 09:14:21,446 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:14:22,707 - INFO - Processando resultado 1: https://www.unimedserragaucha.com.br/pagina/fale-com-a-gente
+2025-03-12 09:14:24,721 - INFO - Processando resultado 2: https://brasil.avislac.com/contato.php
+2025-03-12 09:14:25,732 - INFO - Aguardando 6.06 segundos até a próxima loja...
+2025-03-12 09:14:31,792 - INFO - Processando loja 16/7194: 24 Print Embalagens
+2025-03-12 09:14:31,793 - INFO - Pesquisando: 24 Print Embalagens contato telefone email whatsapp site oficial
+2025-03-12 09:14:31,796 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:14:32,726 - INFO - Processando resultado 1: https://www.24print.com.br/
+2025-03-12 09:14:33,376 - INFO - Processando resultado 2: https://www.pdvprint.com.br/
+2025-03-12 09:14:34,017 - INFO - Aguardando 4.61 segundos até a próxima loja...
+2025-03-12 09:14:38,632 - INFO - Processando loja 17/7194: 25Best
+2025-03-12 09:14:38,689 - INFO - Pesquisando: 25Best contato telefone email whatsapp site oficial
+2025-03-12 09:14:38,702 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:14:40,208 - INFO - Processando resultado 1: https://blog.timetap.com/blog/posts/best-welcome-messages-for-new-employees
+2025-03-12 09:14:40,964 - INFO - Processando resultado 2: https://www.delightchat.io/best-shopify-apps/for-email-popup
+2025-03-12 09:14:41,689 - INFO - Aguardando 5.29 segundos até a próxima loja...
+2025-03-12 09:14:46,985 - INFO - Processando loja 18/7194: 2Eletro
+2025-03-12 09:14:46,986 - INFO - Pesquisando: 2Eletro contato telefone email whatsapp site oficial
+2025-03-12 09:14:46,988 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:14:47,833 - INFO - Processando resultado 1: https://www.ricardoeletro.com.br/
+2025-03-12 09:14:48,173 - INFO - Processando resultado 2: https://www.engageeletro.com.br/pagina/fale-conosco
+2025-03-12 09:14:49,498 - INFO - Aguardando 5.62 segundos até a próxima loja...
+2025-03-12 09:14:55,136 - INFO - Processando loja 19/7194: 2Go Bag
+2025-03-12 09:14:55,149 - INFO - Pesquisando: 2Go Bag contato telefone email whatsapp site oficial
+2025-03-12 09:14:55,163 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:14:56,343 - INFO - Processando resultado 1: https://www.2gobag.com.br/
+2025-03-12 09:14:57,082 - INFO - Processando resultado 2: https://www.uninatural.com.br/bolsa-termica-bag-mid-fashion-black-2gobag-
+2025-03-12 09:14:57,979 - INFO - Aguardando 5.15 segundos até a próxima loja...
+2025-03-12 09:15:03,127 - INFO - Processando loja 20/7194: 2i Eletrônica
+2025-03-12 09:15:03,128 - INFO - Pesquisando: 2i Eletrônica contato telefone email whatsapp site oficial
+2025-03-12 09:15:03,130 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:15:04,275 - INFO - Processando resultado 1: https://www.jacutinga.mg.gov.br/
+2025-03-12 09:15:06,186 - INFO - Processando resultado 2: https://www.tre-ce.jus.br/eleicao/mesario/mesario-voluntario-e-convocacao-eletronica
+2025-03-12 09:15:07,081 - INFO - Salvando 20 resultados coletados...
+2025-03-12 09:15:07,084 - INFO - Resultados salvos em 'resultados/contatos_parcial_20.json'
+2025-03-12 09:15:07,087 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_20.csv'
+2025-03-12 09:15:07,092 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_20.html'
+2025-03-12 09:15:07,093 - INFO - Aguardando 5.15 segundos até a próxima loja...
+2025-03-12 09:15:12,240 - INFO - Processando loja 21/7194: 2L AUTO PARTS
+2025-03-12 09:15:12,240 - INFO - Pesquisando: 2L AUTO PARTS contato telefone email whatsapp site oficial
+2025-03-12 09:15:12,244 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:15:13,266 - INFO - Processando resultado 1: https://www.boschautoparts.com/
+2025-03-12 09:15:15,595 - INFO - Processando resultado 2: https://arbusa.com/
+2025-03-12 09:15:16,953 - INFO - Aguardando 5.93 segundos até a próxima loja...
+2025-03-12 09:15:22,884 - INFO - Processando loja 22/7194: 2M Plastic
+2025-03-12 09:15:22,893 - INFO - Pesquisando: 2M Plastic contato telefone email whatsapp site oficial
+2025-03-12 09:15:22,900 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:15:24,056 - INFO - Processando resultado 1: https://www.lanecounty.org/plasticscollection
+2025-03-12 09:15:24,629 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://www.lanecounty.org/plasticscollection
+2025-03-12 09:15:24,631 - INFO - Aguardando 1.72 segundos antes de tentar novamente...
+2025-03-12 09:15:26,427 - WARNING - Tentativa 2/3 falhou: 403 Client Error: Forbidden for url: https://www.lanecounty.org/plasticscollection
+2025-03-12 09:15:26,428 - INFO - Aguardando 2.72 segundos antes de tentar novamente...
+2025-03-12 09:15:29,235 - WARNING - Tentativa 3/3 falhou: 403 Client Error: Forbidden for url: https://www.lanecounty.org/plasticscollection
+2025-03-12 09:15:29,236 - ERROR - Falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.lanecounty.org/plasticscollection
+2025-03-12 09:15:29,236 - WARNING - Não foi possível obter conteúdo HTML de https://www.lanecounty.org/plasticscollection
+2025-03-12 09:15:29,237 - INFO - Processando resultado 2: https://www.dengo.com.br/
+2025-03-12 09:15:29,476 - INFO - Aguardando 4.21 segundos até a próxima loja...
+2025-03-12 09:15:33,682 - INFO - Processando loja 23/7194: 2Rios
+2025-03-12 09:15:33,683 - INFO - Pesquisando: 2Rios contato telefone email whatsapp site oficial
+2025-03-12 09:15:33,685 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:15:34,483 - INFO - Processando resultado 1: https://www.2rios.com/
+2025-03-12 09:15:36,351 - INFO - Processando resultado 2: https://www.facebook.com/photo.php?fbid=1254435188048248&id=269531213205322&set=a.274469989378111
+2025-03-12 09:15:37,360 - INFO - Aguardando 5.48 segundos até a próxima loja...
+2025-03-12 09:15:42,840 - INFO - Processando loja 24/7194: 3 Corações
+2025-03-12 09:15:42,841 - INFO - Pesquisando: 3 Corações contato telefone email whatsapp site oficial
+2025-03-12 09:15:42,843 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:15:43,775 - INFO - Processando resultado 1: https://www.cafe3coracoes.com.br/contato/
+2025-03-12 09:15:44,467 - INFO - Processando resultado 2: https://www.3coracoes.com.br/central-de-relacionamento/
+2025-03-12 09:15:46,142 - INFO - Aguardando 5.91 segundos até a próxima loja...
+2025-03-12 09:15:52,055 - INFO - Processando loja 25/7194: 3 Palavrinhas
+2025-03-12 09:15:52,057 - INFO - Pesquisando: 3 Palavrinhas contato telefone email whatsapp site oficial
+2025-03-12 09:15:52,062 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:15:54,147 - INFO - Processando resultado 1: https://www.3palavrinhas.com.br/contato
+2025-03-12 09:15:54,382 - INFO - Processando resultado 2: https://www.loja.3palavrinhas.com.br/
+2025-03-12 09:15:55,057 - INFO - Aguardando 5.71 segundos até a próxima loja...
+2025-03-12 09:16:00,766 - INFO - Processando loja 26/7194: 360
+2025-03-12 09:16:00,773 - INFO - Pesquisando: 360 contato telefone email whatsapp site oficial
+2025-03-12 09:16:00,777 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:16:01,958 - INFO - Processando resultado 1: https://www.ticket360.com.br/central-de-ajuda
+2025-03-12 09:16:02,956 - INFO - Processando resultado 2: https://www.serasa.com.br/atendimento/
+2025-03-12 09:16:03,912 - INFO - Aguardando 4.98 segundos até a próxima loja...
+2025-03-12 09:16:08,890 - INFO - Processando loja 27/7194: 3C Autopeças
+2025-03-12 09:16:08,890 - INFO - Pesquisando: 3C Autopeças contato telefone email whatsapp site oficial
+2025-03-12 09:16:08,892 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:16:09,787 - INFO - Processando resultado 1: https://castrillon.com.br/
+2025-03-12 09:16:12,582 - INFO - Processando resultado 2: https://www.volkswagen.santaemilia.com.br/
+2025-03-12 09:16:13,500 - INFO - Aguardando 5.00 segundos até a próxima loja...
+2025-03-12 09:16:18,500 - INFO - Processando loja 28/7194: 3D FAZ
+2025-03-12 09:16:18,500 - INFO - Pesquisando: 3D FAZ contato telefone email whatsapp site oficial
+2025-03-12 09:16:18,504 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:16:19,709 - INFO - Processando resultado 1: https://www.elegoo.com/pages/support-center
+2025-03-12 09:16:21,464 - INFO - Processando resultado 2: https://sendgrid.com/en-us
+2025-03-12 09:16:22,606 - INFO - Aguardando 5.82 segundos até a próxima loja...
+2025-03-12 09:16:28,434 - INFO - Processando loja 29/7194: 3D Fila
+2025-03-12 09:16:28,434 - INFO - Pesquisando: 3D Fila contato telefone email whatsapp site oficial
+2025-03-12 09:16:28,438 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:16:29,337 - INFO - Processando resultado 1: https://3dfila.com.br/suporte/
+2025-03-12 09:16:41,217 - INFO - Processando resultado 2: https://www.voolt3d.com.br/
+2025-03-12 09:16:41,949 - INFO - Aguardando 4.98 segundos até a próxima loja...
+2025-03-12 09:16:46,934 - INFO - Processando loja 30/7194: 3d Gold Print
+2025-03-12 09:16:46,935 - INFO - Pesquisando: 3d Gold Print contato telefone email whatsapp site oficial
+2025-03-12 09:16:46,936 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:16:47,844 - INFO - Processando resultado 1: https://www.ysfilament.com/products/double-layers-pla-3d-filament-supplier-pla-manufacturer-pp-filament-conductive-pla-carbon-fiber-pa12-supplier
+2025-03-12 09:16:50,348 - INFO - Processando resultado 2: https://flashforge.com/
+2025-03-12 09:16:51,691 - INFO - Salvando 30 resultados coletados...
+2025-03-12 09:16:51,694 - INFO - Resultados salvos em 'resultados/contatos_parcial_30.json'
+2025-03-12 09:16:51,697 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_30.csv'
+2025-03-12 09:16:51,707 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_30.html'
+2025-03-12 09:16:51,709 - INFO - Aguardando 4.61 segundos até a próxima loja...
+2025-03-12 09:16:56,421 - INFO - Processando loja 31/7194: 3D HOUSE
+2025-03-12 09:16:56,447 - INFO - Pesquisando: 3D HOUSE contato telefone email whatsapp site oficial
+2025-03-12 09:16:56,502 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:16:57,768 - INFO - Processando resultado 1: https://www.vectric.com/
+2025-03-12 09:16:58,131 - INFO - Processando resultado 2: https://flashforge.com/
+2025-03-12 09:16:58,773 - INFO - Aguardando 4.53 segundos até a próxima loja...
+2025-03-12 09:17:03,304 - INFO - Processando loja 32/7194: 3D Solar
+2025-03-12 09:17:03,305 - INFO - Pesquisando: 3D Solar contato telefone email whatsapp site oficial
+2025-03-12 09:17:03,307 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:17:04,238 - INFO - Processando resultado 1: https://gingkodesign.com/product/amber-crystal-light/
+2025-03-12 09:17:07,706 - INFO - Processando resultado 2: https://reset-eyewear.com/products/armacao-solar-masculino-quadrada-3d
+2025-03-12 09:17:08,808 - INFO - Aguardando 4.98 segundos até a próxima loja...
+2025-03-12 09:17:13,789 - INFO - Processando loja 33/7194: 3D4ALL
+2025-03-12 09:17:13,789 - INFO - Pesquisando: 3D4ALL contato telefone email whatsapp site oficial
+2025-03-12 09:17:13,792 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:17:14,676 - INFO - Processando resultado 1: https://www.3d4all.com.br/p/privacidade
+2025-03-12 09:17:15,720 - INFO - Processando resultado 2: https://3d4all.ro/en/product/cutter-universal-ultrasonic-autonom-wondercutter/
+2025-03-12 09:17:21,597 - INFO - Aguardando 5.62 segundos até a próxima loja...
+2025-03-12 09:17:27,216 - INFO - Processando loja 34/7194: 3DBOTS
+2025-03-12 09:17:27,216 - INFO - Pesquisando: 3DBOTS contato telefone email whatsapp site oficial
+2025-03-12 09:17:27,218 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:17:27,990 - INFO - Processando resultado 1: https://cpgo.com.br/3dbotonline/
+2025-03-12 09:17:38,313 - INFO - Processando resultado 2: https://ciaoral.com/?p=1889
+2025-03-12 09:17:40,733 - INFO - Aguardando 4.38 segundos até a próxima loja...
+2025-03-12 09:17:45,111 - INFO - Processando loja 35/7194: 3DX
+2025-03-12 09:17:45,111 - INFO - Pesquisando: 3DX contato telefone email whatsapp site oficial
+2025-03-12 09:17:45,114 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:17:46,038 - INFO - Processando resultado 1: https://www.elegoo.com/pages/support-center
+2025-03-12 09:17:46,674 - INFO - Processando resultado 2: https://www.3cx.com/
+2025-03-12 09:17:48,139 - INFO - Aguardando 4.68 segundos até a próxima loja...
+2025-03-12 09:17:52,819 - INFO - Processando loja 36/7194: 3DX Filamentos
+2025-03-12 09:17:52,819 - INFO - Pesquisando: 3DX Filamentos contato telefone email whatsapp site oficial
+2025-03-12 09:17:52,821 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:17:53,691 - INFO - Processando resultado 1: https://3dlab.com.br/
+2025-03-12 09:17:53,897 - INFO - Processando resultado 2: https://www.voolt3d.com.br/
+2025-03-12 09:17:54,398 - INFO - Aguardando 5.26 segundos até a próxima loja...
+2025-03-12 09:17:59,656 - INFO - Processando loja 37/7194: 3Green
+2025-03-12 09:17:59,656 - INFO - Pesquisando: 3Green contato telefone email whatsapp site oficial
+2025-03-12 09:17:59,658 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:00,757 - INFO - Processando resultado 1: https://www.reclameaqui.com.br/3green-technology/dificuldade-no-contato_jjgDHFgdkgoKOQVe/
+2025-03-12 09:18:00,840 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/3green-technology/dificuldade-no-contato_jjgDHFgdkgoKOQVe/
+2025-03-12 09:18:00,840 - INFO - Aguardando 1.50 segundos antes de tentar novamente...
+2025-03-12 09:18:02,408 - WARNING - Tentativa 2/3 falhou: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/3green-technology/dificuldade-no-contato_jjgDHFgdkgoKOQVe/
+2025-03-12 09:18:02,408 - INFO - Aguardando 2.78 segundos antes de tentar novamente...
+2025-03-12 09:18:05,254 - WARNING - Tentativa 3/3 falhou: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/3green-technology/dificuldade-no-contato_jjgDHFgdkgoKOQVe/
+2025-03-12 09:18:05,255 - ERROR - Falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/3green-technology/dificuldade-no-contato_jjgDHFgdkgoKOQVe/
+2025-03-12 09:18:05,255 - WARNING - Não foi possível obter conteúdo HTML de https://www.reclameaqui.com.br/3green-technology/dificuldade-no-contato_jjgDHFgdkgoKOQVe/
+2025-03-12 09:18:05,256 - INFO - Processando resultado 2: https://qualisceramica.com/product/ronda-5-5x6-3-green-hexagon/
+2025-03-12 09:18:07,529 - INFO - Aguardando 5.53 segundos até a próxima loja...
+2025-03-12 09:18:13,061 - INFO - Processando loja 38/7194: 3M
+2025-03-12 09:18:13,061 - INFO - Pesquisando: 3M contato telefone email whatsapp site oficial
+2025-03-12 09:18:13,064 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:13,939 - INFO - Processando resultado 1: https://www.3m.com.br/3M/pt_BR/3m-do-brasil/fale-com-a-3m/
+2025-03-12 09:18:14,333 - INFO - Processando resultado 2: https://www.3m.com/3M/en_US/metalworking-us/support/
+2025-03-12 09:18:14,861 - INFO - Aguardando 4.33 segundos até a próxima loja...
+2025-03-12 09:18:19,188 - INFO - Processando loja 39/7194: 3VS
+2025-03-12 09:18:19,188 - INFO - Pesquisando: 3VS contato telefone email whatsapp site oficial
+2025-03-12 09:18:19,190 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:20,029 - INFO - Processando resultado 1: https://www.3vsnutrition.com.br/central-de-atendimento
+2025-03-12 09:18:20,240 - INFO - Processando resultado 2: https://www.5hormone.com.br/collections/3vs
+2025-03-12 09:18:20,651 - INFO - Aguardando 4.55 segundos até a próxima loja...
+2025-03-12 09:18:25,196 - INFO - Processando loja 40/7194: 3VS Nutrition
+2025-03-12 09:18:25,197 - INFO - Pesquisando: 3VS Nutrition contato telefone email whatsapp site oficial
+2025-03-12 09:18:25,198 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:26,013 - INFO - Processando resultado 1: https://www.3vsnutrition.com.br/central-de-atendimento
+2025-03-12 09:18:26,099 - INFO - Processando resultado 2: https://www.5hormone.com.br/collections/3vs
+2025-03-12 09:18:26,420 - INFO - Salvando 40 resultados coletados...
+2025-03-12 09:18:26,423 - INFO - Resultados salvos em 'resultados/contatos_parcial_40.json'
+2025-03-12 09:18:26,426 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_40.csv'
+2025-03-12 09:18:26,435 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_40.html'
+2025-03-12 09:18:26,437 - INFO - Aguardando 5.81 segundos até a próxima loja...
+2025-03-12 09:18:32,247 - INFO - Processando loja 41/7194: 4 STORE PREMIUM
+2025-03-12 09:18:32,247 - INFO - Pesquisando: 4 STORE PREMIUM contato telefone email whatsapp site oficial
+2025-03-12 09:18:32,249 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:33,242 - INFO - Processando resultado 1: https://www.verizon.com/
+2025-03-12 09:18:34,570 - INFO - Processando resultado 2: https://support.spotify.com/us/article/contact-us/
+2025-03-12 09:18:34,963 - INFO - Aguardando 5.78 segundos até a próxima loja...
+2025-03-12 09:18:40,740 - INFO - Processando loja 42/7194: 4Bike
+2025-03-12 09:18:40,741 - INFO - Pesquisando: 4Bike contato telefone email whatsapp site oficial
+2025-03-12 09:18:40,743 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:41,627 - INFO - Processando resultado 1: https://allfenix.com/products/eco-rib-4-bike-shorts-black
+2025-03-12 09:18:42,632 - INFO - Processando resultado 2: https://www.4bikeshop.com.br/pagina/quem-somos.html
+2025-03-12 09:18:43,367 - INFO - Aguardando 4.54 segundos até a próxima loja...
+2025-03-12 09:18:47,926 - INFO - Processando loja 43/7194: 4Fitness
+2025-03-12 09:18:47,930 - INFO - Pesquisando: 4Fitness contato telefone email whatsapp site oficial
+2025-03-12 09:18:47,963 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:48,781 - INFO - Processando resultado 1: https://www.4fitnessshop.com.br/atendimento-ao-cliente
+2025-03-12 09:18:51,417 - INFO - Processando resultado 2: https://www.garminoman.com/product/vvosmart-4-s-eu-blackslate-l
+2025-03-12 09:18:53,001 - INFO - Aguardando 5.84 segundos até a próxima loja...
+2025-03-12 09:18:58,843 - INFO - Processando loja 44/7194: 4Food Print
+2025-03-12 09:18:58,843 - INFO - Pesquisando: 4Food Print contato telefone email whatsapp site oficial
+2025-03-12 09:18:58,845 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:18:59,633 - INFO - Processando resultado 1: https://www.4foodprint.com.br/
+2025-03-12 09:19:00,161 - INFO - Processando resultado 2: https://www.facebook.com/4foodprint/posts/nessa-s%C3%A9rie-de-v%C3%ADdeos-a-roberta-vai-mostrar-pra-voc%C3%AAs-os-detalhes-dos-produtos-d/972227498246415/
+2025-03-12 09:19:00,421 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/4foodprint/posts/nessa-s%C3%A9rie-de-v%C3%ADdeos-a-roberta-vai-mostrar-pra-voc%C3%AAs-os-detalhes-dos-produtos-d/972227498246415/
+2025-03-12 09:19:00,422 - INFO - Aguardando 1.34 segundos antes de tentar novamente...
+2025-03-12 09:19:01,959 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/4foodprint/posts/nessa-s%C3%A9rie-de-v%C3%ADdeos-a-roberta-vai-mostrar-pra-voc%C3%AAs-os-detalhes-dos-produtos-d/972227498246415/
+2025-03-12 09:19:01,959 - INFO - Aguardando 2.06 segundos antes de tentar novamente...
+2025-03-12 09:19:04,211 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/4foodprint/posts/nessa-s%C3%A9rie-de-v%C3%ADdeos-a-roberta-vai-mostrar-pra-voc%C3%AAs-os-detalhes-dos-produtos-d/972227498246415/
+2025-03-12 09:19:04,212 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/4foodprint/posts/nessa-s%C3%A9rie-de-v%C3%ADdeos-a-roberta-vai-mostrar-pra-voc%C3%AAs-os-detalhes-dos-produtos-d/972227498246415/
+2025-03-12 09:19:04,212 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/4foodprint/posts/nessa-s%C3%A9rie-de-v%C3%ADdeos-a-roberta-vai-mostrar-pra-voc%C3%AAs-os-detalhes-dos-produtos-d/972227498246415/
+2025-03-12 09:19:04,213 - INFO - Aguardando 4.16 segundos até a próxima loja...
+2025-03-12 09:19:08,371 - INFO - Processando loja 45/7194: 4K Store
+2025-03-12 09:19:08,372 - INFO - Pesquisando: 4K Store contato telefone email whatsapp site oficial
+2025-03-12 09:19:08,374 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:19:09,275 - INFO - Processando resultado 1: https://www.sipolatti.com.br/
+2025-03-12 09:19:09,475 - INFO - Processando resultado 2: https://www.samsung.com/br/support/contact/
+2025-03-12 09:19:09,898 - INFO - Aguardando 5.54 segundos até a próxima loja...
+2025-03-12 09:19:15,442 - INFO - Processando loja 46/7194: 4R ESTOFADOS
+2025-03-12 09:19:15,443 - INFO - Pesquisando: 4R ESTOFADOS contato telefone email whatsapp site oficial
+2025-03-12 09:19:15,445 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:19:16,313 - INFO - Processando resultado 1: https://www.benoit.com.br/
+2025-03-12 09:19:17,289 - INFO - Processando resultado 2: https://www.lojaeletroshop.com.br/comoda-chicago-4-gavetas-tcil
+2025-03-12 09:19:18,466 - INFO - Aguardando 5.04 segundos até a próxima loja...
+2025-03-12 09:19:23,508 - INFO - Processando loja 47/7194: 4R Truck Center
+2025-03-12 09:19:23,508 - INFO - Pesquisando: 4R Truck Center contato telefone email whatsapp site oficial
+2025-03-12 09:19:23,510 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:19:24,365 - INFO - Processando resultado 1: https://www.facebook.com/4rtruckcenterconcordia/
+2025-03-12 09:19:24,572 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/4rtruckcenterconcordia/
+2025-03-12 09:19:24,572 - INFO - Aguardando 1.67 segundos antes de tentar novamente...
+2025-03-12 09:19:26,482 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/4rtruckcenterconcordia/
+2025-03-12 09:19:26,482 - INFO - Aguardando 2.56 segundos antes de tentar novamente...
+2025-03-12 09:19:29,254 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/4rtruckcenterconcordia/
+2025-03-12 09:19:29,254 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/4rtruckcenterconcordia/
+2025-03-12 09:19:29,255 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/4rtruckcenterconcordia/
+2025-03-12 09:19:29,255 - INFO - Processando resultado 2: https://www.4rtruckcenter.com.br/atendimento
+2025-03-12 09:19:29,512 - INFO - Aguardando 5.25 segundos até a próxima loja...
+2025-03-12 09:19:34,761 - INFO - Processando loja 48/7194: 4Show
+2025-03-12 09:19:34,762 - INFO - Pesquisando: 4Show contato telefone email whatsapp site oficial
+2025-03-12 09:19:34,764 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:19:35,592 - INFO - Processando resultado 1: https://www.laconiadailysun.com/news/local/interlakes-summer-theatre-goes-nonprofit-previews-4-show-run/article_7aaaad0a-f47e-11ef-8257-eb91e625268d.html
+2025-03-12 09:19:37,261 - INFO - Processando resultado 2: https://play.google.com/store/apps/details?id=com.forshared.files&hl=pt
+2025-03-12 09:19:37,632 - INFO - Aguardando 5.16 segundos até a próxima loja...
+2025-03-12 09:19:42,790 - INFO - Processando loja 49/7194: 4TAKES
+2025-03-12 09:19:42,791 - INFO - Pesquisando: 4TAKES contato telefone email whatsapp site oficial
+2025-03-12 09:19:42,793 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:19:43,614 - INFO - Processando resultado 1: http://www.4takes.com.br/
+2025-03-12 09:19:46,788 - INFO - Processando resultado 2: https://www.abarthwear.com.br/ajuda-e-suporte/trocas-e-devolucoes
+2025-03-12 09:19:49,091 - INFO - Aguardando 5.59 segundos até a próxima loja...
+2025-03-12 09:19:54,685 - INFO - Processando loja 50/7194: 4well
+2025-03-12 09:19:54,686 - INFO - Pesquisando: 4well contato telefone email whatsapp site oficial
+2025-03-12 09:19:54,688 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:19:55,556 - INFO - Processando resultado 1: https://contacts.google.com/
+2025-03-12 09:19:56,621 - INFO - Processando resultado 2: https://site.getnet.com.br/
+2025-03-12 09:19:57,700 - INFO - Salvando 50 resultados coletados...
+2025-03-12 09:19:57,704 - INFO - Resultados salvos em 'resultados/contatos_parcial_50.json'
+2025-03-12 09:19:57,707 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_50.csv'
+2025-03-12 09:19:57,715 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_50.html'
+2025-03-12 09:19:57,716 - INFO - Aguardando 5.71 segundos até a próxima loja...
+2025-03-12 09:20:03,431 - INFO - Processando loja 51/7194: 4X4 Store Brasil
+2025-03-12 09:20:03,431 - INFO - Pesquisando: 4X4 Store Brasil contato telefone email whatsapp site oficial
+2025-03-12 09:20:03,433 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:20:04,375 - INFO - Processando resultado 1: https://www.4x4storebrasil.com/
+2025-03-12 09:20:06,601 - INFO - Processando resultado 2: https://arbusa.com/
+2025-03-12 09:20:07,486 - INFO - Aguardando 5.58 segundos até a próxima loja...
+2025-03-12 09:20:13,067 - INFO - Processando loja 52/7194: 4x4sc
+2025-03-12 09:20:13,067 - INFO - Pesquisando: 4x4sc contato telefone email whatsapp site oficial
+2025-03-12 09:20:13,069 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:20:13,857 - INFO - Processando resultado 1: https://www.4x4sc.com.br/pagina/central-de-atendimento.html
+2025-03-12 09:20:14,502 - INFO - Processando resultado 2: https://www.instagram.com/boxarmazenagens/?api=%E5%B8%83%E5%85%B0%E5%A4%AA%E5%B0%94%E6%80%8E%E4%B9%88%E6%89%BE%E5%B0%8F%E5%A7%90%E6%9C%8D%E5%8A%A1v%E4%BF%A18764603%E2%96%B7%E5%B8%83%E5%85%B0%E5%A4%AA%E5%B0%94%E6%80%8E%E4%B9%88%E6%89%BE%E5%B0%8F%E5%A7%90%E5%85%A8%E5%A5%97%E7%89%B9%E6%AE%8A%E6%9C%8D%E5%8A%A1%E2%96%B7%E5%B8%83%E5%85%B0%E5%A4%AA%E5%B0%94%E6%80%8E%E4%B9%88%E6%89%BE%E5%B0%8F%E5%A7%90%E4%B8%8A%E9%97%A8%E6%9C%8D%E5%8A%A1%E2%96%B7%E5%B8%83%E5%85%B0%E5%A4%AA%E5%B0%94%E6%80%8E%E4%B9%88%E6%89%BE%E5%B0%8F%E5%A7%90%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%E2%96%B7%E5%B8%83%E5%85%B0%E5%A4%AA%E5%B0%94%E6%80%8E%E4%B9%88%E6%89%BE%E5%B0%8F%E5%A7%90%E4%B8%8A%E8%AF%BE%E7%BA%A6%E6%9C%8D%E5%8A%A1.bfpn&hl=zh-cn
+2025-03-12 09:20:15,068 - INFO - Aguardando 5.88 segundos até a próxima loja...
+2025-03-12 09:20:20,948 - INFO - Processando loja 53/7194: 500 PRO
+2025-03-12 09:20:20,948 - INFO - Pesquisando: 500 PRO contato telefone email whatsapp site oficial
+2025-03-12 09:20:20,951 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:20:21,857 - INFO - Processando resultado 1: https://br.usembassy.gov/pt/u-s-citizen-services-pt/contato-horarios-agendamentos/
+2025-03-12 09:20:22,007 - INFO - Processando resultado 2: https://www.imbituva.pr.gov.br/
+2025-03-12 09:20:22,700 - INFO - Aguardando 5.12 segundos até a próxima loja...
+2025-03-12 09:20:27,819 - INFO - Processando loja 54/7194: 512
+2025-03-12 09:20:27,819 - INFO - Pesquisando: 512 contato telefone email whatsapp site oficial
+2025-03-12 09:20:27,821 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:20:28,676 - INFO - Processando resultado 1: https://www.fasano.com.br/contato/
+2025-03-12 09:20:29,783 - INFO - Processando resultado 2: https://www.austincc.edu/contact-acc/
+2025-03-12 09:20:30,322 - INFO - Aguardando 5.77 segundos até a próxima loja...
+2025-03-12 09:20:36,089 - INFO - Processando loja 55/7194: 57Porcento
+2025-03-12 09:20:36,089 - INFO - Pesquisando: 57Porcento contato telefone email whatsapp site oficial
+2025-03-12 09:20:36,091 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:20:36,885 - INFO - Processando resultado 1: https://57porcento.com/
+2025-03-12 09:20:38,034 - INFO - Processando resultado 2: https://cnpj.biz/41929203000144
+2025-03-12 09:20:38,118 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://cnpj.biz/41929203000144
+2025-03-12 09:20:38,118 - INFO - Aguardando 1.56 segundos antes de tentar novamente...
+2025-03-12 09:20:39,771 - WARNING - Tentativa 2/3 falhou: 403 Client Error: Forbidden for url: https://cnpj.biz/41929203000144
+2025-03-12 09:20:39,771 - INFO - Aguardando 2.31 segundos antes de tentar novamente...
+2025-03-12 09:20:42,169 - WARNING - Tentativa 3/3 falhou: 403 Client Error: Forbidden for url: https://cnpj.biz/41929203000144
+2025-03-12 09:20:42,169 - ERROR - Falha após 3 tentativas: 403 Client Error: Forbidden for url: https://cnpj.biz/41929203000144
+2025-03-12 09:20:42,169 - WARNING - Não foi possível obter conteúdo HTML de https://cnpj.biz/41929203000144
+2025-03-12 09:20:42,170 - INFO - Aguardando 4.65 segundos até a próxima loja...
+2025-03-12 09:20:46,822 - INFO - Processando loja 56/7194: 5M Sports
+2025-03-12 09:20:46,822 - INFO - Pesquisando: 5M Sports contato telefone email whatsapp site oficial
+2025-03-12 09:20:46,824 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:20:47,713 - INFO - Processando resultado 1: https://www.nauticadventuresports.com/throttle-cable-extension-5m
+2025-03-12 09:20:50,939 - INFO - Processando resultado 2: https://northactionsports.com/products/nova-wing
+2025-03-12 09:20:52,844 - INFO - Aguardando 5.91 segundos até a próxima loja...
+2025-03-12 09:20:58,754 - INFO - Processando loja 57/7194: 792 Cosméticos
+2025-03-12 09:20:58,755 - INFO - Pesquisando: 792 Cosméticos contato telefone email whatsapp site oficial
+2025-03-12 09:20:58,757 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:20:59,648 - INFO - Processando resultado 1: https://www.mdanderson.org/about-md-anderson/contact-us.html
+2025-03-12 09:21:02,620 - INFO - Processando resultado 2: https://www.instagram.com/dolcevitabeautycentre/p/DFXwnkuIPVw/
+2025-03-12 09:21:03,395 - INFO - Aguardando 4.85 segundos até a próxima loja...
+2025-03-12 09:21:08,247 - INFO - Processando loja 58/7194: 7CARD
+2025-03-12 09:21:08,247 - INFO - Pesquisando: 7CARD contato telefone email whatsapp site oficial
+2025-03-12 09:21:08,249 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:21:09,110 - INFO - Processando resultado 1: https://www.7card.com.br/minecoins-1720-coins-minecraft/
+2025-03-12 09:21:09,792 - INFO - Processando resultado 2: https://faurelepage.com/products/7-card-holder-gangsta-flpop
+2025-03-12 09:21:11,053 - INFO - Aguardando 5.97 segundos até a próxima loja...
+2025-03-12 09:21:17,026 - INFO - Processando loja 59/7194: 8 Oitava Mall
+2025-03-12 09:21:17,026 - INFO - Pesquisando: 8 Oitava Mall contato telefone email whatsapp site oficial
+2025-03-12 09:21:17,029 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:21:17,847 - INFO - Processando resultado 1: https://www.oitavamall.com.br/
+2025-03-12 09:21:18,809 - INFO - Processando resultado 2: https://www.oitavo.com.br/
+2025-03-12 09:21:19,024 - INFO - Aguardando 5.22 segundos até a próxima loja...
+2025-03-12 09:21:24,249 - INFO - Processando loja 60/7194: 99 Festas
+2025-03-12 09:21:24,249 - INFO - Pesquisando: 99 Festas contato telefone email whatsapp site oficial
+2025-03-12 09:21:24,251 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:21:25,150 - INFO - Processando resultado 1: https://1001festas.com.br/
+2025-03-12 09:21:25,361 - INFO - Processando resultado 2: https://www.habibs.com.br/
+2025-03-12 09:21:25,642 - INFO - Salvando 60 resultados coletados...
+2025-03-12 09:21:25,647 - INFO - Resultados salvos em 'resultados/contatos_parcial_60.json'
+2025-03-12 09:21:25,650 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_60.csv'
+2025-03-12 09:21:25,659 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_60.html'
+2025-03-12 09:21:25,660 - INFO - Aguardando 4.23 segundos até a próxima loja...
+2025-03-12 09:21:29,888 - INFO - Processando loja 61/7194: 99MX
+2025-03-12 09:21:29,889 - INFO - Pesquisando: 99MX contato telefone email whatsapp site oficial
+2025-03-12 09:21:29,891 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:21:30,718 - INFO - Processando resultado 1: https://tracking.99minutos.com/
+2025-03-12 09:21:31,151 - INFO - Processando resultado 2: https://www.paris7.com.br/products/poltrona-echo-design-contemporaneo
+2025-03-12 09:21:31,812 - INFO - Aguardando 5.14 segundos até a próxima loja...
+2025-03-12 09:21:36,957 - INFO - Processando loja 62/7194: A Bone Foods
+2025-03-12 09:21:36,958 - INFO - Pesquisando: A Bone Foods contato telefone email whatsapp site oficial
+2025-03-12 09:21:36,959 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:21:37,834 - INFO - Processando resultado 1: https://www.foodbazaar.com/
+2025-03-12 09:21:39,990 - INFO - Processando resultado 2: https://kochfoods.com/contact-us/
+2025-03-12 09:21:41,396 - INFO - Aguardando 5.93 segundos até a próxima loja...
+2025-03-12 09:21:47,327 - INFO - Processando loja 63/7194: A Brigadeirinha
+2025-03-12 09:21:47,327 - INFO - Pesquisando: A Brigadeirinha contato telefone email whatsapp site oficial
+2025-03-12 09:21:47,329 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:21:48,181 - INFO - Processando resultado 1: https://www.abrigadeirinha.com.br/todosprodutos
+2025-03-12 09:21:48,578 - INFO - Processando resultado 2: https://www.brigaderia.com.br/
+2025-03-12 09:21:48,937 - INFO - Aguardando 5.27 segundos até a próxima loja...
+2025-03-12 09:21:54,218 - INFO - Processando loja 64/7194: A CAMARGO
+2025-03-12 09:21:54,218 - INFO - Pesquisando: A CAMARGO contato telefone email whatsapp site oficial
+2025-03-12 09:21:54,220 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:21:55,086 - INFO - Processando resultado 1: https://www.instagram.com/zezedicamargo/
+2025-03-12 09:21:55,456 - INFO - Processando resultado 2: https://www.acamargo.com/
+2025-03-12 09:21:55,542 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://www.acamargo.com/
+2025-03-12 09:21:55,543 - INFO - Aguardando 1.13 segundos antes de tentar novamente...
+2025-03-12 09:21:56,739 - WARNING - Tentativa 2/3 falhou: 403 Client Error: Forbidden for url: https://www.acamargo.com/
+2025-03-12 09:21:56,739 - INFO - Aguardando 2.15 segundos antes de tentar novamente...
+2025-03-12 09:21:58,967 - WARNING - Tentativa 3/3 falhou: 403 Client Error: Forbidden for url: https://www.acamargo.com/
+2025-03-12 09:21:58,967 - ERROR - Falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.acamargo.com/
+2025-03-12 09:21:58,968 - WARNING - Não foi possível obter conteúdo HTML de https://www.acamargo.com/
+2025-03-12 09:21:58,968 - INFO - Aguardando 4.37 segundos até a próxima loja...
+2025-03-12 09:22:03,342 - INFO - Processando loja 65/7194: A Casa Brasileira
+2025-03-12 09:22:03,343 - INFO - Pesquisando: A Casa Brasileira contato telefone email whatsapp site oficial
+2025-03-12 09:22:03,345 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:22:04,273 - INFO - Processando resultado 1: https://br.usembassy.gov/pt/u-s-citizen-services-pt/vitimas-de-crime/
+2025-03-12 09:22:05,662 - INFO - Processando resultado 2: https://www.dengo.com.br/
+2025-03-12 09:22:06,490 - INFO - Aguardando 5.39 segundos até a próxima loja...
+2025-03-12 09:22:11,879 - INFO - Processando loja 66/7194: A Casa de Móveis
+2025-03-12 09:22:11,879 - INFO - Pesquisando: A Casa de Móveis contato telefone email whatsapp site oficial
+2025-03-12 09:22:11,881 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:22:12,793 - INFO - Processando resultado 1: https://www.lojasimperio.com.br/pagina/central-de-atendimento
+2025-03-12 09:22:13,493 - INFO - Processando resultado 2: https://www.koerich.com.br/
+2025-03-12 09:22:13,825 - INFO - Aguardando 4.74 segundos até a próxima loja...
+2025-03-12 09:22:18,569 - INFO - Processando loja 67/7194: A Casa dos Doces
+2025-03-12 09:22:18,569 - INFO - Pesquisando: A Casa dos Doces contato telefone email whatsapp site oficial
+2025-03-12 09:22:18,571 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:22:19,595 - INFO - Processando resultado 1: https://loja.douxdoces.com.br/
+2025-03-12 09:22:20,202 - INFO - Processando resultado 2: https://www.dengo.com.br/
+2025-03-12 09:22:20,411 - INFO - Aguardando 4.97 segundos até a próxima loja...
+2025-03-12 09:22:25,386 - INFO - Processando loja 68/7194: A DRIVE PARTS PEÇAS AUTOMOTI
+2025-03-12 09:22:25,386 - INFO - Pesquisando: A DRIVE PARTS PEÇAS AUTOMOTI contato telefone email whatsapp site oficial
+2025-03-12 09:22:25,388 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:22:26,626 - INFO - Processando resultado 1: https://www.atlantapecas.com.br/
+2025-03-12 09:22:31,938 - INFO - Processando resultado 2: https://www.camilloparts.com.br/
+2025-03-12 09:22:34,429 - INFO - Aguardando 5.05 segundos até a próxima loja...
+2025-03-12 09:22:39,477 - INFO - Processando loja 69/7194: A Esportiva
+2025-03-12 09:22:39,477 - INFO - Pesquisando: A Esportiva contato telefone email whatsapp site oficial
+2025-03-12 09:22:39,479 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:22:40,588 - INFO - Processando resultado 1: https://www.joma.com.br/
+2025-03-12 09:22:40,922 - INFO - Processando resultado 2: https://rodeio.sc.gov.br/contato/
+2025-03-12 09:22:41,120 - INFO - Aguardando 5.90 segundos até a próxima loja...
+2025-03-12 09:22:47,023 - INFO - Processando loja 70/7194: A Gourmet
+2025-03-12 09:22:47,024 - INFO - Pesquisando: A Gourmet contato telefone email whatsapp site oficial
+2025-03-12 09:22:47,026 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:22:48,247 - INFO - Processando resultado 1: https://www.seara.com.br/fale-conosco/
+2025-03-12 09:22:48,393 - INFO - Processando resultado 2: https://www.lojadekor.com.br/pagina/duvidas-frequentes.html
+2025-03-12 09:22:49,377 - INFO - Salvando 70 resultados coletados...
+2025-03-12 09:22:49,381 - INFO - Resultados salvos em 'resultados/contatos_parcial_70.json'
+2025-03-12 09:22:49,384 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_70.csv'
+2025-03-12 09:22:49,395 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_70.html'
+2025-03-12 09:22:49,396 - INFO - Aguardando 5.59 segundos até a próxima loja...
+2025-03-12 09:22:54,990 - INFO - Processando loja 71/7194: A GUITARRA DE PRATA
+2025-03-12 09:22:54,990 - INFO - Pesquisando: A GUITARRA DE PRATA contato telefone email whatsapp site oficial
+2025-03-12 09:22:54,992 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:22:55,844 - INFO - Processando resultado 1: https://www.instagram.com/aguitarradeprata/reel/DBoI1SoKqTh/
+2025-03-12 09:22:56,296 - INFO - Processando resultado 2: https://www.instagram.com/aguitarradeprata/p/DAqljcfvZsu/-fone-de-ouvido-koss-il200w-in-ear-branco-alto-desempenho-som-de-alta-qualidade-/
+2025-03-12 09:22:56,677 - INFO - Aguardando 5.94 segundos até a próxima loja...
+2025-03-12 09:23:02,623 - INFO - Processando loja 72/7194: A Instaladora
+2025-03-12 09:23:02,623 - INFO - Pesquisando: A Instaladora contato telefone email whatsapp site oficial
+2025-03-12 09:23:02,625 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:23:03,442 - INFO - Processando resultado 1: https://www.berlitzinstaladora.com.br/
+2025-03-12 09:23:04,503 - INFO - Processando resultado 2: https://gree.com.br/onde-estamos/autorizadas/
+2025-03-12 09:23:05,162 - INFO - Aguardando 4.40 segundos até a próxima loja...
+2025-03-12 09:23:09,567 - INFO - Processando loja 73/7194: A Loja da Cozinha
+2025-03-12 09:23:09,567 - INFO - Pesquisando: A Loja da Cozinha contato telefone email whatsapp site oficial
+2025-03-12 09:23:09,569 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:23:10,698 - INFO - Processando resultado 1: https://www.minhaitatiaia.com.br/
+2025-03-12 09:23:11,018 - INFO - Processando resultado 2: https://www.tramontina.com.br/
+2025-03-12 09:23:17,435 - INFO - Aguardando 5.26 segundos até a próxima loja...
+2025-03-12 09:23:22,696 - INFO - Processando loja 74/7194: A Mais Inspiração LTDA
+2025-03-12 09:23:22,697 - INFO - Pesquisando: A Mais Inspiração LTDA contato telefone email whatsapp site oficial
+2025-03-12 09:23:22,699 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:23:23,535 - INFO - Processando resultado 1: https://www.brae.com.br/
+2025-03-12 09:23:23,670 - INFO - Processando resultado 2: http://www.4takes.com.br/
+2025-03-12 09:23:26,311 - INFO - Aguardando 4.66 segundos até a próxima loja...
+2025-03-12 09:23:30,975 - INFO - Processando loja 75/7194: a Móveis Arapongas
+2025-03-12 09:23:30,976 - INFO - Pesquisando: a Móveis Arapongas contato telefone email whatsapp site oficial
+2025-03-12 09:23:30,978 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:23:32,090 - INFO - Processando resultado 1: https://www.moveisarapongas.com.br/
+2025-03-12 09:23:32,740 - INFO - Processando resultado 2: https://arapongas.atende.net/
+2025-03-12 09:23:33,560 - INFO - Aguardando 5.47 segundos até a próxima loja...
+2025-03-12 09:23:39,032 - INFO - Processando loja 76/7194: A Ordem Country
+2025-03-12 09:23:39,032 - INFO - Pesquisando: A Ordem Country contato telefone email whatsapp site oficial
+2025-03-12 09:23:39,035 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:23:39,938 - INFO - Processando resultado 1: https://br.usembassy.gov/pt/u-s-citizen-services-pt/contato-horarios-agendamentos/
+2025-03-12 09:23:41,040 - INFO - Processando resultado 2: https://www.gov.br/mre/pt-br/consulado-sao-francisco
+2025-03-12 09:23:41,288 - INFO - Aguardando 5.67 segundos até a próxima loja...
+2025-03-12 09:23:46,955 - INFO - Processando loja 77/7194: A Organica
+2025-03-12 09:23:46,955 - INFO - Pesquisando: A Organica contato telefone email whatsapp site oficial
+2025-03-12 09:23:46,957 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:23:48,131 - INFO - Processando resultado 1: https://www.aripuana.mt.gov.br/
+2025-03-12 09:23:48,524 - INFO - Processando resultado 2: https://www.foodbazaar.com/
+2025-03-12 09:23:50,096 - INFO - Aguardando 4.65 segundos até a próxima loja...
+2025-03-12 09:23:54,748 - INFO - Processando loja 78/7194: A Página
+2025-03-12 09:23:54,749 - INFO - Pesquisando: A Página contato telefone email whatsapp site oficial
+2025-03-12 09:23:54,750 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:23:55,624 - INFO - Processando resultado 1: https://www.whatsapp.com/contact/noclient?lang=pt_BR
+2025-03-12 09:23:55,830 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.whatsapp.com/contact/noclient?lang=pt_BR
+2025-03-12 09:23:55,831 - INFO - Aguardando 1.37 segundos antes de tentar novamente...
+2025-03-12 09:23:57,402 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.whatsapp.com/contact/noclient?lang=pt_BR
+2025-03-12 09:23:57,403 - INFO - Aguardando 2.24 segundos antes de tentar novamente...
+2025-03-12 09:23:59,841 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.whatsapp.com/contact/noclient?lang=pt_BR
+2025-03-12 09:23:59,842 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.whatsapp.com/contact/noclient?lang=pt_BR
+2025-03-12 09:23:59,842 - WARNING - Não foi possível obter conteúdo HTML de https://www.whatsapp.com/contact/noclient?lang=pt_BR
+2025-03-12 09:23:59,843 - INFO - Processando resultado 2: https://br.usembassy.gov/pt/u-s-citizen-services-pt/contato-horarios-agendamentos/
+2025-03-12 09:23:59,956 - INFO - Aguardando 4.46 segundos até a próxima loja...
+2025-03-12 09:24:04,417 - INFO - Processando loja 79/7194: A Sedutora Lingerie
+2025-03-12 09:24:04,418 - INFO - Pesquisando: A Sedutora Lingerie contato telefone email whatsapp site oficial
+2025-03-12 09:24:04,420 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:05,520 - INFO - Processando resultado 1: https://www.instagram.com/lepink_homewear/reel/CtSLc2Vx5_8/
+2025-03-12 09:24:05,930 - INFO - Processando resultado 2: https://www.comprafacillingerie.com.br/
+2025-03-12 09:24:06,811 - INFO - Aguardando 4.55 segundos até a próxima loja...
+2025-03-12 09:24:11,365 - INFO - Processando loja 80/7194: A Turma da Bagunça
+2025-03-12 09:24:11,366 - INFO - Pesquisando: A Turma da Bagunça contato telefone email whatsapp site oficial
+2025-03-12 09:24:11,368 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:12,216 - INFO - Processando resultado 1: https://www.bichobagunca.com.br/
+2025-03-12 09:24:13,473 - INFO - Processando resultado 2: https://www.instagram.com/turminhadabagunca.oficial/p/DAIHrYGxXMC/?locale=zh-hans&hl=ar
+2025-03-12 09:24:14,091 - INFO - Salvando 80 resultados coletados...
+2025-03-12 09:24:14,096 - INFO - Resultados salvos em 'resultados/contatos_parcial_80.json'
+2025-03-12 09:24:14,100 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_80.csv'
+2025-03-12 09:24:14,116 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_80.html'
+2025-03-12 09:24:14,116 - INFO - Aguardando 5.87 segundos até a próxima loja...
+2025-03-12 09:24:19,986 - INFO - Processando loja 81/7194: AaZ Embalagens
+2025-03-12 09:24:19,987 - INFO - Pesquisando: AaZ Embalagens contato telefone email whatsapp site oficial
+2025-03-12 09:24:19,989 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:20,867 - INFO - Processando resultado 1: https://www.kaz.com.br/
+2025-03-12 09:24:21,703 - INFO - Processando resultado 2: https://www.azacessorios.com.br/
+2025-03-12 09:24:22,731 - INFO - Aguardando 4.55 segundos até a próxima loja...
+2025-03-12 09:24:27,285 - INFO - Processando loja 82/7194: Ab Compras
+2025-03-12 09:24:27,286 - INFO - Pesquisando: Ab Compras contato telefone email whatsapp site oficial
+2025-03-12 09:24:27,287 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:28,397 - INFO - Processando resultado 1: https://www.steelfitbr.com.br/kit/abs-of-steel-237ml-un-cinta-neoprene/
+2025-03-12 09:24:29,047 - INFO - Processando resultado 2: https://www.bagaggio.com.br/
+2025-03-12 09:24:29,284 - INFO - Aguardando 5.69 segundos até a próxima loja...
+2025-03-12 09:24:34,975 - INFO - Processando loja 83/7194: ABC da Construção
+2025-03-12 09:24:34,976 - INFO - Pesquisando: ABC da Construção contato telefone email whatsapp site oficial
+2025-03-12 09:24:34,978 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:35,872 - INFO - Processando resultado 1: https://www.abcdaconstrucao.com.br/
+2025-03-12 09:24:35,967 - INFO - Processando resultado 2: https://abcdaconstrucao.fbitsstatic.net/media/02-12-21-FAQ-E-Commerce-ABC.pdf?origem=MediaCenter/02-12-21-FAQ-E-Commerce-ABC.pdf
+2025-03-12 09:24:36,509 - INFO - Aguardando 5.67 segundos até a próxima loja...
+2025-03-12 09:24:42,175 - INFO - Processando loja 84/7194: ABC Design
+2025-03-12 09:24:42,176 - INFO - Pesquisando: ABC Design contato telefone email whatsapp site oficial
+2025-03-12 09:24:42,177 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:43,147 - INFO - Processando resultado 1: https://www.abcdesignbrasil.com.br/institucional/fale-conosco
+2025-03-12 09:24:45,026 - INFO - Processando resultado 2: https://www.dengo.com.br/
+2025-03-12 09:24:46,134 - INFO - Aguardando 5.62 segundos até a próxima loja...
+2025-03-12 09:24:51,753 - INFO - Processando loja 85/7194: Abecom
+2025-03-12 09:24:51,754 - INFO - Pesquisando: Abecom contato telefone email whatsapp site oficial
+2025-03-12 09:24:51,755 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:52,870 - INFO - Processando resultado 1: https://www.abecom.com.br/fale-conosco/
+2025-03-12 09:24:53,120 - INFO - Processando resultado 2: https://www.loja.abecom.com.br/
+2025-03-12 09:24:53,681 - INFO - Aguardando 4.08 segundos até a próxima loja...
+2025-03-12 09:24:57,765 - INFO - Processando loja 86/7194: Abex Peças
+2025-03-12 09:24:57,765 - INFO - Pesquisando: Abex Peças contato telefone email whatsapp site oficial
+2025-03-12 09:24:57,768 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:24:58,612 - INFO - Processando resultado 1: https://www.abexpecas.com.br/
+2025-03-12 09:24:59,475 - INFO - Processando resultado 2: https://www.instagram.com/abexpecas/reel/CwiFt0PgRj_/
+2025-03-12 09:24:59,912 - INFO - Aguardando 5.88 segundos até a próxima loja...
+2025-03-12 09:25:05,796 - INFO - Processando loja 87/7194: ABM PEÇAS
+2025-03-12 09:25:05,796 - INFO - Pesquisando: ABM PEÇAS contato telefone email whatsapp site oficial
+2025-03-12 09:25:05,799 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:25:06,847 - INFO - Processando resultado 1: https://abmpecas.com/
+2025-03-12 09:25:07,192 - INFO - Processando resultado 2: http://www.abmbrazil.com/
+2025-03-12 09:25:08,183 - INFO - Aguardando 5.76 segundos até a próxima loja...
+2025-03-12 09:25:13,945 - INFO - Processando loja 88/7194: ABMIDIA
+2025-03-12 09:25:13,945 - INFO - Pesquisando: ABMIDIA contato telefone email whatsapp site oficial
+2025-03-12 09:25:13,947 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:25:14,772 - INFO - Processando resultado 1: https://www.infoabmidia.com.br/
+2025-03-12 09:25:15,453 - INFO - Processando resultado 2: https://abmediamkt.com/
+2025-03-12 09:25:20,973 - INFO - Aguardando 4.27 segundos até a próxima loja...
+2025-03-12 09:25:25,244 - INFO - Processando loja 89/7194: Abrakadabra
+2025-03-12 09:25:25,245 - INFO - Pesquisando: Abrakadabra contato telefone email whatsapp site oficial
+2025-03-12 09:25:25,247 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:25:26,084 - INFO - Processando resultado 1: https://www.abracadabra.com.br/
+2025-03-12 09:25:26,700 - INFO - Processando resultado 2: https://www.abrakadabra.com.br/institucional/entre-em-contato
+2025-03-12 09:25:29,025 - INFO - Aguardando 5.21 segundos até a próxima loja...
+2025-03-12 09:25:34,234 - INFO - Processando loja 90/7194: ABRASLON
+2025-03-12 09:25:34,235 - INFO - Pesquisando: ABRASLON contato telefone email whatsapp site oficial
+2025-03-12 09:25:34,237 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:25:34,994 - INFO - Processando resultado 1: https://www.facebook.com/AbraslonLondrina/
+2025-03-12 09:25:35,203 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/AbraslonLondrina/
+2025-03-12 09:25:35,204 - INFO - Aguardando 1.38 segundos antes de tentar novamente...
+2025-03-12 09:25:36,786 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/AbraslonLondrina/
+2025-03-12 09:25:36,787 - INFO - Aguardando 2.01 segundos antes de tentar novamente...
+2025-03-12 09:25:39,004 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/AbraslonLondrina/
+2025-03-12 09:25:39,005 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/AbraslonLondrina/
+2025-03-12 09:25:39,006 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/AbraslonLondrina/
+2025-03-12 09:25:39,006 - INFO - Processando resultado 2: https://www.instagram.com/abraslon/?hl=pt
+2025-03-12 09:25:39,527 - INFO - Salvando 90 resultados coletados...
+2025-03-12 09:25:39,533 - INFO - Resultados salvos em 'resultados/contatos_parcial_90.json'
+2025-03-12 09:25:39,538 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_90.csv'
+2025-03-12 09:25:39,547 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_90.html'
+2025-03-12 09:25:39,547 - INFO - Aguardando 4.61 segundos até a próxima loja...
+2025-03-12 09:25:44,154 - INFO - Processando loja 91/7194: ABREALAS
+2025-03-12 09:25:44,154 - INFO - Pesquisando: ABREALAS contato telefone email whatsapp site oficial
+2025-03-12 09:25:44,156 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:25:44,965 - INFO - Processando resultado 1: https://www.facebook.com/photo.php?fbid=1010646541102707&id=100064721107386&set=a.685451806955517
+2025-03-12 09:25:45,713 - INFO - Processando resultado 2: https://www.instagram.com/ucam.oficial/p/C4Li8lJJJAc/
+2025-03-12 09:25:46,117 - INFO - Aguardando 5.39 segundos até a próxima loja...
+2025-03-12 09:25:51,505 - INFO - Processando loja 92/7194: ABSOLUTA CASA E ORGANIZAÇÃO
+2025-03-12 09:25:51,506 - INFO - Pesquisando: ABSOLUTA CASA E ORGANIZAÇÃO contato telefone email whatsapp site oficial
+2025-03-12 09:25:51,508 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:25:52,383 - INFO - Processando resultado 1: https://www.absolutacasa.com.br/
+2025-03-12 09:25:53,076 - INFO - Processando resultado 2: https://cajamar.sp.gov.br/seguranca/transito/politica-de-privacidade/
+2025-03-12 09:25:53,448 - INFO - Aguardando 5.91 segundos até a próxima loja...
+2025-03-12 09:25:59,354 - INFO - Processando loja 93/7194: Absoluta Chevrolet
+2025-03-12 09:25:59,354 - INFO - Pesquisando: Absoluta Chevrolet contato telefone email whatsapp site oficial
+2025-03-12 09:25:59,357 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:26:00,483 - INFO - Processando resultado 1: https://www.absolutachevroletsantos.com.br/contato
+2025-03-12 09:26:02,736 - INFO - Processando resultado 2: https://www.absolutachevrolet.com.br/
+2025-03-12 09:26:03,579 - INFO - Aguardando 4.79 segundos até a próxima loja...
+2025-03-12 09:26:08,372 - INFO - Processando loja 94/7194: Abuziv Jeans
+2025-03-12 09:26:08,372 - INFO - Pesquisando: Abuziv Jeans contato telefone email whatsapp site oficial
+2025-03-12 09:26:08,374 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:26:09,200 - INFO - Processando resultado 1: https://www.abuzivjeans.com.br/
+2025-03-12 09:26:11,106 - INFO - Processando resultado 2: https://www.instagram.com/abuzivjeans/
+2025-03-12 09:26:11,587 - INFO - Aguardando 5.50 segundos até a próxima loja...
+2025-03-12 09:26:17,083 - INFO - Processando loja 95/7194: AC Store Multimarcas
+2025-03-12 09:26:17,084 - INFO - Pesquisando: AC Store Multimarcas contato telefone email whatsapp site oficial
+2025-03-12 09:26:17,086 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:26:17,929 - INFO - Processando resultado 1: https://www.acstoremultimarcas.com.br/
+2025-03-12 09:26:19,181 - INFO - Processando resultado 2: https://www.instagram.com/arianecanovascollection/?api=WhatsApp%E7%B2%BE%E5%87%86%E7%A7%81%E4%BF%A1%E7%A5%9E%E5%99%A8%F0%9F%92%B0-[%E8%AE%A4%E5%87%86%E5%A4%A7%E8%BD%A9TG%3A%40TC2397431747]-WS%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7%2FWs%E4%B8%80%E9%94%AE%E7%BE%A4%E5%8F%91%2FWS%E5%BC%95%E6%B5%81%E5%8A%A9%E6%89%8B.qvrn&hl=zh-cn
+2025-03-12 09:26:19,647 - INFO - Aguardando 4.86 segundos até a próxima loja...
+2025-03-12 09:26:24,507 - INFO - Processando loja 96/7194: ACAMARA
+2025-03-12 09:26:24,508 - INFO - Pesquisando: ACAMARA contato telefone email whatsapp site oficial
+2025-03-12 09:26:24,510 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:26:25,371 - INFO - Processando resultado 1: https://auditoriacidada.org.br/emails-de-deputados-federais/
+2025-03-12 09:26:26,149 - INFO - Processando resultado 2: https://www.lapa.pr.leg.br/institucional/telefones-uteis
+2025-03-12 09:26:26,520 - INFO - Aguardando 4.75 segundos até a próxima loja...
+2025-03-12 09:26:31,266 - INFO - Processando loja 97/7194: Acaradiscus
+2025-03-12 09:26:31,266 - INFO - Pesquisando: Acaradiscus contato telefone email whatsapp site oficial
+2025-03-12 09:26:31,268 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:26:32,400 - INFO - Processando resultado 1: https://www.facebook.com/acaradiscus/posts/a-loja-virtual-estar%C3%A1-funcionando-normalmente-para-as-compras-de-dezembro-aprove/1012432402113444/?locale=pt_BR
+2025-03-12 09:26:32,688 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/acaradiscus/posts/a-loja-virtual-estar%C3%A1-funcionando-normalmente-para-as-compras-de-dezembro-aprove/1012432402113444/?locale=pt_BR
+2025-03-12 09:26:32,688 - INFO - Aguardando 1.39 segundos antes de tentar novamente...
+2025-03-12 09:26:34,304 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/acaradiscus/posts/a-loja-virtual-estar%C3%A1-funcionando-normalmente-para-as-compras-de-dezembro-aprove/1012432402113444/?locale=pt_BR
+2025-03-12 09:26:34,304 - INFO - Aguardando 2.20 segundos antes de tentar novamente...
+2025-03-12 09:26:36,704 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/acaradiscus/posts/a-loja-virtual-estar%C3%A1-funcionando-normalmente-para-as-compras-de-dezembro-aprove/1012432402113444/?locale=pt_BR
+2025-03-12 09:26:36,704 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/acaradiscus/posts/a-loja-virtual-estar%C3%A1-funcionando-normalmente-para-as-compras-de-dezembro-aprove/1012432402113444/?locale=pt_BR
+2025-03-12 09:26:36,705 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/acaradiscus/posts/a-loja-virtual-estar%C3%A1-funcionando-normalmente-para-as-compras-de-dezembro-aprove/1012432402113444/?locale=pt_BR
+2025-03-12 09:26:36,705 - INFO - Processando resultado 2: https://www.instagram.com/loja.aquarismoitapira/p/BqSF2YuA0a_/
+2025-03-12 09:26:37,097 - INFO - Aguardando 5.24 segundos até a próxima loja...
+2025-03-12 09:26:42,341 - INFO - Processando loja 98/7194: ACCURATO SOLUÇÕES EM HIGIENE
+2025-03-12 09:26:42,342 - INFO - Pesquisando: ACCURATO SOLUÇÕES EM HIGIENE contato telefone email whatsapp site oficial
+2025-03-12 09:26:42,344 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:26:43,194 - INFO - Processando resultado 1: https://www.instagram.com/accuratosolucoes/?hl=pt
+2025-03-12 09:26:43,923 - INFO - Processando resultado 2: https://www.econodata.com.br/consulta-empresa/22488292000196-AQUALIS-SOLUCOES-EM-HIGIENE-LTDA
+2025-03-12 09:26:44,600 - INFO - Aguardando 5.35 segundos até a próxima loja...
+2025-03-12 09:26:49,954 - INFO - Processando loja 99/7194: ACDelco
+2025-03-12 09:26:49,955 - INFO - Pesquisando: ACDelco contato telefone email whatsapp site oficial
+2025-03-12 09:26:49,957 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:26:51,057 - INFO - Processando resultado 1: https://www.acdelco.com.br/
+2025-03-12 09:26:52,309 - INFO - Processando resultado 2: https://www.grupoviamar.com.br/acdelco-usamax-autocenter/oferta-servico/3546
+2025-03-12 09:26:54,631 - INFO - Aguardando 4.90 segundos até a próxima loja...
+2025-03-12 09:26:59,527 - INFO - Processando loja 100/7194: ACE Películas
+2025-03-12 09:26:59,527 - INFO - Pesquisando: ACE Películas contato telefone email whatsapp site oficial
+2025-03-12 09:26:59,529 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:00,533 - INFO - Processando resultado 1: https://www.acdc.com/home/
+2025-03-12 09:27:01,004 - INFO - Processando resultado 2: https://www.instagram.com/sigaanacarolina/
+2025-03-12 09:27:01,476 - INFO - Salvando 100 resultados coletados...
+2025-03-12 09:27:01,482 - INFO - Resultados salvos em 'resultados/contatos_parcial_100.json'
+2025-03-12 09:27:01,487 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_100.csv'
+2025-03-12 09:27:01,499 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_100.html'
+2025-03-12 09:27:01,499 - INFO - Aguardando 5.97 segundos até a próxima loja...
+2025-03-12 09:27:07,475 - INFO - Processando loja 101/7194: ACE VENDAS
+2025-03-12 09:27:07,475 - INFO - Pesquisando: ACE VENDAS contato telefone email whatsapp site oficial
+2025-03-12 09:27:07,477 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:08,341 - INFO - Processando resultado 1: https://support.google.com/fitbit/gethelp?hl=en
+2025-03-12 09:27:09,400 - INFO - Processando resultado 2: https://www.insta360.com/support
+2025-03-12 09:27:09,965 - INFO - Aguardando 5.49 segundos até a próxima loja...
+2025-03-12 09:27:15,461 - INFO - Processando loja 102/7194: Acer Brasil
+2025-03-12 09:27:15,461 - INFO - Pesquisando: Acer Brasil contato telefone email whatsapp site oficial
+2025-03-12 09:27:15,463 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:16,593 - INFO - Processando resultado 1: https://www.acer.com/br-pt/support/contact-acer
+2025-03-12 09:27:24,785 - INFO - Processando resultado 2: https://br-store.acer.com/
+2025-03-12 09:27:25,102 - INFO - Aguardando 4.14 segundos até a próxima loja...
+2025-03-12 09:27:29,245 - INFO - Processando loja 103/7194: Acero
+2025-03-12 09:27:29,245 - INFO - Pesquisando: Acero contato telefone email whatsapp site oficial
+2025-03-12 09:27:29,247 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:30,205 - INFO - Processando resultado 1: https://brasil.arcelormittal.com/fale-conosco/telefones
+2025-03-12 09:27:31,133 - INFO - Processando resultado 2: https://www.acerobotasloja.com.br/
+2025-03-12 09:27:31,344 - INFO - Aguardando 4.39 segundos até a próxima loja...
+2025-03-12 09:27:35,738 - INFO - Processando loja 104/7194: Acessocar
+2025-03-12 09:27:35,739 - INFO - Pesquisando: Acessocar contato telefone email whatsapp site oficial
+2025-03-12 09:27:35,741 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:36,781 - INFO - Processando resultado 1: https://meritorbrasil.com.br/encontre-distribuidor-resultado.php
+2025-03-12 09:27:37,930 - INFO - Processando resultado 2: https://www.tjsc.jus.br/whatsapp-business-comarcas
+2025-03-12 09:27:38,130 - INFO - Aguardando 4.54 segundos até a próxima loja...
+2025-03-12 09:27:42,669 - INFO - Processando loja 105/7194: ACETPLACE
+2025-03-12 09:27:42,670 - INFO - Pesquisando: ACETPLACE contato telefone email whatsapp site oficial
+2025-03-12 09:27:42,671 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:43,521 - INFO - Processando resultado 1: https://www.acetplace.com.br/
+2025-03-12 09:27:45,368 - INFO - Processando resultado 2: https://loja.acetplace.com.br/pagina/trocas-e-devolucoes.html
+2025-03-12 09:27:46,101 - INFO - Aguardando 5.14 segundos até a próxima loja...
+2025-03-12 09:27:51,244 - INFO - Processando loja 106/7194: ACHE PEÇAS
+2025-03-12 09:27:51,244 - INFO - Pesquisando: ACHE PEÇAS contato telefone email whatsapp site oficial
+2025-03-12 09:27:51,246 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:52,110 - INFO - Processando resultado 1: https://www.achepecas.net/produto/modulo-de-tracao-hyundai-tucson-9544739980-original-35
+2025-03-12 09:27:53,220 - INFO - Processando resultado 2: https://www.acheipneus.com.br/
+2025-03-12 09:27:53,401 - INFO - Aguardando 5.38 segundos até a próxima loja...
+2025-03-12 09:27:58,778 - INFO - Processando loja 107/7194: Achei Energia Solar
+2025-03-12 09:27:58,779 - INFO - Pesquisando: Achei Energia Solar contato telefone email whatsapp site oficial
+2025-03-12 09:27:58,781 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:27:59,706 - INFO - Processando resultado 1: https://www.acheiusa.com/Noticia/incendio-em-usina-de-energia-na-california-obriga-centenas-de-pessoas-a-sairem-de-suas-casas-151874/
+2025-03-12 09:28:02,118 - INFO - Processando resultado 2: https://btgpactual.com/fale-conosco
+2025-03-12 09:28:02,595 - INFO - Aguardando 4.09 segundos até a próxima loja...
+2025-03-12 09:28:06,686 - INFO - Processando loja 108/7194: Achei Pneus
+2025-03-12 09:28:06,687 - INFO - Pesquisando: Achei Pneus contato telefone email whatsapp site oficial
+2025-03-12 09:28:06,689 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:28:07,594 - INFO - Processando resultado 1: https://www.acheipneus.com.br/
+2025-03-12 09:28:07,680 - INFO - Processando resultado 2: https://www.facebook.com/AcheiPneusOficial/photos/ader%C3%AAncia-%C3%A9-o-ponto-forte-do-vitality-f22-com-nota-b-para-desempenho-em-pistas-m/863873059111675/
+2025-03-12 09:28:08,723 - INFO - Aguardando 5.67 segundos até a próxima loja...
+2025-03-12 09:28:14,398 - INFO - Processando loja 109/7194: Acheiaqui Online
+2025-03-12 09:28:14,399 - INFO - Pesquisando: Acheiaqui Online contato telefone email whatsapp site oficial
+2025-03-12 09:28:14,401 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:28:15,214 - INFO - Processando resultado 1: https://www.instagram.com/mauricioalabama/
+2025-03-12 09:28:15,819 - INFO - Processando resultado 2: https://www.facebook.com/photo.php?fbid=4154267201257853&id=252738194744126&set=a.256739754343970
+2025-03-12 09:28:16,606 - INFO - Aguardando 4.16 segundos até a próxima loja...
+2025-03-12 09:28:20,767 - INFO - Processando loja 110/7194: ACJ Personalizados
+2025-03-12 09:28:20,767 - INFO - Pesquisando: ACJ Personalizados contato telefone email whatsapp site oficial
+2025-03-12 09:28:20,769 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:28:21,907 - INFO - Processando resultado 1: https://www.distriar.com.br/
+2025-03-12 09:28:22,531 - INFO - Processando resultado 2: https://www.leveros.com.br/pagina/loja-sao-paulo/
+2025-03-12 09:28:24,363 - INFO - Salvando 110 resultados coletados...
+2025-03-12 09:28:24,370 - INFO - Resultados salvos em 'resultados/contatos_parcial_110.json'
+2025-03-12 09:28:24,375 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_110.csv'
+2025-03-12 09:28:24,386 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_110.html'
+2025-03-12 09:28:24,387 - INFO - Aguardando 4.92 segundos até a próxima loja...
+2025-03-12 09:28:29,310 - INFO - Processando loja 111/7194: Acme
+2025-03-12 09:28:29,310 - INFO - Pesquisando: Acme contato telefone email whatsapp site oficial
+2025-03-12 09:28:29,312 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:28:30,196 - INFO - Processando resultado 1: https://acmeshoemaker.com/category/loafer-review/
+2025-03-12 09:28:46,495 - INFO - Processando resultado 2: https://www.facebook.com/photo.php?fbid=431350465456043&id=111432714114488&set=a.119086463349113&locale=da_DK
+2025-03-12 09:28:47,127 - INFO - Aguardando 4.84 segundos até a próxima loja...
+2025-03-12 09:28:51,966 - INFO - Processando loja 112/7194: AÇO CORTEN
+2025-03-12 09:28:51,967 - INFO - Pesquisando: AÇO CORTEN contato telefone email whatsapp site oficial
+2025-03-12 09:28:51,969 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:28:52,787 - INFO - Processando resultado 1: https://www.facebook.com/photo.php?fbid=2990244721012477&id=561271530576487&set=a.844048752298762
+2025-03-12 09:28:53,356 - INFO - Processando resultado 2: https://www.pinterest.com/TerracorOficial/a%C3%A7o-corten/
+2025-03-12 09:28:54,621 - INFO - Aguardando 4.97 segundos até a próxima loja...
+2025-03-12 09:28:59,596 - INFO - Processando loja 113/7194: Açoind Soluções
+2025-03-12 09:28:59,596 - INFO - Pesquisando: Açoind Soluções contato telefone email whatsapp site oficial
+2025-03-12 09:28:59,599 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:00,614 - INFO - Processando resultado 1: https://www.instagram.com/aco.ind/
+2025-03-12 09:29:01,203 - INFO - Processando resultado 2: https://multiacos.com.br/
+2025-03-12 09:29:01,595 - INFO - Aguardando 5.21 segundos até a próxima loja...
+2025-03-12 09:29:06,802 - INFO - Processando loja 114/7194: ACP ECOMMERCE
+2025-03-12 09:29:06,802 - INFO - Pesquisando: ACP ECOMMERCE contato telefone email whatsapp site oficial
+2025-03-12 09:29:06,804 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:07,687 - INFO - Processando resultado 1: https://www.procon.sp.gov.br/horario-de-atendimento-endereco-e-telefone/
+2025-03-12 09:29:09,024 - INFO - Processando resultado 2: https://acpr.com.br/
+2025-03-12 09:29:10,044 - INFO - Aguardando 5.31 segundos até a próxima loja...
+2025-03-12 09:29:15,353 - INFO - Processando loja 115/7194: Acqua Aroma
+2025-03-12 09:29:15,353 - INFO - Pesquisando: Acqua Aroma contato telefone email whatsapp site oficial
+2025-03-12 09:29:15,355 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:16,209 - INFO - Processando resultado 1: https://www.acquaaroma.com.br/
+2025-03-12 09:29:17,476 - INFO - Processando resultado 2: https://www.aguadecheiro.com.br/
+2025-03-12 09:29:18,622 - INFO - Aguardando 4.53 segundos até a próxima loja...
+2025-03-12 09:29:23,155 - INFO - Processando loja 116/7194: Acqua Bronze
+2025-03-12 09:29:23,155 - INFO - Pesquisando: Acqua Bronze contato telefone email whatsapp site oficial
+2025-03-12 09:29:23,157 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:24,032 - INFO - Processando resultado 1: https://www.acquabronze.com.br/
+2025-03-12 09:29:24,407 - INFO - Processando resultado 2: https://www.skelt.com.br/kitbronzeeglowagua/p
+2025-03-12 09:29:27,296 - INFO - Aguardando 4.09 segundos até a próxima loja...
+2025-03-12 09:29:31,387 - INFO - Processando loja 117/7194: Acquabios
+2025-03-12 09:29:31,388 - INFO - Pesquisando: Acquabios contato telefone email whatsapp site oficial
+2025-03-12 09:29:31,390 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:32,186 - INFO - Processando resultado 1: https://filtrosacquabios.com.br/pt_BR/contato
+2025-03-12 09:29:32,780 - INFO - Processando resultado 2: https://www.ibbl.com.br/
+2025-03-12 09:29:32,905 - INFO - Aguardando 4.00 segundos até a próxima loja...
+2025-03-12 09:29:36,909 - INFO - Processando loja 118/7194: Acribom
+2025-03-12 09:29:36,909 - INFO - Pesquisando: Acribom contato telefone email whatsapp site oficial
+2025-03-12 09:29:36,911 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:37,971 - INFO - Processando resultado 1: https://www.acribom.com.br/pagina/duvidas-frequentes.html
+2025-03-12 09:29:38,577 - INFO - Processando resultado 2: https://www.papelariazap.com.br/suporte-para-apagador-e-para-3-canetas-de-quadro-branco-acribom
+2025-03-12 09:29:39,786 - INFO - Aguardando 4.08 segundos até a próxima loja...
+2025-03-12 09:29:43,866 - INFO - Processando loja 119/7194: Acrilwood
+2025-03-12 09:29:43,867 - INFO - Pesquisando: Acrilwood contato telefone email whatsapp site oficial
+2025-03-12 09:29:43,869 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:44,762 - INFO - Processando resultado 1: https://www.acrilwood.ind.br/
+2025-03-12 09:29:46,208 - INFO - Processando resultado 2: https://www.fleximportados.com.br/marca/acrilwood.html
+2025-03-12 09:29:47,091 - INFO - Aguardando 4.76 segundos até a próxima loja...
+2025-03-12 09:29:51,853 - INFO - Processando loja 120/7194: Acrilzano
+2025-03-12 09:29:51,853 - INFO - Pesquisando: Acrilzano contato telefone email whatsapp site oficial
+2025-03-12 09:29:51,855 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:29:52,671 - INFO - Processando resultado 1: https://acrilzano.com.br/
+2025-03-12 09:29:53,966 - INFO - Processando resultado 2: https://www.instagram.com/acrilzanoacrilicos/?hl=pt
+2025-03-12 09:29:54,465 - INFO - Salvando 120 resultados coletados...
+2025-03-12 09:29:54,472 - INFO - Resultados salvos em 'resultados/contatos_parcial_120.json'
+2025-03-12 09:29:54,477 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_120.csv'
+2025-03-12 09:29:54,489 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_120.html'
+2025-03-12 09:29:54,490 - INFO - Aguardando 4.76 segundos até a próxima loja...
+2025-03-12 09:29:59,254 - INFO - Processando loja 121/7194: Acte Sports
+2025-03-12 09:29:59,254 - INFO - Pesquisando: Acte Sports contato telefone email whatsapp site oficial
+2025-03-12 09:29:59,256 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:30:00,136 - INFO - Processando resultado 1: https://www.actesports.com/
+2025-03-12 09:30:00,498 - INFO - Processando resultado 2: https://www.shopdoatleta.com.br/tapete-yoga-mat-com-alaa-de-transporte-antiderrapante-texturizado-rosa-t10-r-acte-sports
+2025-03-12 09:30:01,991 - INFO - Aguardando 5.18 segundos até a próxima loja...
+2025-03-12 09:30:07,173 - INFO - Processando loja 122/7194: ACTIONSTORE
+2025-03-12 09:30:07,174 - INFO - Pesquisando: ACTIONSTORE contato telefone email whatsapp site oficial
+2025-03-12 09:30:07,176 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:30:07,979 - INFO - Processando resultado 1: https://titan13toy.com/
+2025-03-12 09:30:09,111 - INFO - Processando resultado 2: https://www.facebook.com/lojadeacao/?locale=pt_BR
+2025-03-12 09:30:09,364 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/lojadeacao/?locale=pt_BR
+2025-03-12 09:30:09,365 - INFO - Aguardando 1.66 segundos antes de tentar novamente...
+2025-03-12 09:30:11,231 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/lojadeacao/?locale=pt_BR
+2025-03-12 09:30:11,232 - INFO - Aguardando 2.96 segundos antes de tentar novamente...
+2025-03-12 09:30:14,388 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/lojadeacao/?locale=pt_BR
+2025-03-12 09:30:14,389 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/lojadeacao/?locale=pt_BR
+2025-03-12 09:30:14,389 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/lojadeacao/?locale=pt_BR
+2025-03-12 09:30:14,390 - INFO - Aguardando 5.96 segundos até a próxima loja...
+2025-03-12 09:30:20,349 - INFO - Processando loja 123/7194: ADA TINA
+2025-03-12 09:30:20,350 - INFO - Pesquisando: ADA TINA contato telefone email whatsapp site oficial
+2025-03-12 09:30:20,352 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:30:21,268 - INFO - Processando resultado 1: https://www.adatina.com/fale-conosco
+2025-03-12 09:30:23,753 - INFO - Processando resultado 2: https://www.dardus.com.br/empresa/1657008/Adatina-Cosmeticos---Ada-Tina-Cosmeticos-Ltda---Epp
+2025-03-12 09:30:53,825 - WARNING - Tentativa 1/3 falhou: HTTPSConnectionPool(host='www.dardus.com.br', port=443): Read timed out. (read timeout=30)
+2025-03-12 09:30:53,826 - INFO - Aguardando 1.82 segundos antes de tentar novamente...
+2025-03-12 09:31:08,999 - INFO - Aguardando 4.86 segundos até a próxima loja...
+2025-03-12 09:31:13,856 - INFO - Processando loja 124/7194: AdamantiuN
+2025-03-12 09:31:13,856 - INFO - Pesquisando: AdamantiuN contato telefone email whatsapp site oficial
+2025-03-12 09:31:13,858 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:31:14,745 - INFO - Processando resultado 1: https://www.adamantiun.com.br/
+2025-03-12 09:31:15,931 - INFO - Processando resultado 2: https://www.facebook.com/p/Adamantium-Construction-and-Geotechnical-Services-Inc-100070263194077/
+2025-03-12 09:31:16,144 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/p/Adamantium-Construction-and-Geotechnical-Services-Inc-100070263194077/
+2025-03-12 09:31:16,144 - INFO - Aguardando 1.80 segundos antes de tentar novamente...
+2025-03-12 09:31:18,133 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/p/Adamantium-Construction-and-Geotechnical-Services-Inc-100070263194077/
+2025-03-12 09:31:18,133 - INFO - Aguardando 2.32 segundos antes de tentar novamente...
+2025-03-12 09:31:20,765 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/p/Adamantium-Construction-and-Geotechnical-Services-Inc-100070263194077/
+2025-03-12 09:31:20,766 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/p/Adamantium-Construction-and-Geotechnical-Services-Inc-100070263194077/
+2025-03-12 09:31:20,766 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/p/Adamantium-Construction-and-Geotechnical-Services-Inc-100070263194077/
+2025-03-12 09:31:20,767 - INFO - Aguardando 5.63 segundos até a próxima loja...
+2025-03-12 09:31:26,394 - INFO - Processando loja 125/7194: Adamanto Store
+2025-03-12 09:31:26,395 - INFO - Pesquisando: Adamanto Store contato telefone email whatsapp site oficial
+2025-03-12 09:31:26,397 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:31:27,225 - INFO - Processando resultado 1: https://www.adamantostore.com.br/adamanto
+2025-03-12 09:31:28,018 - INFO - Processando resultado 2: https://www.thenorthface.com.br/institucional/nossas-lojas
+2025-03-12 09:31:29,164 - INFO - Aguardando 4.54 segundos até a próxima loja...
+2025-03-12 09:31:33,701 - INFO - Processando loja 126/7194: ADAMAS
+2025-03-12 09:31:33,702 - INFO - Pesquisando: ADAMAS contato telefone email whatsapp site oficial
+2025-03-12 09:31:33,704 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:31:34,830 - INFO - Processando resultado 1: https://www.adams.edu/
+2025-03-12 09:31:35,614 - INFO - Processando resultado 2: https://www.nyc.gov/content/hearfromeric/
+2025-03-12 09:31:36,493 - INFO - Aguardando 4.01 segundos até a próxima loja...
+2025-03-12 09:31:40,505 - INFO - Processando loja 127/7194: ADAP BRASIL
+2025-03-12 09:31:40,505 - INFO - Pesquisando: ADAP BRASIL contato telefone email whatsapp site oficial
+2025-03-12 09:31:40,507 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:31:41,388 - INFO - Processando resultado 1: https://www.adapbrasil.com.br/
+2025-03-12 09:31:42,871 - INFO - Processando resultado 2: https://www.roku.com/pt-br/about/contact
+2025-03-12 09:31:43,555 - INFO - Aguardando 5.27 segundos até a próxima loja...
+2025-03-12 09:31:48,822 - INFO - Processando loja 128/7194: Adata
+2025-03-12 09:31:48,823 - INFO - Pesquisando: Adata contato telefone email whatsapp site oficial
+2025-03-12 09:31:48,825 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:31:49,662 - INFO - Processando resultado 1: https://www.xpg.com/us
+2025-03-12 09:31:51,939 - INFO - Processando resultado 2: https://www.adata.com/us/support/contact-us/
+2025-03-12 09:31:54,041 - INFO - Aguardando 5.44 segundos até a próxima loja...
+2025-03-12 09:31:59,483 - INFO - Processando loja 129/7194: Adax
+2025-03-12 09:31:59,483 - INFO - Pesquisando: Adax contato telefone email whatsapp site oficial
+2025-03-12 09:31:59,485 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:32:00,317 - INFO - Processando resultado 1: https://www.audaxgroup.com/contact
+2025-03-12 09:32:01,817 - INFO - Processando resultado 2: https://audaxsp.com.br/
+2025-03-12 09:32:07,284 - INFO - Aguardando 4.42 segundos até a próxima loja...
+2025-03-12 09:32:11,707 - INFO - Processando loja 130/7194: ADB ACESSORIOS PARA PATCHWORK
+2025-03-12 09:32:11,708 - INFO - Pesquisando: ADB ACESSORIOS PARA PATCHWORK contato telefone email whatsapp site oficial
+2025-03-12 09:32:11,710 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:32:12,762 - INFO - Processando resultado 1: https://www.acessoriosparapatchwork.com.br/
+2025-03-12 09:32:13,501 - INFO - Processando resultado 2: https://www.facebook.com/adbacessoriosparapatchwork/posts/comenta-brinde-nossa-tesoura-que-podemos-dizer-que-%C3%A9-ma-ra-vi-lho-sa-serra-sharf/929873602481573/
+2025-03-12 09:32:13,783 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adbacessoriosparapatchwork/posts/comenta-brinde-nossa-tesoura-que-podemos-dizer-que-%C3%A9-ma-ra-vi-lho-sa-serra-sharf/929873602481573/
+2025-03-12 09:32:13,784 - INFO - Aguardando 1.99 segundos antes de tentar novamente...
+2025-03-12 09:32:15,979 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adbacessoriosparapatchwork/posts/comenta-brinde-nossa-tesoura-que-podemos-dizer-que-%C3%A9-ma-ra-vi-lho-sa-serra-sharf/929873602481573/
+2025-03-12 09:32:15,979 - INFO - Aguardando 2.57 segundos antes de tentar novamente...
+2025-03-12 09:32:18,750 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adbacessoriosparapatchwork/posts/comenta-brinde-nossa-tesoura-que-podemos-dizer-que-%C3%A9-ma-ra-vi-lho-sa-serra-sharf/929873602481573/
+2025-03-12 09:32:18,751 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/adbacessoriosparapatchwork/posts/comenta-brinde-nossa-tesoura-que-podemos-dizer-que-%C3%A9-ma-ra-vi-lho-sa-serra-sharf/929873602481573/
+2025-03-12 09:32:18,751 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/adbacessoriosparapatchwork/posts/comenta-brinde-nossa-tesoura-que-podemos-dizer-que-%C3%A9-ma-ra-vi-lho-sa-serra-sharf/929873602481573/
+2025-03-12 09:32:18,752 - INFO - Salvando 130 resultados coletados...
+2025-03-12 09:32:18,759 - INFO - Resultados salvos em 'resultados/contatos_parcial_130.json'
+2025-03-12 09:32:18,764 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_130.csv'
+2025-03-12 09:32:18,777 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_130.html'
+2025-03-12 09:32:18,779 - INFO - Aguardando 4.16 segundos até a próxima loja...
+2025-03-12 09:32:22,935 - INFO - Processando loja 131/7194: Adcos
+2025-03-12 09:32:22,935 - INFO - Pesquisando: Adcos contato telefone email whatsapp site oficial
+2025-03-12 09:32:22,938 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:32:23,758 - INFO - Processando resultado 1: https://www.lojaadcos.com.br/fale-conosco
+2025-03-12 09:32:24,940 - INFO - Processando resultado 2: https://secure.lojaadcos.com.br/login
+2025-03-12 09:32:27,135 - INFO - Aguardando 4.60 segundos até a próxima loja...
+2025-03-12 09:32:31,731 - INFO - Processando loja 132/7194: Adecil
+2025-03-12 09:32:31,732 - INFO - Pesquisando: Adecil contato telefone email whatsapp site oficial
+2025-03-12 09:32:31,734 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:32:32,606 - INFO - Processando resultado 1: https://www.adecil.com.br/central-de-atendimento
+2025-03-12 09:32:33,078 - INFO - Processando resultado 2: https://www.facebook.com/AdecilCom/?locale=fa_IR
+2025-03-12 09:32:33,282 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/AdecilCom/?locale=fa_IR
+2025-03-12 09:32:33,283 - INFO - Aguardando 1.55 segundos antes de tentar novamente...
+2025-03-12 09:32:35,011 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/AdecilCom/?locale=fa_IR
+2025-03-12 09:32:35,012 - INFO - Aguardando 2.47 segundos antes de tentar novamente...
+2025-03-12 09:32:37,694 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/AdecilCom/?locale=fa_IR
+2025-03-12 09:32:37,694 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/AdecilCom/?locale=fa_IR
+2025-03-12 09:32:37,695 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/AdecilCom/?locale=fa_IR
+2025-03-12 09:32:37,695 - INFO - Aguardando 4.45 segundos até a próxima loja...
+2025-03-12 09:32:42,145 - INFO - Processando loja 133/7194: Adega R2
+2025-03-12 09:32:42,145 - INFO - Pesquisando: Adega R2 contato telefone email whatsapp site oficial
+2025-03-12 09:32:42,148 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:32:42,953 - INFO - Processando resultado 1: https://www.adegar2.com.br/
+2025-03-12 09:32:43,962 - INFO - Processando resultado 2: https://cardapio.datacaixa.com.br/loja=3645
+2025-03-12 09:32:44,295 - INFO - Aguardando 5.96 segundos até a próxima loja...
+2025-03-12 09:32:50,253 - INFO - Processando loja 134/7194: Adegraf Etiquetas
+2025-03-12 09:32:50,253 - INFO - Pesquisando: Adegraf Etiquetas contato telefone email whatsapp site oficial
+2025-03-12 09:32:50,255 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:32:51,033 - INFO - Processando resultado 1: https://adegraf.com.br/
+2025-03-12 09:32:51,277 - INFO - Processando resultado 2: https://loja.adegraf.com.br/kit-10-rolos-etiqueta-10x15-cm-5-ribbons-cera
+2025-03-12 09:32:52,454 - INFO - Aguardando 4.37 segundos até a próxima loja...
+2025-03-12 09:32:56,824 - INFO - Processando loja 135/7194: Adere
+2025-03-12 09:32:56,824 - INFO - Pesquisando: Adere contato telefone email whatsapp site oficial
+2025-03-12 09:32:56,826 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:32:57,964 - INFO - Processando resultado 1: https://procon.portal.ap.gov.br/noticia/1811/procon-ap-adere-ao-mutirao-nacional-de-negociacao-de-dividas-com-bancos
+2025-03-12 09:32:58,562 - INFO - Processando resultado 2: https://www.procon.sp.gov.br/santo-andre/
+2025-03-12 09:33:00,127 - INFO - Aguardando 5.75 segundos até a próxima loja...
+2025-03-12 09:33:05,878 - INFO - Processando loja 136/7194: Adespan
+2025-03-12 09:33:05,878 - INFO - Pesquisando: Adespan contato telefone email whatsapp site oficial
+2025-03-12 09:33:05,880 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:33:06,674 - INFO - Processando resultado 1: https://www.adespan.com.br/fale-conosco.php
+2025-03-12 09:33:07,544 - INFO - Processando resultado 2: https://www.facebook.com/adespansolucoesparaimpressao/
+2025-03-12 09:33:07,730 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adespansolucoesparaimpressao/
+2025-03-12 09:33:07,730 - INFO - Aguardando 1.47 segundos antes de tentar novamente...
+2025-03-12 09:33:09,384 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adespansolucoesparaimpressao/
+2025-03-12 09:33:09,384 - INFO - Aguardando 2.71 segundos antes de tentar novamente...
+2025-03-12 09:33:12,312 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adespansolucoesparaimpressao/
+2025-03-12 09:33:12,313 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/adespansolucoesparaimpressao/
+2025-03-12 09:33:12,314 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/adespansolucoesparaimpressao/
+2025-03-12 09:33:12,315 - INFO - Aguardando 4.19 segundos até a próxima loja...
+2025-03-12 09:33:16,501 - INFO - Processando loja 137/7194: ADF Ferramentas
+2025-03-12 09:33:16,502 - INFO - Pesquisando: ADF Ferramentas contato telefone email whatsapp site oficial
+2025-03-12 09:33:16,503 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:33:17,329 - INFO - Processando resultado 1: https://www.epicgames.com/help/pt-BR/c-Category_TechnicalSupport/c-TechnicalSupport_GeneralSupport/como-entrar-em-contato-com-o-suporte-da-epic-a000085836
+2025-03-12 09:33:17,427 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://www.epicgames.com/help/pt-BR/c-Category_TechnicalSupport/c-TechnicalSupport_GeneralSupport/como-entrar-em-contato-com-o-suporte-da-epic-a000085836
+2025-03-12 09:33:17,428 - INFO - Aguardando 1.40 segundos antes de tentar novamente...
+2025-03-12 09:33:18,916 - WARNING - Tentativa 2/3 falhou: 403 Client Error: Forbidden for url: https://www.epicgames.com/help/pt-BR/c-Category_TechnicalSupport/c-TechnicalSupport_GeneralSupport/como-entrar-em-contato-com-o-suporte-da-epic-a000085836
+2025-03-12 09:33:18,917 - INFO - Aguardando 2.69 segundos antes de tentar novamente...
+2025-03-12 09:33:21,700 - WARNING - Tentativa 3/3 falhou: 403 Client Error: Forbidden for url: https://www.epicgames.com/help/pt-BR/c-Category_TechnicalSupport/c-TechnicalSupport_GeneralSupport/como-entrar-em-contato-com-o-suporte-da-epic-a000085836
+2025-03-12 09:33:21,700 - ERROR - Falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.epicgames.com/help/pt-BR/c-Category_TechnicalSupport/c-TechnicalSupport_GeneralSupport/como-entrar-em-contato-com-o-suporte-da-epic-a000085836
+2025-03-12 09:33:21,701 - WARNING - Não foi possível obter conteúdo HTML de https://www.epicgames.com/help/pt-BR/c-Category_TechnicalSupport/c-TechnicalSupport_GeneralSupport/como-entrar-em-contato-com-o-suporte-da-epic-a000085836
+2025-03-12 09:33:21,701 - INFO - Processando resultado 2: https://www.wtferramentas.com.br/4642/tnmg-160408-adf-yb9320
+2025-03-12 09:33:23,471 - INFO - Aguardando 4.61 segundos até a próxima loja...
+2025-03-12 09:33:28,083 - INFO - Processando loja 138/7194: ADG Etiquetas
+2025-03-12 09:33:28,083 - INFO - Pesquisando: ADG Etiquetas contato telefone email whatsapp site oficial
+2025-03-12 09:33:28,085 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:33:28,907 - INFO - Processando resultado 1: https://www.graficapress.com.br/contato
+2025-03-12 09:33:29,713 - INFO - Processando resultado 2: https://www.instagram.com/grafica.adg/
+2025-03-12 09:33:30,170 - INFO - Aguardando 4.42 segundos até a próxima loja...
+2025-03-12 09:33:34,593 - INFO - Processando loja 139/7194: Adicel
+2025-03-12 09:33:34,594 - INFO - Pesquisando: Adicel contato telefone email whatsapp site oficial
+2025-03-12 09:33:34,596 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:33:35,388 - INFO - Processando resultado 1: https://www.adicel.com.br/
+2025-03-12 09:33:35,976 - INFO - Processando resultado 2: https://www.instagram.com/adicelingredientes/?hl=pt
+2025-03-12 09:33:36,377 - INFO - Aguardando 4.13 segundos até a próxima loja...
+2025-03-12 09:33:40,512 - INFO - Processando loja 140/7194: adidas
+2025-03-12 09:33:40,512 - INFO - Pesquisando: adidas contato telefone email whatsapp site oficial
+2025-03-12 09:33:40,514 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:33:41,420 - INFO - Processando resultado 1: https://www.adidas.com/us/help/contact-us
+2025-03-12 09:33:41,625 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://www.adidas.com/us/help/contact-us
+2025-03-12 09:33:41,625 - INFO - Aguardando 1.40 segundos antes de tentar novamente...
+2025-03-12 09:34:13,080 - WARNING - Tentativa 2/3 falhou: HTTPSConnectionPool(host='www.adidas.com', port=443): Read timed out. (read timeout=30)
+2025-03-12 09:34:13,081 - INFO - Aguardando 2.93 segundos antes de tentar novamente...
+2025-03-12 09:34:46,089 - WARNING - Tentativa 3/3 falhou: HTTPSConnectionPool(host='www.adidas.com', port=443): Read timed out. (read timeout=30)
+2025-03-12 09:34:46,089 - ERROR - Falha após 3 tentativas: HTTPSConnectionPool(host='www.adidas.com', port=443): Read timed out. (read timeout=30)
+2025-03-12 09:34:46,090 - WARNING - Não foi possível obter conteúdo HTML de https://www.adidas.com/us/help/contact-us
+2025-03-12 09:34:46,090 - INFO - Processando resultado 2: https://www.adidas.com.br/ajuda/atendimento-ao-cliente
+2025-03-12 09:34:46,228 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://www.adidas.com.br/ajuda/atendimento-ao-cliente
+2025-03-12 09:34:46,229 - INFO - Aguardando 1.38 segundos antes de tentar novamente...
+2025-03-12 09:34:47,742 - WARNING - Tentativa 2/3 falhou: 403 Client Error: Forbidden for url: https://www.adidas.com.br/ajuda/atendimento-ao-cliente
+2025-03-12 09:34:47,742 - INFO - Aguardando 2.80 segundos antes de tentar novamente...
+2025-03-12 09:34:50,633 - WARNING - Tentativa 3/3 falhou: 403 Client Error: Forbidden for url: https://www.adidas.com.br/ajuda/atendimento-ao-cliente
+2025-03-12 09:34:50,634 - ERROR - Falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.adidas.com.br/ajuda/atendimento-ao-cliente
+2025-03-12 09:34:50,634 - WARNING - Não foi possível obter conteúdo HTML de https://www.adidas.com.br/ajuda/atendimento-ao-cliente
+2025-03-12 09:34:50,634 - INFO - Salvando 140 resultados coletados...
+2025-03-12 09:34:50,644 - INFO - Resultados salvos em 'resultados/contatos_parcial_140.json'
+2025-03-12 09:34:50,648 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_140.csv'
+2025-03-12 09:34:50,663 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_140.html'
+2025-03-12 09:34:50,664 - INFO - Aguardando 11.69 segundos até a próxima loja...
+2025-03-12 09:35:02,360 - INFO - Processando loja 141/7194: Adj Decor
+2025-03-12 09:35:02,360 - INFO - Pesquisando: Adj Decor contato telefone email whatsapp site oficial
+2025-03-12 09:35:02,362 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:35:03,342 - INFO - Processando resultado 1: https://www.adjdecor.com.br/
+2025-03-12 09:35:04,282 - INFO - Processando resultado 2: https://www.adj.com/link
+2025-03-12 09:35:05,801 - INFO - Aguardando 9.97 segundos até a próxima loja...
+2025-03-12 09:35:15,770 - INFO - Processando loja 142/7194: Adler
+2025-03-12 09:35:15,770 - INFO - Pesquisando: Adler contato telefone email whatsapp site oficial
+2025-03-12 09:35:15,772 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:35:16,694 - INFO - Processando resultado 1: https://www.hoteladlercavalieri.com/en/contact-us
+2025-03-12 09:35:18,765 - INFO - Processando resultado 2: https://www.adler-au.at/en/contact/
+2025-03-12 09:35:20,040 - INFO - Aguardando 4.25 segundos até a próxima loja...
+2025-03-12 09:35:24,294 - INFO - Processando loja 143/7194: Admirare
+2025-03-12 09:35:24,294 - INFO - Pesquisando: Admirare contato telefone email whatsapp site oficial
+2025-03-12 09:35:24,296 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:35:25,140 - INFO - Processando resultado 1: https://www.chinainbox.com.br/
+2025-03-12 09:35:25,239 - INFO - Processando resultado 2: https://www.instagram.com/admirareimportados/p/DEx2YO3TDv2/
+2025-03-12 09:35:25,922 - INFO - Aguardando 5.65 segundos até a próxima loja...
+2025-03-12 09:35:31,575 - INFO - Processando loja 144/7194: ADOLETA BEBÊ
+2025-03-12 09:35:31,576 - INFO - Pesquisando: ADOLETA BEBÊ contato telefone email whatsapp site oficial
+2025-03-12 09:35:31,579 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:35:32,465 - INFO - Processando resultado 1: https://yanaiatacado.com.br/products/banheira-translucida-22-litros-adoleta-bebe-1
+2025-03-12 09:35:33,183 - INFO - Processando resultado 2: https://www.instagram.com/adoleta.reabilitacao/p/C-2UAfIuv05/
+2025-03-12 09:35:33,697 - INFO - Aguardando 4.81 segundos até a próxima loja...
+2025-03-12 09:35:38,507 - INFO - Processando loja 145/7194: Adolfo Dominguez
+2025-03-12 09:35:38,507 - INFO - Pesquisando: Adolfo Dominguez contato telefone email whatsapp site oficial
+2025-03-12 09:35:38,510 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:35:39,361 - INFO - Processando resultado 1: https://www.adolfodominguez.com/en-gb/contact
+2025-03-12 09:35:40,366 - INFO - Processando resultado 2: https://labelleperfumes.com/products/agua-fresca-de-rosas-blancas-by-adolfo-dominguez-4-2-oz-edt-for-woman
+2025-03-12 09:35:41,796 - INFO - Aguardando 4.02 segundos até a próxima loja...
+2025-03-12 09:35:45,814 - INFO - Processando loja 146/7194: Adonai Estofados
+2025-03-12 09:35:45,815 - INFO - Pesquisando: Adonai Estofados contato telefone email whatsapp site oficial
+2025-03-12 09:35:45,817 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:35:46,694 - INFO - Processando resultado 1: https://www.adonaiestofados.com.br/
+2025-03-12 09:35:47,569 - INFO - Processando resultado 2: https://www.instagram.com/adonaiestofadoss/
+2025-03-12 09:35:48,073 - INFO - Aguardando 4.84 segundos até a próxima loja...
+2025-03-12 09:35:52,909 - INFO - Processando loja 147/7194: ADORO MEU CARRO
+2025-03-12 09:35:52,910 - INFO - Pesquisando: ADORO MEU CARRO contato telefone email whatsapp site oficial
+2025-03-12 09:35:52,913 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:35:53,797 - INFO - Processando resultado 1: https://www.adoromeucarro.com.br/
+2025-03-12 09:35:54,522 - INFO - Processando resultado 2: https://www.reclameaqui.com.br/adoro-meu-carro/reclamacao_mPbpbi5CqDA9Bqqa/
+2025-03-12 09:35:54,600 - WARNING - Tentativa 1/3 falhou: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/adoro-meu-carro/reclamacao_mPbpbi5CqDA9Bqqa/
+2025-03-12 09:35:54,601 - INFO - Aguardando 1.07 segundos antes de tentar novamente...
+2025-03-12 09:35:55,736 - WARNING - Tentativa 2/3 falhou: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/adoro-meu-carro/reclamacao_mPbpbi5CqDA9Bqqa/
+2025-03-12 09:35:55,737 - INFO - Aguardando 2.95 segundos antes de tentar novamente...
+2025-03-12 09:35:58,764 - WARNING - Tentativa 3/3 falhou: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/adoro-meu-carro/reclamacao_mPbpbi5CqDA9Bqqa/
+2025-03-12 09:35:58,764 - ERROR - Falha após 3 tentativas: 403 Client Error: Forbidden for url: https://www.reclameaqui.com.br/adoro-meu-carro/reclamacao_mPbpbi5CqDA9Bqqa/
+2025-03-12 09:35:58,764 - WARNING - Não foi possível obter conteúdo HTML de https://www.reclameaqui.com.br/adoro-meu-carro/reclamacao_mPbpbi5CqDA9Bqqa/
+2025-03-12 09:35:58,765 - INFO - Aguardando 5.32 segundos até a próxima loja...
+2025-03-12 09:36:04,082 - INFO - Processando loja 148/7194: Adrilustres
+2025-03-12 09:36:04,082 - INFO - Pesquisando: Adrilustres contato telefone email whatsapp site oficial
+2025-03-12 09:36:04,084 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:36:04,909 - INFO - Processando resultado 1: https://www.rmiluminacao.com.br/acessorios/acrilico-quadrado-para-lustre
+2025-03-12 09:36:06,653 - INFO - Processando resultado 2: https://www.instagram.com/adrilustres/
+2025-03-12 09:36:07,406 - INFO - Aguardando 5.29 segundos até a próxima loja...
+2025-03-12 09:36:12,697 - INFO - Processando loja 149/7194: ADSL CÂMERAS
+2025-03-12 09:36:12,697 - INFO - Pesquisando: ADSL CÂMERAS contato telefone email whatsapp site oficial
+2025-03-12 09:36:12,699 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:36:13,634 - INFO - Processando resultado 1: https://www.ic3.gov/
+2025-03-12 09:36:14,840 - INFO - Processando resultado 2: https://www.verizon.com/
+2025-03-12 09:36:16,503 - INFO - Aguardando 4.78 segundos até a próxima loja...
+2025-03-12 09:36:21,285 - INFO - Processando loja 150/7194: ADSLCAMERAS
+2025-03-12 09:36:21,286 - INFO - Pesquisando: ADSLCAMERAS contato telefone email whatsapp site oficial
+2025-03-12 09:36:21,288 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:36:22,022 - INFO - Processando resultado 1: https://www.adslcameras.com.br/contato
+2025-03-12 09:36:22,799 - INFO - Processando resultado 2: https://www.facebook.com/adslcameras/
+2025-03-12 09:36:23,030 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adslcameras/
+2025-03-12 09:36:23,031 - INFO - Aguardando 1.55 segundos antes de tentar novamente...
+2025-03-12 09:36:24,775 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adslcameras/
+2025-03-12 09:36:24,788 - INFO - Aguardando 2.37 segundos antes de tentar novamente...
+2025-03-12 09:36:27,361 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/adslcameras/
+2025-03-12 09:36:27,362 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/adslcameras/
+2025-03-12 09:36:27,362 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/adslcameras/
+2025-03-12 09:36:27,363 - INFO - Salvando 150 resultados coletados...
+2025-03-12 09:36:27,371 - INFO - Resultados salvos em 'resultados/contatos_parcial_150.json'
+2025-03-12 09:36:27,376 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_150.csv'
+2025-03-12 09:36:27,392 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_150.html'
+2025-03-12 09:36:27,392 - INFO - Aguardando 4.52 segundos até a próxima loja...
+2025-03-12 09:36:31,912 - INFO - Processando loja 151/7194: Aduze
+2025-03-12 09:36:31,912 - INFO - Pesquisando: Aduze contato telefone email whatsapp site oficial
+2025-03-12 09:36:31,919 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:36:32,734 - INFO - Processando resultado 1: https://www.useaduze.com.br/copo-termico-aduze-porta-lata-e-long-neck-branco-420ml
+2025-03-12 09:36:33,481 - INFO - Processando resultado 2: https://www.instagram.com/useaduze/p/DGJZEY8v6TD/
+2025-03-12 09:36:33,934 - INFO - Aguardando 5.12 segundos até a próxima loja...
+2025-03-12 09:36:39,051 - INFO - Processando loja 152/7194: ADV Moto Parts
+2025-03-12 09:36:39,052 - INFO - Pesquisando: ADV Moto Parts contato telefone email whatsapp site oficial
+2025-03-12 09:36:39,054 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:36:40,070 - INFO - Processando resultado 1: https://www.advmotoparts.com.br/
+2025-03-12 09:36:40,623 - INFO - Processando resultado 2: https://www.raimixmotoparts.com.br/bmw-r1200gs-adventure-gsa-gs-r1200-r1200gs-chaveiro-moto-personalizado-bmw-motorrad-raimix-moto-parts
+2025-03-12 09:36:42,190 - INFO - Aguardando 4.96 segundos até a próxima loja...
+2025-03-12 09:36:47,150 - INFO - Processando loja 153/7194: AE AUTO ESTÉTICA
+2025-03-12 09:36:47,181 - INFO - Pesquisando: AE AUTO ESTÉTICA contato telefone email whatsapp site oficial
+2025-03-12 09:36:47,186 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:36:48,423 - INFO - Processando resultado 1: https://www.saude.df.gov.br/divisa
+2025-03-12 09:36:48,518 - WARNING - Tentativa 1/3 falhou: HTTPSConnectionPool(host='www.saude.df.gov.br', port=443): Max retries exceeded with url: /divisa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:36:48,522 - INFO - Aguardando 1.39 segundos antes de tentar novamente...
+2025-03-12 09:36:49,976 - WARNING - Tentativa 2/3 falhou: HTTPSConnectionPool(host='www.saude.df.gov.br', port=443): Max retries exceeded with url: /divisa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:36:49,985 - INFO - Aguardando 2.75 segundos antes de tentar novamente...
+2025-03-12 09:36:52,823 - WARNING - Tentativa 3/3 falhou: HTTPSConnectionPool(host='www.saude.df.gov.br', port=443): Max retries exceeded with url: /divisa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:36:52,825 - ERROR - Falha após 3 tentativas: HTTPSConnectionPool(host='www.saude.df.gov.br', port=443): Max retries exceeded with url: /divisa (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-12 09:36:52,826 - WARNING - Não foi possível obter conteúdo HTML de https://www.saude.df.gov.br/divisa
+2025-03-12 09:36:52,826 - INFO - Processando resultado 2: https://www.procon.sp.gov.br/
+2025-03-12 09:36:55,607 - INFO - Aguardando 4.92 segundos até a próxima loja...
+2025-03-12 09:37:00,526 - INFO - Processando loja 154/7194: Aeradores Gaivota
+2025-03-12 09:37:00,527 - INFO - Pesquisando: Aeradores Gaivota contato telefone email whatsapp site oficial
+2025-03-12 09:37:00,529 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:37:01,802 - INFO - Processando resultado 1: https://aeradoresgaivota.mercadoshops.com.br/
+2025-03-12 09:37:03,007 - INFO - Processando resultado 2: https://www.castroaeradores.com.br/
+2025-03-12 09:37:03,698 - INFO - Aguardando 5.20 segundos até a próxima loja...
+2025-03-12 09:37:08,902 - INFO - Processando loja 155/7194: AEROFITNESS
+2025-03-12 09:37:08,903 - INFO - Pesquisando: AEROFITNESS contato telefone email whatsapp site oficial
+2025-03-12 09:37:08,905 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:37:09,696 - INFO - Processando resultado 1: https://www.instagram.com/corridasemsergipe/p/DAkBIqSNXHE/
+2025-03-12 09:37:10,654 - INFO - Processando resultado 2: https://www.facebook.com/aerofitnesspalmares/
+2025-03-12 09:37:10,862 - WARNING - Tentativa 1/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/aerofitnesspalmares/
+2025-03-12 09:37:10,863 - INFO - Aguardando 1.58 segundos antes de tentar novamente...
+2025-03-12 09:37:12,670 - WARNING - Tentativa 2/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/aerofitnesspalmares/
+2025-03-12 09:37:12,671 - INFO - Aguardando 2.25 segundos antes de tentar novamente...
+2025-03-12 09:37:15,110 - WARNING - Tentativa 3/3 falhou: 400 Client Error: Bad Request for url: https://www.facebook.com/aerofitnesspalmares/
+2025-03-12 09:37:15,110 - ERROR - Falha após 3 tentativas: 400 Client Error: Bad Request for url: https://www.facebook.com/aerofitnesspalmares/
+2025-03-12 09:37:15,111 - WARNING - Não foi possível obter conteúdo HTML de https://www.facebook.com/aerofitnesspalmares/
+2025-03-12 09:37:15,111 - INFO - Aguardando 4.06 segundos até a próxima loja...
+2025-03-12 09:37:19,167 - INFO - Processando loja 156/7194: AEROIMPORTS
+2025-03-12 09:37:19,168 - INFO - Pesquisando: AEROIMPORTS contato telefone email whatsapp site oficial
+2025-03-12 09:37:19,170 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:37:20,114 - INFO - Processando resultado 1: https://aeroimport.com.br/contato/
+2025-03-12 09:37:20,998 - INFO - Processando resultado 2: https://www.instagram.com/aeroimport_logistica/
+2025-03-12 09:37:21,547 - INFO - Aguardando 5.89 segundos até a próxima loja...
+2025-03-12 09:37:27,436 - INFO - Processando loja 157/7194: Aéropostale
+2025-03-12 09:37:27,436 - INFO - Pesquisando: Aéropostale contato telefone email whatsapp site oficial
+2025-03-12 09:37:27,438 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:37:28,345 - INFO - Processando resultado 1: https://www.seastreetabc.com.br/camiseta-masculina-aeropostale-usa-new-york-cor
+2025-03-12 09:37:29,610 - INFO - Processando resultado 2: https://www.aeropostale.com.br/
+2025-03-12 09:37:30,779 - INFO - Aguardando 5.44 segundos até a próxima loja...
+2025-03-12 09:37:36,221 - INFO - Processando loja 158/7194: Aesse Utilidades
+2025-03-12 09:37:36,222 - INFO - Pesquisando: Aesse Utilidades contato telefone email whatsapp site oficial
+2025-03-12 09:37:36,225 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:37:37,261 - INFO - Processando resultado 1: https://www.fitnyc.edu/about/contact/index.php
+2025-03-12 09:37:38,904 - INFO - Processando resultado 2: https://www.aesseutilidades.com.br/motor-portao-eletronico-basculante-tsi-12hp-garen-rapido-4s
+2025-03-12 09:37:40,253 - INFO - Aguardando 5.04 segundos até a próxima loja...
+2025-03-12 09:37:45,293 - INFO - Processando loja 159/7194: AFFINITÁ BRASIL
+2025-03-12 09:37:45,294 - INFO - Pesquisando: AFFINITÁ BRASIL contato telefone email whatsapp site oficial
+2025-03-12 09:37:45,296 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:37:46,078 - INFO - Processando resultado 1: https://www.affinitabrasil.com.br/
+2025-03-12 09:37:46,622 - INFO - Processando resultado 2: https://www.thedrum.com/news/2025/02/27/disney-s-marketing-boss-angela-affinita-the-art-brand-storytelling-2025
+2025-03-12 09:37:48,848 - INFO - Aguardando 4.60 segundos até a próxima loja...
+2025-03-12 09:37:53,447 - INFO - Processando loja 160/7194: Affluere
+2025-03-12 09:37:53,447 - INFO - Pesquisando: Affluere contato telefone email whatsapp site oficial
+2025-03-12 09:37:53,450 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:37:54,225 - INFO - Processando resultado 1: https://www.thecompanycheck.com/company/affluere-wealth-india-private-limited/U66300KA2024PTC184238
+2025-03-12 09:38:02,127 - INFO - Processando resultado 2: https://affluerelicores.com/product/snoop-dogg-vapes-7000-puffs/
+2025-03-12 09:38:10,847 - INFO - Salvando 160 resultados coletados...
+2025-03-12 09:38:10,856 - INFO - Resultados salvos em 'resultados/contatos_parcial_160.json'
+2025-03-12 09:38:10,870 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial_160.csv'
+2025-03-12 09:38:10,898 - INFO - Tabela HTML salva em 'resultados/contatos_parcial_160.html'
+2025-03-12 09:38:10,903 - INFO - Aguardando 5.04 segundos até a próxima loja...
+2025-03-12 09:38:16,024 - INFO - Processando loja 161/7194: AFFTOP AUTOMOTIVE PARTS
+2025-03-12 09:38:16,036 - INFO - Pesquisando: AFFTOP AUTOMOTIVE PARTS contato telefone email whatsapp site oficial
+2025-03-12 09:38:16,053 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:38:17,506 - INFO - Processando resultado 1: https://pecas.carrera.com.br/index.aspx?nsn=alterntadores&cdm=74
+2025-03-12 09:38:20,992 - INFO - 
+
+Interrupção detectada (Ctrl+C). Finalizando de forma limpa...
+2025-03-12 09:38:20,996 - INFO - Salvando 160 resultados coletados...
+2025-03-12 09:38:21,028 - INFO - Resultados salvos em 'resultados/contatos_parcial.json'
+2025-03-12 09:38:21,086 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial.csv'
+2025-03-12 09:38:21,220 - INFO - Tabela HTML salva em 'resultados/contatos_parcial.html'
+2025-03-12 09:38:21,262 - INFO - Script finalizado pelo usuário.
+2025-03-12 09:38:21,318 - INFO - 
+
+Finalizando programa (função de saída de emergência)...
+2025-03-12 09:38:21,352 - INFO - Salvando 160 resultados coletados...
+2025-03-12 09:38:21,402 - INFO - Resultados salvos em 'resultados/contatos_emergencia.json'
+2025-03-12 09:38:21,434 - INFO - Resultados CSV salvos em 'resultados/contatos_emergencia.csv'
+2025-03-12 09:38:21,461 - INFO - Tabela HTML salva em 'resultados/contatos_emergencia.html'
+2025-03-12 09:55:36,290 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:55:37,227 - INFO - === Iniciando sistema integrado de scraping de contatos ===
+2025-03-12 09:55:37,241 - INFO - Extraídos 7194 nomes de lojas do arquivo JSON
+2025-03-12 09:55:37,242 - INFO - Encontrados 7194 nomes de lojas para processar
+2025-03-12 09:55:37,242 - INFO - Processando loja 1/7194: 013 Garage
+2025-03-12 09:55:37,242 - INFO - Pesquisando: 013 Garage contato telefone email whatsapp site oficial
+2025-03-12 09:55:37,244 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 09:55:38,151 - INFO - Processando resultado 1: https://www.instagram.com/grandeestiloimoveis/reel/DFOEha5SWHT/
+2025-03-12 09:55:39,153 - INFO - Processando resultado 2: https://wnyt.com/capital-region-news/queens-man-accused-of-stealing-atv-from-westerlo-garage/
+2025-03-12 09:55:39,391 - INFO - Aguardando 7.58 segundos até a próxima loja...
+2025-03-12 09:55:46,616 - INFO - 
+
+Interrupção detectada (Ctrl+C). Finalizando de forma limpa...
+2025-03-12 09:55:46,616 - INFO - Salvando 1 resultados coletados...
+2025-03-12 09:55:46,618 - INFO - Resultados salvos em 'resultados/contatos_parcial.json'
+2025-03-12 09:55:46,625 - INFO - Resultados CSV salvos em 'resultados/contatos_parcial.csv'
+2025-03-12 09:55:46,634 - INFO - Tabela HTML salva em 'resultados/contatos_parcial.html'
+2025-03-12 09:55:46,635 - INFO - Script finalizado pelo usuário.
+2025-03-12 09:55:46,635 - INFO - 
+
+Finalizando programa (função de saída de emergência)...
+2025-03-12 09:55:46,637 - INFO - Salvando 1 resultados coletados...
+2025-03-12 09:55:46,640 - INFO - Resultados salvos em 'resultados/contatos_emergencia.json'
+2025-03-12 09:55:46,644 - INFO - Resultados CSV salvos em 'resultados/contatos_emergencia.csv'
+2025-03-12 09:55:46,649 - INFO - Tabela HTML salva em 'resultados/contatos_emergencia.html'

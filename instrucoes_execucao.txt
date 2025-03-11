@@ -1,0 +1,5 @@
+# No PowerShell, use:
+.\run.bat
+
+# OU se quiser executar o script PowerShell:
+.\run.ps1

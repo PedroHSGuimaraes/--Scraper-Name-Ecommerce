@@ -1,0 +1,409 @@
+import re
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("scraper.log"),
+        logging.StreamHandler()
+    ]
+)
+
+def extract_contact_info(html):
+    """
+    Extract contact information from HTML content.
+    Python implementation of the JavaScript extractContactInfo function.
+    
+    Args:
+        html (str): The HTML content to extract information from
+        
+    Returns:
+        dict: Dictionary containing emails, phones, social media links and WhatsApp info
+    """
+    if not html or not isinstance(html, str):
+        logging.warning(f'HTML inválido: {type(html)}')
+        return {
+            'emails': [],
+            'phones': [],
+            'whatsapp': {
+                'links': [],
+                'numbers': []
+            },
+            'socialMedia': {}
+        }
+    
+    # Function to extract and validate emails
+    def extract_valid_emails(text):
+        # Basic regex to identify potential emails in the text
+        potential_emails = re.findall(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}', text) or []
+        
+        valid_emails = []
+        
+        for email in potential_emails:
+            # Step 1: Extract only the real email pattern from the string
+            extracted_email = re.search(r'([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})', email)
+            if extracted_email and extracted_email.group(1):
+                email = extracted_email.group(1)
+            
+            # Step 2: Clean HTML/code characters that may be attached to the email
+            email = re.sub(r'[<>]', '', email)
+            
+            # Step 3: Check if it's a valid email
+            if is_valid_email(email):
+                valid_emails.append(email)
+        
+        return valid_emails
+    
+    # Function to check if an email is valid
+    def is_valid_email(email):
+        # Basic checks
+        if not email or len(email) > 254:
+            return False
+        
+        # Check if it has exactly one @
+        if email.count('@') != 1:
+            return False
+        
+        # Check if it ends with at least 2 characters after the last period
+        parts = email.split('.')
+        if len(parts) < 2:
+            return False
+        if len(parts[-1]) < 2:
+            return False
+        
+        # Check if the domain appears valid
+        local_part, domain_part = email.split('@')
+        if not local_part or not domain_part:
+            return False
+        if len(local_part) > 64:
+            return False
+        
+        # Check if the domain has at least one period
+        if '.' not in domain_part:
+            return False
+        
+        # Reject clearly invalid email types
+        if '..' in email:
+            return False
+        if '.@' in email or '@.' in email:
+            return False
+        
+        # Reject emails that look like file paths or npm packages
+        if '/' in domain_part or '\\' in domain_part:
+            return False
+        
+        # Reject domains that are invalid for email
+        invalid_tlds = ['js', 'css', 'html', 'svg', 'png', 'jpg', 'gif', 'zip', 'rar', 'exe']
+        tld = domain_part.split('.')[-1].lower()
+        if tld in invalid_tlds:
+            return False
+        
+        # Reject emails that look like package versions
+        if re.search(r'\d+\.\d+\.\d+$', email):
+            return False
+        
+        # Reject strings that look like HTML markup
+        if 'div' in email or '/p' in email or '/h' in email or 'class=' in email:
+            return False
+        
+        # Regex for a valid email format
+        strict_email_regex = r'^[a-zA-Z0-9.!#$%&\'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$'
+        return bool(re.match(strict_email_regex, email))
+    
+    # Function to validate Brazilian phone numbers
+    def is_valid_brazilian_phone(phone):
+        # Remove all non-numeric characters
+        digits_only = re.sub(r'\D', '', phone)
+        
+        # Check rules by number of digits
+        if len(digits_only) == 8:  # Landline without area code (8 digits)
+            # Can't start with 0 or 1 (service codes)
+            return digits_only[0] not in ['0', '1']
+        
+        elif len(digits_only) == 9:  # Mobile without area code (9 digits)
+            # Mobile phones in Brazil must start with 9
+            return digits_only[0] == '9'
+        
+        elif len(digits_only) == 10:  # Landline with area code (10 digits)
+            # Check valid area code (11-99)
+            ddd = int(digits_only[0:2])
+            if ddd < 11 or ddd > 99:
+                return False
+            
+            # Check first digit after area code
+            return digits_only[2] not in ['0', '1']
+        
+        elif len(digits_only) == 11:  # Mobile with area code (11 digits)
+            # Check valid area code (11-99)
+            ddd = int(digits_only[0:2])
+            if ddd < 11 or ddd > 99:
+                return False
+            
+            # Mobile phones in Brazil start with 9 after the area code
+            return digits_only[2] == '9'
+        
+        elif len(digits_only) in [12, 13]:  # International format with +55 (12 digits for landline, 13 for mobile)
+            # Must start with 55 (Brazil code)
+            if not digits_only.startswith('55'):
+                return False
+            
+            # Check valid area code (11-99)
+            ddd = int(digits_only[2:4])
+            if ddd < 11 or ddd > 99:
+                return False
+            
+            # If mobile (13 digits total), must start with 9 after the area code
+            if len(digits_only) == 13:
+                return digits_only[4] == '9'
+            
+            # If landline (12 digits total), can't start with 0 or 1 after area code
+            return digits_only[4] not in ['0', '1']
+        
+        # Any other number of digits is invalid
+        return False
+    
+    # Function to format a number to international standard
+    def format_to_international(phone):
+        # Remove all non-numeric characters
+        digits_only = re.sub(r'\D', '', phone)
+        
+        # Already in international format
+        if digits_only.startswith('55') and (len(digits_only) == 12 or len(digits_only) == 13):
+            return digits_only
+        
+        # Based on number of digits
+        if len(digits_only) == 8:  # Landline without area code (8 digits)
+            # By default, use area code 11 if not specified
+            return f'5511{digits_only}'
+        
+        elif len(digits_only) == 9:  # Mobile without area code (9 digits)
+            # By default, use area code 11 if not specified
+            return f'5511{digits_only}'
+        
+        elif len(digits_only) == 10:  # Landline with area code (10 digits)
+            return f'55{digits_only}'
+        
+        elif len(digits_only) == 11:  # Mobile with area code (11 digits)
+            return f'55{digits_only}'
+        
+        # Couldn't format, return as is
+        return digits_only
+    
+    # Function to extract WhatsApp links and their numbers
+    def extract_whatsapp_links(text):
+        # Improved regular expressions to capture various WhatsApp link formats
+        whatsapp_patterns = [
+            # Standard format api.whatsapp.com/send?phone=NUMBER
+            r'https?:\/\/(?:api|web)\.whatsapp\.com\/send\?phone=([0-9]+)(?:&[^&\s]*)*\b',
+            
+            # Format wa.me/NUMBER
+            r'https?:\/\/(?:wa\.me|api\.whatsapp\.com)\/([0-9]+)(?:\?[^&\s]*)*\b',
+            
+            # Direct chat format chat.whatsapp.com
+            r'https?:\/\/chat\.whatsapp\.com\/[a-zA-Z0-9]+\b'
+        ]
+        
+        # Use sets to avoid duplicates
+        whatsapp_links_set = set()
+        whatsapp_numbers_set = set()
+        
+        # Process each pattern
+        for pattern in whatsapp_patterns:
+            if 'chat.whatsapp.com' in pattern:
+                # For group links, just collect the complete link without number
+                matches = re.finditer(pattern, text)
+                for match in matches:
+                    whatsapp_links_set.add(match.group(0))
+            else:
+                # For links with phone numbers
+                matches = re.finditer(pattern, text)
+                for match in matches:
+                    full_link = match.group(0)
+                    whatsapp_links_set.add(full_link)
+                    
+                    # Extract phone number if it exists
+                    if len(match.groups()) > 0:
+                        phone_number = match.group(1)
+                        
+                        # Add the number if valid
+                        if phone_number and len(phone_number) >= 8:
+                            # If the number already has 55 at the beginning, use as is
+                            if phone_number.startswith('55'):
+                                whatsapp_numbers_set.add(phone_number)
+                            # Otherwise, add 55 at the beginning
+                            else:
+                                # If starts with 0, remove the 0
+                                clean_number = phone_number[1:] if phone_number.startswith('0') else phone_number
+                                whatsapp_numbers_set.add(f'55{clean_number}')
+        
+        # Also search for numbers in URL parameters that might not have been captured
+        phone_param_regex = r'[?&]phone=([0-9]+)'
+        param_matches = re.finditer(phone_param_regex, text)
+        for match in param_matches:
+            phone_number = match.group(1)
+            
+            # Add the number if valid
+            if phone_number and len(phone_number) >= 8:
+                # If the number already has 55 at the beginning, use as is
+                if phone_number.startswith('55'):
+                    whatsapp_numbers_set.add(phone_number)
+                # Otherwise, add 55 at the beginning
+                else:
+                    # If starts with 0, remove the 0
+                    clean_number = phone_number[1:] if phone_number.startswith('0') else phone_number
+                    whatsapp_numbers_set.add(f'55{clean_number}')
+        
+        return {
+            'links': list(whatsapp_links_set),
+            'numbers': list(whatsapp_numbers_set)
+        }
+    
+    # Extract valid emails and remove duplicates
+    emails = list(set(extract_valid_emails(html)))
+    logging.info(f'Emails válidos encontrados: {emails}')
+    
+    # Phone pattern regexes
+    phone_patterns = [
+        # International format with Brazil code +55
+        r'\+55\s*\d{2}\s*\d{4,5}[\s.-]?\d{4}',
+        
+        # Mobile with area code: (XX) 9XXXX-XXXX
+        r'\(\d{2}\)\s*9\d{4}[\s.-]?\d{4}',
+        
+        # Landline with area code: (XX) XXXX-XXXX
+        r'\(\d{2}\)\s*\d{4}[\s.-]?\d{4}',
+        
+        # Mobile with area code without parentheses: XX 9XXXX-XXXX
+        r'(?<!\d)\d{2}\s*9\d{4}[\s.-]?\d{4}(?!\d)',
+        
+        # Landline with area code without parentheses: XX XXXX-XXXX
+        r'(?<!\d)\d{2}\s*\d{4}[\s.-]?\d{4}(?!\d)',
+        
+        # Mobile without area code: 9XXXX-XXXX
+        r'(?<!\d)9\d{4}[\s.-]?\d{4}(?!\d)',
+        
+        # Landline without area code: XXXX-XXXX
+        r'(?<!\d)\d{4}[\s.-]?\d{4}(?!\d)'
+    ]
+    
+    # Extract and validate phone numbers
+    all_phones = []
+    for pattern in phone_patterns:
+        matches = re.findall(pattern, html)
+        all_phones.extend(matches)
+    
+    # Filter only valid phones and format them
+    valid_phones = [format_to_international(phone) for phone in all_phones if is_valid_brazilian_phone(phone)]
+    
+    # Extract WhatsApp links and numbers
+    whatsapp = extract_whatsapp_links(html)
+    logging.info(f'Links de WhatsApp encontrados: {whatsapp["links"]}')
+    logging.info(f'Números de WhatsApp encontrados: {whatsapp["numbers"]}')
+    
+    # Combine all phone numbers (regular + WhatsApp) into a single array
+    all_valid_numbers = valid_phones + whatsapp['numbers']
+    
+    # Remove duplicate phone numbers using a dictionary to normalize numbers
+    # This ensures numbers with the same numeric value are considered the same,
+    # regardless of formatting
+    phone_map = {}
+    
+    for phone in all_valid_numbers:
+        # Normalize for comparison (remove everything except digits)
+        normalized_phone = re.sub(r'\D', '', phone)
+        # Keep only the first occurrence of each number
+        if normalized_phone not in phone_map:
+            phone_map[normalized_phone] = phone
+    
+    # Convert the dictionary back to a list
+    unique_phones = list(phone_map.values())
+    logging.info(f'Telefones válidos encontrados (sem duplicatas): {unique_phones}')
+    
+    # Regex for social media links
+    social_media_regex = {
+        'facebook': r'(?:https?:\/\/)?(?:www\.)?facebook\.com\/[a-zA-Z0-9.]+',
+        'instagram': r'(?:https?:\/\/)?(?:www\.)?instagram\.com\/[a-zA-Z0-9_.]+',
+        'linkedin': r'(?:https?:\/\/)?(?:www\.)?linkedin\.com\/(?:in|company)\/[a-zA-Z0-9_.-]+',
+        'twitter': r'(?:https?:\/\/)?(?:www\.)?twitter\.com\/[a-zA-Z0-9_]+',
+        'youtube': r'(?:https?:\/\/)?(?:www\.)?youtube\.com\/(?:user|channel|c)\/[a-zA-Z0-9_-]+'
+    }
+    
+    # Extract social media links and remove duplicates
+    social_media = {}
+    for platform, regex in social_media_regex.items():
+        matches = re.findall(regex, html) or []
+        social_media[platform] = list(set(matches))
+    
+    # Remove duplicates from WhatsApp links and add to social media object
+    social_media['whatsapp'] = list(set(whatsapp['links']))
+    
+    # Remove duplicates in WhatsApp numbers before returning
+    whatsapp['links'] = list(set(whatsapp['links']))
+    whatsapp['numbers'] = list(set(whatsapp['numbers']))
+    
+    return {
+        'emails': emails,
+        'phones': unique_phones,
+        'socialMedia': social_media,
+        'whatsapp': whatsapp
+    }
+
+def process_html(html, url=None):
+    """
+    Process HTML content to extract contact information.
+    
+    Args:
+        html (str): The HTML content to process
+        url (str, optional): The URL of the HTML content
+        
+    Returns:
+        dict: Dictionary containing processing results and extracted data
+    """
+    try:
+        # Log for debugging
+        logging.info(f'Tipo de dados recebidos: {type(html)}')
+        
+        # Try to extract HTML from various possible places
+        if not html or len(html) < 10:
+            logging.warning(f'HTML muito curto ou não encontrado: {html}')
+            return {
+                'success': False,
+                'error': "HTML não encontrado ou muito curto"
+            }
+        
+        # Test specifically for debugging WhatsApp links
+        whatsapp_test = re.findall(r'whatsapp|phone=|wa\.me', html, re.IGNORECASE)
+        if whatsapp_test:
+            logging.info(f'Possíveis referências a WhatsApp encontradas: {whatsapp_test}')
+            
+            # Find all URLs that may contain WhatsApp
+            url_regex = r'(https?:\/\/[^\s\'\"<>]+)'
+            urls = re.findall(url_regex, html) or []
+            whatsapp_urls = [url for url in urls if 'whatsapp' in url or 'wa.me' in url or 'phone=' in url]
+            logging.info(f'URLs potenciais de WhatsApp: {whatsapp_urls}')
+        
+        # Extract information from HTML
+        contact_info = extract_contact_info(html)
+        
+        # Debug information
+        logging.info(f'Encontrados {len(contact_info["phones"])} telefones válidos')
+        logging.info(f'Encontrados {len(contact_info["emails"])} emails válidos')
+        logging.info(f'Encontrados {len(contact_info["whatsapp"]["links"])} links de WhatsApp')
+        
+        # Return the result
+        return {
+            'success': True,
+            'url': url if url else 'URL não disponível',
+            'scrapingTime': None,  # Will be set by the caller
+            'data': contact_info
+        }
+        
+    except Exception as error:
+        logging.error(f'Erro ao processar: {error}')
+        logging.error(f'Detalhes: {str(error)}')
+        return {
+            'success': False,
+            'error': str(error)
+        }

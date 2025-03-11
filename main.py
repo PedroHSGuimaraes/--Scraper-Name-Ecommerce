@@ -2,6 +2,9 @@ import time
 import json
 import random
 import sys
+import signal
+import traceback
+import atexit  
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -9,8 +12,105 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+import os
+import logging
+
+# Variável global para armazenar os resultados (para poder acessar no manipulador de sinal)
+lojas_coletadas = []
+driver = None
+
+# Configurar logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("scraper_clean_arch.log"),
+        logging.StreamHandler()
+    ]
+)
+
+# Função para salvar os resultados atuais (chamada no manipulador de sinal)
+def salvar_resultados(lojas_lista, sufixo="parcial"):
+    try:
+        if lojas_lista:
+            print(f"\nInterrupção detectada. Salvando {len(lojas_lista)} lojas coletadas até agora...")
+            
+            # Limpar resultados para remover duplicados
+            lojas_unicas = []
+            nomes_vistos = set()
+            
+            for loja in lojas_lista:
+                if loja['nome'] not in nomes_vistos:
+                    lojas_unicas.append(loja)
+                    nomes_vistos.add(loja['nome'])
+            
+            print(f"Total de lojas únicas após remoção de duplicados: {len(lojas_unicas)}")
+            
+            # Salva os resultados em um arquivo JSON
+            nome_arquivo_json = f"lojas_oficiais_{sufixo}.json"
+            with open(nome_arquivo_json, "w", encoding="utf-8") as f:
+                json.dump(lojas_unicas, f, ensure_ascii=False, indent=4)
+            
+            print(f"Resultados {sufixo} salvos em '{nome_arquivo_json}'")
+            
+            # Salvar também como CSV para fácil importação em planilhas
+            try:
+                import csv
+                nome_arquivo_csv = f"lojas_oficiais_{sufixo}.csv"
+                with open(nome_arquivo_csv, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerow(["Nome", "Link"])
+                    for loja in lojas_unicas:
+                        writer.writerow([loja["nome"], loja["link"]])
+                print(f"Resultados {sufixo} também salvos em '{nome_arquivo_csv}'")
+                return True
+            except Exception as e:
+                print(f"Erro ao salvar CSV: {str(e)}")
+                return False
+        else:
+            print("Nenhuma loja foi coletada antes da interrupção.")
+            return False
+    except Exception as e:
+        print(f"Erro ao salvar dados: {str(e)}")
+        return False
+
+# Manipulador de sinal para quando o usuário pressionar Ctrl+C
+def manipulador_interrupcao(sinal, frame):
+    global lojas_coletadas, driver
+    print("\n\nInterrupção detectada (Ctrl+C). Finalizando de forma limpa...")
+    
+    # Salvar os dados coletados até agora
+    salvar_resultados(lojas_coletadas)
+    
+    # Fechar o navegador se estiver aberto
+    if driver:
+        try:
+            print("Fechando o navegador...")
+            driver.quit()
+        except:
+            pass
+    
+    print("Script finalizado pelo usuário.")
+    sys.exit(0)
+
+# Função para ser executada na saída do programa (independente da causa)
+def finalizar_programa():
+    global lojas_coletadas, driver
+    print("\n\nFinalizando programa (função de saída de emergência)...")
+    
+    # Salvar dados coletados (usando sufixo diferente para não sobrescrever outros salvamentos)
+    salvar_resultados(lojas_coletadas, "emergencia")
+    
+    # Fechar navegador se estiver aberto
+    if driver:
+        try:
+            print("Fechando o navegador (limpeza de emergência)...")
+            driver.quit()
+        except:
+            pass
 
 def extrair_lojas_oficiais():
+    global lojas_coletadas, driver
     url = "https://www.mercadolivre.com.br/lojas-oficiais/catalogo?"
     
     print(f"Configurando o navegador...")
@@ -165,37 +265,159 @@ def extrair_lojas_oficiais():
             return novos_elementos
         
         # Número máximo de rolagens para tentar
-        max_rolagens = 1000
+        max_rolagens = 2000  # Aumentado para 2000
         contador_rolagens = 0
+        contador_sem_novos = 0  # Contador para tentativas sem novos elementos
+        max_tentativas_sem_novos = 10  # Quantas tentativas sem novos elementos antes de desistir
         
         # Rolar a página várias vezes para carregar mais elementos
         print("Realizando scroll para carregar mais elementos...")
+        last_height = driver.execute_script("return document.body.scrollHeight")
+        
+        # Salvar a cada 50 scrolls como backup
+        ultimo_salvamento = 0
+        
         while contador_rolagens < max_rolagens:
             # Salvar estado atual dos elementos
             elementos_antes = len(lojas)
             
-            # Rolar até o final da página
+            # Técnica 1: Rolar até o final da página usando JavaScript (não precisa de mouse)
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             
-            # Esperar explicitamente por novos elementos
-            try:
-                WebDriverWait(driver, 5).until(
-                    lambda d: len(extrair_elementos_name()) > elementos_antes
-                )
-            except:
-                print("Nenhum novo elemento carregado após scroll")
-                break
+            # Técnica 2: Alternativa - rolagem suave em pequenos incrementos
+            if contador_rolagens % 5 == 0:  # A cada 5 rolagens, usar método alternativo
+                # Pegar altura visível da janela
+                window_height = driver.execute_script("return window.innerHeight")
+                # Rolar com incrementos de 1/3 da janela para simular rolagem mais natural
+                for i in range(3):
+                    driver.execute_script(f"window.scrollBy(0, {window_height/3});")
+                    time.sleep(0.5)
+            
+            # Esperar um tempo aleatório para carregar novos elementos (simulando comportamento humano)
+            time.sleep(random.uniform(3.0, 5.0))
+            
+            # Verificar se a página realmente rolou
+            new_height = driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                # Tentar rolar de forma diferente se a altura não mudou
+                scroll_amount = random.randint(500, 1000)
+                # Técnica 3: Tentar scroll com diferentes métodos JavaScript
+                driver.execute_script(f"window.scrollBy(0, {scroll_amount});")
+                time.sleep(1)
+                
+                # Técnica 4: Tentar rolagem com elemento chave da página
+                try:
+                    # Identificar elementos na página
+                    elementos_visiveis = driver.find_elements(By.CSS_SELECTOR, "div, section, article")
+                    if elementos_visiveis:
+                        # Escolher um elemento aleatório próximo do final da página visível
+                        elemento_alvo = elementos_visiveis[min(len(elementos_visiveis)-1, int(len(elementos_visiveis)*0.8))]
+                        # Rolar até o elemento usando JavaScript (sem precisar do mouse)
+                        driver.execute_script("arguments[0].scrollIntoView();", elemento_alvo)
+                        time.sleep(1)
+                except Exception as e:
+                    print(f"Erro ao tentar rolagem alternativa: {str(e)}")
+                
+                # Tentar clicar em botões "mostrar mais" se existirem
+                try:
+                    botoes_carregar_mais = driver.find_elements(By.CSS_SELECTOR, 
+                                                          "button[class*='load'], a[class*='more'], button[class*='more'], .andes-pagination__button--next")
+                    for botao in botoes_carregar_mais:
+                        if botao.is_displayed() and botao.is_enabled():
+                            try:
+                                # Técnica 5: Clicar em botão usando JavaScript (não precisa de mouse)
+                                driver.execute_script("arguments[0].click();", botao)
+                                print("Clicou em botão 'carregar mais'")
+                                time.sleep(3)
+                                break
+                            except:
+                                pass
+                except:
+                    pass
+            
+            last_height = new_height
             
             # Atualizar contadores
             novos = extrair_elementos_name()
+            elementos_novos_adicionados = 0
+            
             for novo in novos:
                 if not any(loja["nome"] == novo["nome"] for loja in lojas):
                     lojas.append(novo)
+                    elementos_novos_adicionados += 1
                     print(f"Loja encontrada: {novo['nome']}")
             
+            # Atualizar a variável global para o manipulador de sinal ter acesso aos dados atuais
+            lojas_coletadas = lojas.copy()
+            
             contador_rolagens += 1
-            print(f"Scroll #{contador_rolagens} - Total: {len(lojas)}")
-            time.sleep(2)
+            
+            # Auto-salvamento a cada 50 scrolls como backup
+            if contador_rolagens - ultimo_salvamento >= 1:
+                print("\nRealizando auto-salvamento dos dados coletados até agora...")
+                salvar_resultados(lojas)
+                ultimo_salvamento = contador_rolagens
+                print(f"Auto-salvamento concluído após {contador_rolagens} scrolls.")
+            
+            if elementos_novos_adicionados > 0:
+                print(f"Scroll #{contador_rolagens} - Total: {len(lojas)} (+{elementos_novos_adicionados} novos)")
+                contador_sem_novos = 0  # Resetar o contador se encontramos novos elementos
+            else:
+                contador_sem_novos += 1
+                print(f"Scroll #{contador_rolagens} - Total: {len(lojas)} (Nenhum novo elemento - tentativa {contador_sem_novos}/{max_tentativas_sem_novos})")
+                
+                # Se várias tentativas sem encontrar novos elementos, podemos tentar mudar a estratégia
+                if contador_sem_novos >= max_tentativas_sem_novos:
+                    print("Muitas tentativas sem novos elementos. Tentando nova estratégia...")
+                    # Tentar clicar em alguma paginação ou botão "carregar mais"
+                    try:
+                        pagination_buttons = driver.find_elements(By.CSS_SELECTOR, ".andes-pagination__button")
+                        load_more_buttons = driver.find_elements(By.CSS_SELECTOR, "button[class*='show-more'], a[class*='show-more']")
+                        
+                        if pagination_buttons:
+                            for btn in pagination_buttons:
+                                if btn.is_displayed() and btn.is_enabled():
+                                    try:
+                                        btn.click()
+                                        print("Clicou em botão de paginação")
+                                        time.sleep(5)
+                                        contador_sem_novos = 0  # Resetar contador
+                                        break
+                                    except:
+                                        pass
+                        
+                        elif load_more_buttons:
+                            for btn in load_more_buttons:
+                                if btn.is_displayed() and btn.is_enabled():
+                                    try:
+                                        btn.click()
+                                        print("Clicou em botão 'mostrar mais'")
+                                        time.sleep(5)
+                                        contador_sem_novos = 0  # Resetar contador
+                                        break
+                                    except:
+                                        pass
+                        
+                        # Se ainda não encontramos, podemos tentar rolar para outra posição
+                        else:
+                            random_scroll = random.randint(100, 500)
+                            # Técnica 6: Rolagem para cima usando JavaScript
+                            driver.execute_script(f"window.scrollBy(0, -{random_scroll});")
+                            time.sleep(2)
+                            contador_sem_novos = 5  # Reduzir contador, mas não zerar
+                    except Exception as e:
+                        print(f"Erro ao tentar nova estratégia: {str(e)}")
+                        
+                    # Se ainda não conseguimos novos elementos após várias tentativas, podemos considerar parar
+                    if contador_sem_novos >= max_tentativas_sem_novos * 2:
+                        print("Tentativas esgotadas. Parando o scraping.")
+                        break
+            
+            # Pausa aleatória para evitar detecção
+            if contador_rolagens % 10 == 0:
+                pausa = random.uniform(2.0, 5.0)
+                print(f"Pausa de {pausa:.1f} segundos para evitar detecção...")
+                time.sleep(pausa)
         
         print(f"Processo de scraping concluído. Total de elementos encontrados: {len(lojas)}")
         
@@ -203,41 +425,76 @@ def extrair_lojas_oficiais():
     
     except Exception as e:
         print(f"Erro durante o scraping: {str(e)}")
-        return []
+        traceback.print_exc()
+        return lojas_coletadas  # Retorna o que foi coletado até o momento do erro
     
     finally:
         # Garantir que o driver seja fechado mesmo se ocorrer um erro
-        if 'driver' in locals():
+        if driver:
             print("Fechando o navegador...")
             driver.quit()
 
 if __name__ == "__main__":
-    print("Iniciando scraper do Mercado Livre com Selenium...")
-    print("* NOTA: Web scraping pode violar os Termos de Serviço do Mercado Livre *")
-    print("* Use este script apenas para fins educacionais e de acordo com as políticas do site *")
-    print("* Este script abrirá uma janela do navegador Chrome para realizar a extração *")
-    print("-" * 70)
+    # Registrar o manipulador de sinal para Ctrl+C
+    signal.signal(signal.SIGINT, manipulador_interrupcao)
     
-    lojas = extrair_lojas_oficiais()
+    # Registrar manipulador para SIGTERM (usado pelo sistema operacional para encerrar processos)
+    signal.signal(signal.SIGTERM, manipulador_interrupcao)
     
-    if lojas:
-        print(f"\nTotal de lojas encontradas: {len(lojas)}")
+    # Registrar função para ser executada na saída do programa (independente da causa)
+    atexit.register(finalizar_programa)
+    
+    try:
+        print("Iniciando scraper do Mercado Livre com Selenium...")
+        print("* NOTA: Web scraping pode violar os Termos de Serviço do Mercado Livre *")
+        print("* Use este script apenas para fins educacionais e de acordo com as políticas do site *")
+        print("* Este script abrirá uma janela do navegador Chrome para realizar a extração *")
+        print("* Para interromper a execução pressione Ctrl+C, os dados coletados até então serão salvos *")
+        print("-" * 70)
         
-        # Limpar resultados para remover duplicados
-        lojas_unicas = []
-        nomes_vistos = set()
+        # Executar o scraper
+        lojas = extrair_lojas_oficiais()
         
-        for loja in lojas:
-            if loja['nome'] not in nomes_vistos:
-                lojas_unicas.append(loja)
-                nomes_vistos.add(loja['nome'])
+        # Atualizar a variável global com os resultados finais
+        lojas_coletadas = lojas
         
-        print(f"Total de lojas únicas após remoção de duplicados: {len(lojas_unicas)}")
-        
-        # Salva os resultados em um arquivo JSON
-        with open("lojas_oficiais.json", "w", encoding="utf-8") as f:
-            json.dump(lojas_unicas, f, ensure_ascii=False, indent=4)
-        
-        print("Resultados salvos em 'lojas_oficiais.json'")
-    else:
-        print("Nenhuma loja oficial foi encontrada ou o site pode estar protegido contra web scraping.")
+        if lojas:
+            print(f"\nTotal de lojas encontradas: {len(lojas)}")
+            
+            # Limpar resultados para remover duplicados
+            lojas_unicas = []
+            nomes_vistos = set()
+            
+            for loja in lojas:
+                if loja['nome'] not in nomes_vistos:
+                    lojas_unicas.append(loja)
+                    nomes_vistos.add(loja['nome'])
+            
+            print(f"Total de lojas únicas após remoção de duplicados: {len(lojas_unicas)}")
+            
+            # Salva os resultados em um arquivo JSON
+            with open("lojas_oficiais.json", "w", encoding="utf-8") as f:
+                json.dump(lojas_unicas, f, ensure_ascii=False, indent=4)
+            
+            print("Resultados salvos em 'lojas_oficiais.json'")
+            
+            # Salvar também como CSV para fácil importação em planilhas
+            try:
+                import csv
+                with open("lojas_oficiais.csv", "w", encoding="utf-8", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerow(["Nome", "Link"])
+                    for loja in lojas_unicas:
+                        writer.writerow([loja["nome"], loja["link"]])
+                print("Resultados também salvos em 'lojas_oficiais.csv'")
+            except Exception as e:
+                print(f"Erro ao salvar CSV: {str(e)}")
+        else:
+            print("Nenhuma loja oficial foi encontrada ou o site pode estar protegido contra web scraping.")
+    
+    except Exception as e:
+        print(f"Erro não tratado: {str(e)}")
+        traceback.print_exc()
+        # Não é necessário chamar o finalizar_programa() aqui, pois o atexit já vai fazer isso
+    
+    # Novamente, não é necessário chamada explícita ao finalizar_programa() aqui

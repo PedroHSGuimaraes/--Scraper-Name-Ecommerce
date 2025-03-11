@@ -1,0 +1,73 @@
+2025-03-12 15:20:15,263 - INFO - === Iniciando processamento de lojas do arquivo parcial ===
+2025-03-12 15:20:15,264 - INFO - Carregando lojas_oficiais_parcial.json...
+2025-03-12 15:20:15,353 - INFO - Carregadas 8902 lojas para processamento
+2025-03-12 15:20:15,353 - INFO - Processando loja 1/8902: 013 Garage
+2025-03-12 15:20:15,353 - INFO - Iniciando scraping da loja: 013 Garage
+2025-03-12 15:20:15,354 - INFO - Realizando pesquisa: '013 Garage contato telefone email whatsapp site oficial'
+2025-03-12 15:20:15,358 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:20:16,414 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:20:16,414 - INFO - Processando resultado 1: https://www.instagram.com/grandeestiloimoveis/reel/DFOEha5SWHT/
+2025-03-12 15:20:17,147 - INFO - Aguardando 7.18s antes de processar próximo resultado...
+2025-03-12 15:20:24,323 - INFO - Processando resultado 2: https://wnyt.com/capital-region-news/queens-man-accused-of-stealing-atv-from-westerlo-garage/
+2025-03-12 15:20:26,002 - INFO - Processando loja 2/8902: 01Smart Brasil
+2025-03-12 15:20:26,002 - INFO - Iniciando scraping da loja: 01Smart Brasil
+2025-03-12 15:20:26,002 - INFO - Realizando pesquisa: '01Smart Brasil contato telefone email whatsapp site oficial'
+2025-03-12 15:20:26,005 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:20:26,937 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:20:26,937 - INFO - Processando resultado 1: https://www.instagram.com/arm_motorss/p/DC4DSYWxe9Z/
+2025-03-12 15:20:27,583 - INFO - Aguardando 6.69s antes de processar próximo resultado...
+2025-03-12 15:20:34,276 - INFO - Processando resultado 2: https://insentials.com/en/collections/01-smart-vitamins
+2025-03-12 15:20:35,667 - INFO - Processando loja 3/8902: 048 Streetwear
+2025-03-12 15:20:35,667 - INFO - Iniciando scraping da loja: 048 Streetwear
+2025-03-12 15:20:35,667 - INFO - Realizando pesquisa: '048 Streetwear contato telefone email whatsapp site oficial'
+2025-03-12 15:20:35,670 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:20:36,622 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:20:36,623 - INFO - Processando resultado 1: https://www.herno.com/
+2025-03-12 15:20:38,214 - INFO - Aguardando 6.04s antes de processar próximo resultado...
+2025-03-12 15:20:44,253 - INFO - Processando resultado 2: https://www.048store.com.br/produtos/camiseta-streetwear-oversized-com-gola-canelada-premium-cam0481428
+2025-03-12 15:20:45,721 - INFO - Processando loja 4/8902: 100 CEM POR CENTO BATERA
+2025-03-12 15:20:45,721 - INFO - Iniciando scraping da loja: 100 CEM POR CENTO BATERA
+2025-03-12 15:20:45,721 - INFO - Realizando pesquisa: '100 CEM POR CENTO BATERA contato telefone email whatsapp site oficial'
+2025-03-12 15:20:45,723 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:20:46,612 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:20:46,612 - INFO - Processando resultado 1: https://bateriascanoas.com.br/
+2025-03-12 15:20:46,864 - INFO - Aguardando 7.63s antes de processar próximo resultado...
+2025-03-12 15:20:54,499 - INFO - Processando resultado 2: https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=pt
+2025-03-12 15:20:54,846 - INFO - Processando loja 5/8902: 1001 Eletro
+2025-03-12 15:20:54,847 - INFO - Iniciando scraping da loja: 1001 Eletro
+2025-03-12 15:20:54,847 - INFO - Realizando pesquisa: '1001 Eletro contato telefone email whatsapp site oficial'
+2025-03-12 15:20:54,849 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:20:55,650 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:20:55,650 - INFO - Processando resultado 1: https://www.milium.com.br/
+2025-03-12 15:20:56,458 - INFO - Aguardando 6.97s antes de processar próximo resultado...
+2025-03-12 15:21:03,428 - INFO - Processando resultado 2: https://www.lojacasadosreles.com.br/multimetro-digital-hikari-hm-1001/prod-2634393/
+2025-03-12 15:21:04,651 - INFO - Processando loja 6/8902: 1060plus
+2025-03-12 15:21:04,652 - INFO - Iniciando scraping da loja: 1060plus
+2025-03-12 15:21:04,652 - INFO - Realizando pesquisa: '1060plus contato telefone email whatsapp site oficial'
+2025-03-12 15:21:04,654 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:21:05,531 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:21:05,532 - INFO - Processando resultado 1: https://m.facebook.com/101.multimedia/photos/huion-new-1060-plus-graphic-drawing-tabletfind-more-details-on-our-website-in-th/2089978324412261/
+2025-03-12 15:21:06,689 - INFO - Aguardando 6.68s antes de processar próximo resultado...
+2025-03-12 15:21:13,375 - INFO - Processando resultado 2: https://www.facebook.com/101.multimedia/photos/huion-1060-plus-graphic-drawing-tabletfind-more-details-on-our-website-in-the-li/2146061465470613/
+2025-03-12 15:21:14,092 - INFO - Processando loja 7/8902: 123 CAIXAS
+2025-03-12 15:21:14,092 - INFO - Iniciando scraping da loja: 123 CAIXAS
+2025-03-12 15:21:14,092 - INFO - Realizando pesquisa: '123 CAIXAS contato telefone email whatsapp site oficial'
+2025-03-12 15:21:14,094 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:21:14,971 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:21:14,971 - INFO - Processando resultado 1: https://www.123caixas.com.br/
+2025-03-12 15:21:15,388 - INFO - Aguardando 7.27s antes de processar próximo resultado...
+2025-03-12 15:21:22,659 - INFO - Processando resultado 2: https://www.lojasafubra.com.br/caixa-organizadora-retangular-11l-transparente-plasvale-123-4600/p
+2025-03-12 15:21:24,866 - INFO - Processando loja 8/8902: 123 Comprou
+2025-03-12 15:21:24,867 - INFO - Iniciando scraping da loja: 123 Comprou
+2025-03-12 15:21:24,867 - INFO - Realizando pesquisa: '123 Comprou contato telefone email whatsapp site oficial'
+2025-03-12 15:21:24,869 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:21:25,767 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:21:25,767 - INFO - Processando resultado 1: https://blog.123comprou.com.br/fale-conosco/
+2025-03-12 15:21:26,704 - INFO - Aguardando 6.80s antes de processar próximo resultado...
+2025-03-12 15:21:33,505 - INFO - Processando resultado 2: https://www.123comprou.com.br/
+2025-03-12 15:21:34,564 - INFO - Processando loja 9/8902: 123 realiza
+2025-03-12 15:21:34,564 - INFO - Iniciando scraping da loja: 123 realiza
+2025-03-12 15:21:34,564 - INFO - Realizando pesquisa: '123 realiza contato telefone email whatsapp site oficial'
+2025-03-12 15:21:34,567 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-12 15:21:35,477 - INFO - Pesquisa concluída. Encontrados 3 resultados.
+2025-03-12 15:21:35,531 - INFO - Processando resultado 1: https://veracruz.ba.gov.br/
