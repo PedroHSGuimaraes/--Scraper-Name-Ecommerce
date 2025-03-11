@@ -1,0 +1,9 @@
+mkdir -p domain/entities
+mkdir -p domain/usecases
+mkdir -p application/services
+mkdir -p interfaces/controllers
+mkdir -p interfaces/presenters
+mkdir -p infrastructure/repositories
+mkdir -p infrastructure/web
+mkdir -p infrastructure/search
+mkdir -p config

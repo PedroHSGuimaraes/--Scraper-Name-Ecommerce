@@ -1,0 +1,32 @@
+[
+    {
+        "success": true,
+        "url": "https://www.instagram.com/grandeestiloimoveis/reel/DFOEha5SWHT/",
+        "store_name": null,
+        "data": {
+            "emails": [
+                "bmoroukian@wnyt.com"
+            ],
+            "phones": [],
+            "whatsapp": {
+                "links": [],
+                "numbers": []
+            },
+            "socialMedia": {
+                "facebook": [
+                    "http://www.facebook.com/NewsChannel13"
+                ],
+                "instagram": [
+                    "http://instagram.com/newschannel13"
+                ],
+                "twitter": [],
+                "linkedin": [],
+                "youtube": [
+                    "http://www.youtube.com/c/wnyt"
+                ]
+            }
+        },
+        "nome_loja": "013 Garage",
+        "scrapingTime": "2025-03-12T09:55:39.153035"
+    }
+]
