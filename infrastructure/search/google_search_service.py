@@ -1,14 +1,18 @@
+<<<<<<< HEAD
 # Importação das bibliotecas necessárias
 # logging: Para registrar informações e erros
 # build: Cliente oficial do Google para APIs
 # time: Para implementar delays entre tentativas
 # random: Para adicionar variação aos delays
+=======
+>>>>>>> origin/main
 import logging
 from googleapiclient.discovery import build
 import time
 import random
 
 class GoogleSearchService:
+<<<<<<< HEAD
     """
     Classe responsável por realizar buscas usando a API do Google
     
@@ -39,10 +43,18 @@ class GoogleSearchService:
         self.engine_id = engine_id  # ID do mecanismo de busca
         
         # Configuração do logger para esta classe
+=======
+    """Serviço para realizar pesquisas utilizando a API do Google."""
+    
+    def __init__(self, api_key, engine_id):
+        self.api_key = api_key
+        self.engine_id = engine_id
+>>>>>>> origin/main
         self.logger = logging.getLogger(__name__)
     
     def search(self, query, max_results=10, retry_attempts=3):
         """
+<<<<<<< HEAD
         Executa uma busca no Google usando a Custom Search API
         
         Este método:
@@ -73,12 +85,33 @@ class GoogleSearchService:
                 # q: texto da busca
                 # cx: ID do mecanismo de busca
                 # num: quantidade de resultados
+=======
+        Realiza uma pesquisa no Google.
+        
+        Args:
+            query (str): Consulta para pesquisar
+            max_results (int): Número máximo de resultados
+            retry_attempts (int): Número máximo de tentativas em caso de erro
+            
+        Returns:
+            list: Lista de resultados da pesquisa
+        """
+        for attempt in range(retry_attempts):
+            try:
+                self.logger.info(f"Realizando pesquisa: '{query}'")
+                
+                # Criar serviço de pesquisa
+                service = build("customsearch", "v1", developerKey=self.api_key)
+                
+                # Executar pesquisa
+>>>>>>> origin/main
                 request = service.cse().list(
                     q=query,
                     cx=self.engine_id,
                     num=max_results
                 )
                 
+<<<<<<< HEAD
                 # Executa a requisição e obtém a resposta
                 response = request.execute()
                 
@@ -87,10 +120,19 @@ class GoogleSearchService:
                 items = response.get("items", [])
                 
                 # Registra o sucesso da operação
+=======
+                # Obter resultados
+                response = request.execute()
+                
+                # Extrair itens
+                items = response.get("items", [])
+                
+>>>>>>> origin/main
                 self.logger.info(f"Pesquisa concluída. Encontrados {len(items)} resultados.")
                 return items
                 
             except Exception as e:
+<<<<<<< HEAD
                 # Registra a falha desta tentativa
                 self.logger.warning(f"Tentativa {attempt+1}/{retry_attempts} falhou: {str(e)}")
                 
@@ -109,10 +151,23 @@ class GoogleSearchService:
                     self.logger.error(f"Pesquisa falhou após {retry_attempts} tentativas: {str(e)}")
         
         # Retorna lista vazia se todas as tentativas falharam
+=======
+                self.logger.warning(f"Tentativa {attempt+1}/{retry_attempts} falhou: {str(e)}")
+                
+                if attempt < retry_attempts - 1:
+                    # Aplicar backoff exponencial entre tentativas
+                    delay = 2 ** attempt + random.uniform(1, 3)
+                    self.logger.info(f"Aguardando {delay:.2f}s antes de nova tentativa...")
+                    time.sleep(delay)
+                else:
+                    self.logger.error(f"Pesquisa falhou após {retry_attempts} tentativas: {str(e)}")
+        
+>>>>>>> origin/main
         return []
     
     def search_store_contacts(self, store_name):
         """
+<<<<<<< HEAD
         Realiza uma busca otimizada por informações de contato
         
         Este método especializado:
@@ -138,4 +193,18 @@ class GoogleSearchService:
         
         # Executa a busca limitada a 3 resultados
         # Menos resultados = mais rápido e mais relevante
+=======
+        Pesquisa informações de contato de uma loja específica.
+        
+        Args:
+            store_name (str): Nome da loja para pesquisar
+            
+        Returns:
+            list: Resultados de pesquisa
+        """
+        # Formatar consulta específica para contatos
+        query = f"{store_name} contato telefone email whatsapp site oficial"
+        
+        # Executar pesquisa
+>>>>>>> origin/main
         return self.search(query, max_results=3)

@@ -1,4 +1,5 @@
 class ContactInfo:
+<<<<<<< HEAD
     """
     Classe que representa todas as informações de contato de uma loja
     
@@ -64,10 +65,34 @@ class ContactInfo:
             "phones": self.phones,           # Lista de telefones
             "whatsapp": self.whatsapp,       # Dados do WhatsApp
             "socialMedia": self.social_media # Links das redes sociais
+=======
+    """Entidade que representa informações de contato de uma loja."""
+    
+    def __init__(self, emails=None, phones=None, whatsapp=None, social_media=None):
+        self.emails = emails or []
+        self.phones = phones or []
+        self.whatsapp = whatsapp or {"links": [], "numbers": []}
+        self.social_media = social_media or {
+            "facebook": [],
+            "instagram": [],
+            "twitter": [],
+            "linkedin": [],
+            "youtube": []
+        }
+    
+    def to_dict(self):
+        """Converte a entidade para formato de dicionário."""
+        return {
+            "emails": self.emails,
+            "phones": self.phones,
+            "whatsapp": self.whatsapp,
+            "socialMedia": self.social_media
+>>>>>>> origin/main
         }
     
     @classmethod
     def from_dict(cls, data):
+<<<<<<< HEAD
         """
         Cria uma nova instância de ContactInfo a partir de um dicionário
         
@@ -89,6 +114,12 @@ class ContactInfo:
         
         # Cria uma nova instância com os dados do dicionário
         # Se alguma chave não existir, usa uma lista/dicionário vazio
+=======
+        """Cria uma instância a partir de um dicionário."""
+        if not data:
+            return cls()
+        
+>>>>>>> origin/main
         return cls(
             emails=data.get("emails", []),
             phones=data.get("phones", []),
@@ -103,6 +134,7 @@ class ContactInfo:
         )
 
     def merge(self, other):
+<<<<<<< HEAD
         """
         Combina os dados desta instância com outra instância de ContactInfo
         
@@ -138,6 +170,18 @@ class ContactInfo:
         
         # Combina links das redes sociais, removendo duplicatas
         # Faz isso para cada plataforma que existe em ambas as instâncias
+=======
+        """Combina duas instâncias de ContactInfo, evitando duplicatas."""
+        if not isinstance(other, ContactInfo):
+            return self
+        
+        self.emails = list(set(self.emails + other.emails))
+        self.phones = list(set(self.phones + other.phones))
+        
+        self.whatsapp["links"] = list(set(self.whatsapp["links"] + other.whatsapp["links"]))
+        self.whatsapp["numbers"] = list(set(self.whatsapp["numbers"] + other.whatsapp["numbers"]))
+        
+>>>>>>> origin/main
         for platform in self.social_media:
             if platform in other.social_media:
                 self.social_media[platform] = list(set(

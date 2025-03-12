@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Instruções de Execução do Scraper de E-commerce
 # ==========================================
 
@@ -18,11 +19,14 @@ chmod +x run.sh
 
 # WINDOWS
 # -------
+=======
+>>>>>>> origin/main
 # No PowerShell, use:
 .\run.bat
 
 # OU se quiser executar o script PowerShell:
 .\run.ps1
+<<<<<<< HEAD
 
 # PARÂMETROS OPCIONAIS
 # -------------------
@@ -52,3 +56,5 @@ chmod +x run.sh
 #
 # 4. Erro de conexão:
 #    Solução: Verifique sua conexão com a internet
+=======
+>>>>>>> origin/main

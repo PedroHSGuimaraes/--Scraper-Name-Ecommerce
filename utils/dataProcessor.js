@@ -1,5 +1,6 @@
 /**
  * Utilitários para processamento dos dados do scraper
+<<<<<<< HEAD
  * Este arquivo contém funções para manipular e organizar os dados coletados das lojas
  */
 
@@ -26,25 +27,46 @@ function formatPhoneNumbers(phones) {
     // - 12/13 dígitos: formato internacional
     if (cleanPhone.length >= 10 && cleanPhone.length <= 13) {
       // Se tiver 11 dígitos, é um celular (formato: (XX) XXXXX-XXXX)
+=======
+ */
+
+// Função para formatar e limpar números de telefone
+function formatPhoneNumbers(phones) {
+  return phones.map((phone) => {
+    // Remover caracteres não numéricos
+    let cleanPhone = phone.replace(/[^\d+]/g, "");
+
+    // Verificar se tem formato brasileiro
+    if (cleanPhone.length >= 10 && cleanPhone.length <= 13) {
+      // Formatar como (XX) XXXXX-XXXX ou similar
+>>>>>>> origin/main
       if (cleanPhone.length === 11) {
         return `(${cleanPhone.substring(0, 2)}) ${cleanPhone.substring(
           2,
           7
         )}-${cleanPhone.substring(7)}`;
+<<<<<<< HEAD
       } 
       // Se tiver 10 dígitos, é um telefone fixo (formato: (XX) XXXX-XXXX)
       else if (cleanPhone.length === 10) {
+=======
+      } else if (cleanPhone.length === 10) {
+>>>>>>> origin/main
         return `(${cleanPhone.substring(0, 2)}) ${cleanPhone.substring(
           2,
           6
         )}-${cleanPhone.substring(6)}`;
       }
     }
+<<<<<<< HEAD
     // Se não se encaixar nos padrões acima, retorna o número apenas limpo
+=======
+>>>>>>> origin/main
     return cleanPhone;
   });
 }
 
+<<<<<<< HEAD
 /**
  * Função para organizar lojas em ordem alfabética por nome
  * Usa a ordenação específica para o português brasileiro
@@ -63,6 +85,11 @@ function formatPhoneNumbers(phones) {
 function organizeStoresByName(stores) {
   // Cria uma cópia do array original para não modificá-lo
   // Ordena as lojas usando localeCompare para considerar acentos do português
+=======
+// Organizar lojas por nome
+function organizeStoresByName(stores) {
+  // Ordenar lojas por nome
+>>>>>>> origin/main
   const sortedStores = [...stores].sort((a, b) => {
     return a.name.localeCompare(b.name, "pt-BR");
   });
@@ -70,6 +97,7 @@ function organizeStoresByName(stores) {
   return sortedStores;
 }
 
+<<<<<<< HEAD
 /**
  * Função para remover lojas duplicadas baseado na URL
  * Uma loja é considerada duplicada se sua URL já existe na lista
@@ -97,12 +125,24 @@ function removeDuplicateStores(stores) {
       return false;
     }
     // Se a URL é nova, adiciona ao conjunto e mantém a loja (retorna true)
+=======
+// Remover lojas duplicadas baseado na URL
+function removeDuplicateStores(stores) {
+  const uniqueUrls = new Set();
+  return stores.filter((store) => {
+    if (uniqueUrls.has(store.url)) {
+      return false;
+    }
+>>>>>>> origin/main
     uniqueUrls.add(store.url);
     return true;
   });
 }
 
+<<<<<<< HEAD
 // Exporta as funções para serem usadas em outros arquivos
+=======
+>>>>>>> origin/main
 module.exports = {
   formatPhoneNumbers,
   organizeStoresByName,

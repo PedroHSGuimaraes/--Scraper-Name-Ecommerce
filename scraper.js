@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * Scraper para E-commerce
  * Este arquivo contém as funções principais para extrair informações das lojas
@@ -41,6 +42,22 @@ async function extractPhoneNumbers(page) {
       
       // Procura por todos os números que correspondem ao padrão
       let match;
+=======
+// ...existing code...
+
+// Função para extrair números de telefone limitando a 5
+async function extractPhoneNumbers(page) {
+  try {
+    const phoneNumbers = await page.evaluate(() => {
+      // Lógica para encontrar números de telefone na página
+      const phones = [];
+      // Busca por padrões de telefone na página
+      const content = document.body.innerText;
+      const phoneRegex =
+        /(?:\+?\d{1,3}[-.\s]?)?\(?\d{2,3}\)?[-.\s]?\d{4,5}[-.\s]?\d{4}/g;
+      let match;
+
+>>>>>>> origin/main
       while ((match = phoneRegex.exec(content)) !== null && phones.length < 5) {
         phones.push(match[0]);
       }
@@ -48,8 +65,12 @@ async function extractPhoneNumbers(page) {
       return phones;
     });
 
+<<<<<<< HEAD
     // Garante que não ultrapassamos o limite de 5 números
     // mesmo que mais tenham sido encontrados
+=======
+    // Garantir que retornamos no máximo 5 números
+>>>>>>> origin/main
     return phoneNumbers.slice(0, 5);
   } catch (error) {
     console.error("Erro ao extrair números de telefone:", error);
@@ -57,6 +78,7 @@ async function extractPhoneNumbers(page) {
   }
 }
 
+<<<<<<< HEAD
 /**
  * Função principal que coordena a extração de dados das lojas
  * Processa cada URL fornecida e extrai as informações relevantes
@@ -107,10 +129,37 @@ async function scrapeStores(storeUrls) {
       const phoneNumbers = await extractPhoneNumbers(page);
 
       // Adiciona as informações coletadas ao array de resultados
+=======
+// Função principal do scraper organizada por nome da loja
+async function scrapeStores(storeUrls) {
+  const results = [];
+
+  for (const [index, url] of storeUrls.entries()) {
+    try {
+      console.log(`Processando loja ${index + 1}/${storeUrls.length}: ${url}`);
+      const browser = await puppeteer.launch({ headless: true });
+      const page = await browser.newPage();
+      await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+
+      // Extrair nome da loja
+      const storeName = await page.evaluate(() => {
+        const nameElement =
+          document.querySelector("h1.store-name") ||
+          document.querySelector(".store-header h1") ||
+          document.querySelector(".seller-info h1");
+        return nameElement ? nameElement.innerText.trim() : "Loja Desconhecida";
+      });
+
+      // Extrair até 5 números de telefone
+      const phoneNumbers = await extractPhoneNumbers(page);
+
+      // Adicionar dados da loja aos resultados
+>>>>>>> origin/main
       results.push({
         name: storeName,
         url: url,
         phones: phoneNumbers,
+<<<<<<< HEAD
         extractedAt: new Date().toISOString(),  // Marca data/hora da extração
       });
 
@@ -118,6 +167,13 @@ async function scrapeStores(storeUrls) {
       await browser.close();
     } catch (error) {
       // Se houver algum erro, registra no console e adiciona aos resultados
+=======
+        extractedAt: new Date().toISOString(),
+      });
+
+      await browser.close();
+    } catch (error) {
+>>>>>>> origin/main
       console.error(`Erro ao processar a URL ${url}:`, error);
       results.push({
         url: url,
@@ -127,8 +183,12 @@ async function scrapeStores(storeUrls) {
     }
   }
 
+<<<<<<< HEAD
   // Ordena os resultados pelo nome da loja em ordem alfabética
   // Se alguma loja não tiver nome, mantém na mesma posição
+=======
+  // Ordenar resultados por nome da loja
+>>>>>>> origin/main
   return results.sort((a, b) => {
     if (a.name && b.name) {
       return a.name.localeCompare(b.name);
@@ -136,3 +196,8 @@ async function scrapeStores(storeUrls) {
     return 0;
   });
 }
+<<<<<<< HEAD
+=======
+
+// ...existing code...
+>>>>>>> origin/main

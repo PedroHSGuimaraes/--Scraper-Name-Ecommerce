@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 # Script de inicialização do projeto
 # Este script configura o ambiente e executa a aplicação
 # 
@@ -25,10 +26,23 @@ source venv/bin/activate
 # Instalar dependências
 # O arquivo requirements.txt contém a lista de todas as
 # bibliotecas Python necessárias para rodar a aplicação
+=======
+# Verificar se o ambiente virtual Python existe
+if [ ! -d "venv" ]; then
+    echo "Criando ambiente virtual..."
+    python3 -m venv venv
+fi
+
+# Ativar ambiente virtual
+source venv/bin/activate
+
+# Instalar dependências
+>>>>>>> origin/main
 echo "Instalando dependências..."
 pip install -r requirements.txt
 
 # Garantir que a estrutura de diretórios existe
+<<<<<<< HEAD
 # Cria o diretório 'resultados' se ele não existir
 # Este diretório será usado para salvar os dados extraídos
 mkdir -p resultados
@@ -36,5 +50,10 @@ mkdir -p resultados
 # Executar aplicação
 # Inicia o script principal (main.py) passando todos os
 # argumentos recebidos na linha de comando ($@)
+=======
+mkdir -p resultados
+
+# Executar aplicação
+>>>>>>> origin/main
 echo "Iniciando aplicação..."
 python main.py "$@"
